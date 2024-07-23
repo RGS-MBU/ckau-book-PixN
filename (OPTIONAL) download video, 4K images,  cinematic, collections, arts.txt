@@ -1,0 +1,46 @@
+== Web / Сайт ==
+EN: Soon
+RU: https://ckaunui.github.io/www/
+
+EN:
+Moved all addons outside the theme folder, in order to preserve addon files when updating theme through EmulationStation.
+
+"/themes/ckau-book" - theme directory
+"/themes/ckau-book-addons" - addons directory, which will not be overwritten by ES update procedure.
+
+RU:
+Все аддоны перемещены за пределы папки темы, чтобы сохранить файлы аддонов при обновлении темы через EmulationStation.
+
+"/themes/ckau-book" - папка темы
+"/themes/ckau-book-addons" - папка аддонов, которая не будет перезаписана при обновлении темы через ES.
+
+
+== Install / Установка ==
+EN: place "ckau-book-addons" folder to \themes\ (outside "ckau-book" folder)
+RU: папку "ckau-book-addons" кинуть в \themes\ (рядом с папкой "ckau-book")
+
+== Download / Загрузка ==
+
+COLORFUL VIDEO pack:
+h264 (~1,32 gb) - https://github.com/CkauNui/ckau-book-addons-Colorful-Video/archive/refs/heads/main.zip
+(/themes/ckau-book-addons/_inc/anim/video)
+
+COLORFUL 4K images pack:
+(~875 mb) - https://github.com/CkauNui/ckau-book-addons-Colorful-4K-Images/archive/refs/heads/main.zip
+(/themes/ckau-book-addons/_inc/anim/4k)
+
+CINEMATIC video pack:
+1080p h264 (~6,1gb) - https://github.com/CkauNui/ckau-book-addons-Cinematic-Video/archive/refs/heads/main.zip
+(/themes/ckau-book-addons/_inc/videos)
+
+CONSOLES arts pack: 
+(~52 mb) - https://github.com/CkauNui/ckau-book-addons-Consoles/archive/refs/heads/main.zip
+(/themes/ckau-book-addons/_inc/art)
+
+WALLPAPERS arts pack: 
+(~60 mb) - https://github.com/CkauNui/ckau-book-addons-Wallpapers/archive/refs/heads/main.zip
+(/themes/ckau-book-addons/_inc/art2)
+
+COLLECTIONS pack:
+Video 1080p h264 (~2,1 gb) - not yet available / пока недоуступно
+Arts, Logos, Xml (~24 mb) - not yet available / пока недоуступно

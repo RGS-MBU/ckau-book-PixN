@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+	<view name="system">
+		<carousel name="systemcarousel">
+			<color>00000000</color>
+			<systemInfoDelay>0.1</systemInfoDelay>
+			<pos>0 -0.05</pos>
+			<logoScale>1.2</logoScale>
+			<logoSize>0.15 0.15</logoSize>
+		</carousel>
+	</view>
+</theme>

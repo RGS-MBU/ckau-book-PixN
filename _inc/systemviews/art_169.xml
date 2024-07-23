@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="artdown" extra="static">
+			<path>./../../_inc/images/novideo.png</path>
+			<delay>1.5</delay>
+			<origin>0.5 0.5</origin>
+			<pos>0.336 0.45</pos>
+			<zIndex>1</zIndex>
+		</image>
+		<image name="background" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<path>./../../../ckau-book-addons/_inc/art/${system.theme}.jpg</path>
+			<!-- If it's a collection, checks if the image addon is available -->
+			<path>./../../../ckau-book-addons/_inc/art2/collections/${system.theme}.jpg</path>
+		</image>
+		<!-- If it's a collection, checks if the the video addon is available -->
+		<video name="md_video" extra="static">
+			<path>./../../../ckau-book-addons/_inc/videos/collections/${system.theme}.mp4</path>
+			<delay>1.0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<maxSize>1 1</maxSize>
+			<zIndex>74</zIndex>
+		</video>
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="static">
+			<color>FFFFFF</color>
+			<alignment>left</alignment>
+			<fontPath>${fontDescReg}</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.4 0.03</size>
+			<glowColor>00000016</glowColor>
+			<glowSize>2</glowSize>
+		</text>
+		<image name="logo, logo1">
+			<path>./../../_inc/logos/${system.theme}-w.png</path>
+			<path>./../../_inc/logos/${system.theme}-w.svg</path>
+			<path>./../../_inc/logos/${system.theme}-w-${lang}.png</path>
+			<path>./../../_inc/logos/${system.theme}-w-${lang}.svg</path>
+			<path>./../../_inc/logos/${system.theme}.png</path>
+			<path>./../../_inc/logos/${system.theme}.svg</path>
+			<path>./../../_inc/logos/${system.theme}-${lang}.png</path>
+			<path>./../../_inc/logos/${system.theme}-${lang}.svg</path>
+			<!-- Attemps to load synonym if system not available -->
+			<path>./../../_inc/logos/${synonym}-w.png</path>
+			<path>./../../_inc/logos/${synonym}-w.svg</path>
+			<path>./../../_inc/logos/${synonym}-w-${lang}.png</path>
+			<path>./../../_inc/logos/${synonym}-w-${lang}.svg</path>
+			<path>./../../_inc/logos/${synonym}.png</path>
+			<path>./../../_inc/logos/${synonym}.svg</path>
+			<path>./../../_inc/logos/${synonym}-${lang}.png</path>
+			<path>./../../_inc/logos/${synonym}-${lang}.svg</path>
+			<linearSmooth>true</linearSmooth>
+		</image>
+		<image name="logo, logo1" region="eu"></image>
+		<image name="logo, logo1" region="us">
+			<path>./../../_inc/logos/us/${system.theme}-w.png</path>
+			<path>./../../_inc/logos/us/${system.theme}-w.svg</path>
+			<path>./../../_inc/logos/us/${system.theme}.png</path>
+			<path>./../../_inc/logos/us/${system.theme}.svg</path>
+			<path>./../../_inc/logos/us/${synonym}-w.png</path>
+			<path>./../../_inc/logos/us/${synonym}-w.svg</path>
+			<path>./../../_inc/logos/us/${synonym}.png</path>
+			<path>./../../_inc/logos/us/${synonym}.svg</path>
+		</image>
+		<image name="logo, logo1" region="jp">
+			<path>./../../_inc/logos/jp/${system.theme}-w.png</path>
+			<path>./../../_inc/logos/jp/${system.theme}-w.svg</path>
+			<path>./../../_inc/logos/jp/${system.theme}.png</path>
+			<path>./../../_inc/logos/jp/${system.theme}.svg</path>
+			<path>./../../_inc/logos/jp/${synonym}-w.png</path>
+			<path>./../../_inc/logos/jp/${synonym}-w.svg</path>
+			<path>./../../_inc/logos/jp/${synonym}.png</path>
+			<path>./../../_inc/logos/jp/${synonym}.svg</path>
+		</image>
+	</view>
+</theme>

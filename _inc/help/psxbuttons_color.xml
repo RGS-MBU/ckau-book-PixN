@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./default.xml</include>
+	<view name="system, menu, basic, detailed, grid, gamecarousel">
+		<helpsystem name="help">
+			<iconColor>FFFFFFFF</iconColor>
+			<iconUpDown>./../../_inc/images/buttons/playstation_color/updown.svg</iconUpDown>
+			<iconLeftRight>./../../_inc/images/buttons/playstation_color/leftright.svg</iconLeftRight>
+			<iconUpDownLeftRight>./../../_inc/images/buttons/playstation_color/all.svg</iconUpDownLeftRight>
+			<iconA>./../../_inc/images/buttons/playstation_color/a.svg</iconA>
+			<iconB>./../../_inc/images/buttons/playstation_color/b.svg</iconB>
+			<iconX>./../../_inc/images/buttons/playstation_color/x.svg</iconX>
+			<iconY>./../../_inc/images/buttons/playstation_color/y.svg</iconY>
+			<iconL>./../../_inc/images/buttons/playstation_color/l.svg</iconL>
+			<iconR>./../../_inc/images/buttons/playstation_color/r.svg</iconR>
+			<iconStart>./../../_inc/images/buttons/playstation_color/start.svg</iconStart>
+			<iconSelect>./../../_inc/images/buttons/playstation_color/select.svg</iconSelect>
+		</helpsystem>
+	</view>
+ 	<view name="screen">
+		<controllerActivity name="controllerActivity">
+			<imagePath>./../../_inc/images/buttons/playstation_color/controller.svg</imagePath>
+			<itemSpacing>0.005</itemSpacing>
+		</controllerActivity>
+	</view>
+</theme>

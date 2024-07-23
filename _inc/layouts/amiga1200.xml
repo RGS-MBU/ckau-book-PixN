@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="sysbg-video" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.35</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.45</origin>
+			<pos>0.5 0.354</pos>
+			<maxSize>0.25</maxSize>
+			<storyboard>
+				<animation property="pos" to="0.22 0.354" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<video name="videobox" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../_inc/anim/video/${synonym}.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}.mp4</path>
+			<default>./../../_inc/anim/video/CRT_Noise.mp4</default>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.35</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.48</origin>
+			<pos>0.5 0.354</pos>
+			<maxSize>0.24</maxSize>
+			<zIndex>25</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.22 0.354" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<text name="TextDate" extra="true">
+			<text>1992</text>
+		</text>
+		<text name="TextManufacturer" extra="true">
+			<text>Commodore</text>
+		</text>
+		<text name="TextName" extra="true">
+			<text>Amiga 1200</text>
+		</text>
+		<text name="TextDesc" extra="true">
+			<text>The Amiga 1200, or A1200 (code-named "Channel Z"), is a personal computer in the Amiga computer family released by Commodore International, aimed at the home computer market.
+The A1200 was launched a few months after the Amiga 600, using a similar slimline design that replaced the earlier Amiga 500 Plus and Amiga 500. Whereas the A600 used the 16-bit Motorola 68000 of earlier Amigas, the A1200 was built around the 32-bit Motorola 68EC020. Physically, the A1200 is an all-in-one design incorporating the CPU, keyboard, and disk drives (including the option of an internal 2.5" hard disk drive) in one physical unit. The A1200 has a similar hardware architecture to Commodore's Amiga CD32 game console.
+
+The A1200 offers a number of advantages over earlier lower-budget Amiga models. Specifically, it is a 32-bit design; the 68EC020 microprocessor is faster than the 68000 and has 2 MB of RAM as standard. The AGA chipset used in the A1200 is a significant improvement.
+AGA increases the color palette from 4096 colors to 16.8 million colors with up to 256 on-screen colors normally, and an improved HAM mode allowing 262,144 on-screen colors. The graphics hardware also features improved sprite capacity and faster graphics performance mainly due to faster video memory.
+Additionally, compared to the A600 the A1200 offers greater expansion possibilities.</text>
+			<text lang="pl">Amiga 1200 – komputer domowy wprowadzony na rynek w grudniu 1992 roku przez firmę Commodore International. Zastępował Amigę 500+ i Amigę 600.
+
+Dane techniczne:
+- 32-bitowy procesor z Motorola MC68EC020 (wersja procesora MC68020 z 24-bitową szyną adresową i wynikającą z tego przestrzenią adresową o rozmiarze 16MB, bez koprocesora), taktowany zegarem 14.19 MHz (w przypadku pracy w trybie telewizyjnym PAL) lub 14.32 MHz (NTSC)
+- układ graficzny AGA pozwalający na wyświetlenie jednocześnie 256 kolorów z palety 16,8 milionów lub 262144 kolorów w trybie rozszerzonym HAM8 w maksymalnej rozdzielczości 1280x512 (oraz z dodatkowym overscanem). Układ jest w pełni kompatybilny z OCS i ECS.
+- system operacyjny AmigaOS w wersji 3.0 (A1200 Magic w wersji 3.1)
+- 2 MB pamięci RAM typu CHIP (limit), można rozszerzyć komputer o pamięć typu FAST i SLOW o kolejne 10MB, instalacja większych pamięci wiąże się z koniecznością zakupu akceleratora posiadającego i wykorzystującego procesor z 32-bitową szyną adresową.
+- kontroler 2,5 calowego dysku twardego w standardzie IDE (podobnie jak Amiga 600)
+- wbudowany modulator TV (możliwość podłączenia do TV poprzez standardowe gniazdo antenowe)
+- złącze kart PCMCIA.
+
+Po bankructwie firmy Commodore International Amiga 1200 została wprowadzona ponownie na rynek pod nazwą Amiga 1200 Magic Pack przez niemiecką firmę Escom, również obecnie nieistniejącą.
+
+Pomimo zamkniętej architektury tego komputera powstały liczne urządzenia rozszerzające jego możliwości. Były to m.in. sloty Zorro (w wersji II i III), karty turbo z procesorami (MC68030/MC68040/MC68060 + PowerPC 603e od 160 do 240 MHz), karty graficzne, mostki PCI, karty kontrolerów USB, karty dźwiękowe itd.
+
+Model ten był ostatnim seryjnie produkowanym komputerem Amiga – ostatnim modelem urządzeń pod tą marką była konsola Amiga CD32. Obecnie właścicielem marki Amiga jest Amiga Inc, rozwojem systemu AmigaOS 4 zajmuje się firma Hyperion Entertainment.</text>
+			<text lang="ru">Семейство домашних персональных компьютеров и операционных систем к ним, разработанные Amiga Corporation.
+
+Разработка компьютера началась в 1982 году, в городе Лос-Гатос (Калифорния, США). Кроме 7 миллионов долларов, которые было решено потратить на самофинансирование, у разработчиков имелся значительный опыт в конструировании как аппаратуры, так и программного обеспечения: один из них — Джей Майнер — был разработчиком специализированных микросхем для домашних компьютеров, другой — Роберт Дж. Микал — был известным программистом компании WMS Industries; Дэйв Морс и Карл Сэсенрес также не были новичками. Целью стало создание компьютера, далеко превосходившего бы любые существовавшие на тот момент времени компьютерные системы, предназначенные, в первую очередь, для домашнего использования. Первоначально проект назывался Хай-Торо (Hi-Toro), затем было решено сменить название на более лаконичное и привлекательное — Amiga (с исп.«подружка»). Разработка происходила в обстановке строжайшей секретности и прикрывалась параллельной разработкой манипулятора «доска для серфинга» с обратной связью.</text>
+			<text lang="es">El Amiga 1200, o A1200 (nombre en clave "Channel Z"), es un ordenador personal de la familia Amiga lanzado por Commodore International, dirigido al mercado de ordenadores domésticos.
+El A1200 se lanzó unos meses después que el Amiga 600, con un diseño estilizado similar que sustituyó a los anteriores Amiga 500 Plus y Amiga 500. Mientras que el A600 utilizaba el Motorola 68000 de 16 bits de los anteriores Amigas, el A1200 se basaba en el Motorola 68EC020 de 32 bits. Físicamente, el A1200 es un diseño todo en uno que incorpora la CPU, el teclado y las unidades de disco (incluida la opción de un disco duro interno de 2,5") en una sola unidad física. La A1200 tiene una arquitectura de hardware similar a la de la videoconsola Amiga CD32 de Commodore.
+
+El A1200 ofrece una serie de ventajas sobre los anteriores modelos de Amiga de menor presupuesto. En concreto, es un diseño de 32 bits; el microprocesador 68EC020 es más rápido que el 68000 y tiene 2 MB de RAM de serie. El chipset AGA utilizado en el A1200 es una mejora significativa.
+AGA aumenta la paleta de colores de 4096 colores a 16,8 millones de colores con hasta 256 colores en pantalla normalmente, y un modo HAM mejorado que permite 262.144 colores en pantalla. El hardware gráfico también presenta una capacidad de sprites mejorada y un rendimiento gráfico más rápido debido principalmente a una memoria de vídeo más rápida.
+Además, en comparación con el A600, el A1200 ofrece mayores posibilidades de expansión.</text>
+			<text lang="de">Der Amiga 1200 oder A1200 (Codename "Channel Z") ist ein Personal Computer der Amiga-Computerfamilie von Commodore International, der für den Heimcomputermarkt bestimmt ist.
+Der A1200 wurde einige Monate nach dem Amiga 600 auf den Markt gebracht, wobei ein ähnliches, schlankes Design verwendet wurde, das den früheren Amiga 500 Plus und Amiga 500 ersetzte. Während der A600 den 16-Bit-Motorola 68000 der früheren Amigas verwendete, wurde der A1200 auf dem 32-Bit-Motorola 68EC020 aufgebaut. Physisch ist der A1200 ein All-in-One-Design, das die CPU, die Tastatur und die Festplattenlaufwerke (einschließlich der Option eines internen 2,5"-Festplattenlaufwerks) in einer physischen Einheit vereint. Der A1200 hat eine ähnliche Hardware-Architektur wie die Amiga CD32-Spielkonsole von Commodore.
+
+Der A1200 bietet eine Reihe von Vorteilen gegenüber früheren, preiswerteren Amiga-Modellen. Insbesondere ist es ein 32-Bit-Design; der 68EC020-Mikroprozessor ist schneller als der 68000 und hat standardmäßig 2 MB RAM. Der im A1200 verwendete AGA-Chipsatz ist eine bedeutende Verbesserung.
+AGA erhöht die Farbpalette von 4096 Farben auf 16,8 Millionen Farben mit bis zu 256 normalen Bildschirmfarben und einem verbesserten HAM-Modus, der 262.144 Bildschirmfarben ermöglicht. Die Grafikhardware bietet außerdem eine verbesserte Sprite-Kapazität und eine schnellere Grafikleistung, die hauptsächlich auf einen schnelleren Videospeicher zurückzuführen ist.
+Außerdem bietet der A1200 im Vergleich zum A600 mehr Erweiterungsmöglichkeiten.</text>
+			<text lang="fr">L'Amiga 1200, ou A1200 (nom de code "Channel Z"), est un ordinateur personnel de la famille Amiga commercialisé par Commodore International, destiné au marché des ordinateurs domestiques.
+L'A1200 a été lancé quelques mois après l'Amiga 600, utilisant un design mince similaire qui a remplacé les précédents Amiga 500 Plus et Amiga 500. Alors que l'A600 utilisait le Motorola 68000 16 bits des Amiga précédents, l'A1200 était construit autour du Motorola 68EC020 32 bits. Physiquement, l'A1200 est un modèle tout-en-un incorporant l'unité centrale, le clavier et les lecteurs de disques (y compris l'option d'un disque dur interne de 2,5 pouces) en une seule unité physique. L'architecture matérielle de l'A1200 est similaire à celle de la console de jeu Amiga CD32 de Commodore.
+
+L'A1200 offre un certain nombre d'avantages par rapport aux modèles Amiga antérieurs à petit budget. En particulier, il s'agit d'un modèle 32 bits ; le microprocesseur 68EC020 est plus rapide que le 68000 et dispose de 2 Mo de RAM en standard. Le chipset AGA utilisé dans l'A1200 est une amélioration significative.
+AGA augmente la palette de couleurs de 4096 couleurs à 16,8 millions de couleurs avec jusqu'à 256 couleurs à l'écran normalement, et un mode HAM amélioré permettant 262 144 couleurs à l'écran. Le matériel graphique est également doté d'une capacité de sprites améliorée et de performances graphiques plus rapides, principalement en raison d'une mémoire vidéo plus rapide.
+En outre, par rapport à l'A600, l'A1200 offre de plus grandes possibilités d'extension.</text>
+			<text lang="it">L'Amiga 1200, o A1200 (nome in codice "Channel Z"), è un personal computer della famiglia Amiga rilasciato da Commodore International, destinato al mercato dei computer domestici.
+L'A1200 è stato lanciato pochi mesi dopo l'Amiga 600, utilizzando un design sottile simile che ha sostituito i precedenti Amiga 500 Plus e Amiga 500. Mentre l'A600 utilizzava il Motorola 68000 a 16 bit dei precedenti Amiga, l'A1200 era costruito attorno al Motorola 68EC020 a 32 bit. Fisicamente, l'A1200 è un progetto all-in-one che incorpora la CPU, la tastiera e le unità disco (inclusa l'opzione di un disco rigido interno da 2,5") in un'unica unità fisica. L'A1200 ha un'architettura hardware simile a quella della console per videogiochi Amiga CD32 di Commodore.
+
+L'A1200 offre una serie di vantaggi rispetto ai precedenti modelli Amiga a basso costo. In particolare, è un progetto a 32 bit; il microprocessore 68EC020 è più veloce del 68000 e ha 2 MB di RAM come standard. Il chipset AGA utilizzato nell'A1200 rappresenta un miglioramento significativo.
+AGA aumenta la tavolozza dei colori da 4096 colori a 16,8 milioni di colori con un massimo di 256 colori su schermo e una modalità HAM migliorata che consente 262.144 colori su schermo. Anche l'hardware grafico presenta una migliore capacità di sprite e prestazioni grafiche più rapide, grazie soprattutto a una memoria video più veloce.
+Inoltre, rispetto all'A600, l'A1200 offre maggiori possibilità di espansione.</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<formatVersion>7</formatVersion>
+<!-- Базовый -->
+	<view name="basic">
+		<text name="logoText">
+			<pos>.5 0.1427777777777778</pos>
+			<origin>0.5 0</origin>
+			<size>0.15625 0.0555555555555556</size>
+			<fontSize>0.0444444444444444</fontSize>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<color>${baseColor}</color>
+			<forceUppercase>true</forceUppercase>
+		</text>
+		<image name="background" extra="true">
+			<tile>true</tile>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<path>./../../_inc/images/space.png</path>
+			<color>141414</color>
+		</image>
+		<image name="logo">
+			<path>./../../_inc/logos/${system.theme}.png</path>
+			<path>./../../_inc/logos/${system.theme}-${lang}.png</path>
+			<pos>.5 0.1427777777777778</pos>
+			<maxSize>0.260 0.126</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		<textlist name="gamelist">
+			<selectorColor>333333ff</selectorColor>
+			<selectedColor>${baseColor}</selectedColor>
+			<primaryColor>cccccc</primaryColor>
+			<secondaryColor>cccccc</secondaryColor>
+			<extraTextColor>555555</extraTextColor>
+			<extraTextSelectedColor>A0A0A0</extraTextSelectedColor>
+			<fontPath>./../../_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<pos>0.1484375 0.2416666666666667</pos>
+			<size>0.703125 0.6555555555555556</size>
+			<alignment>center</alignment>
+			<lines>20</lines>
+			<horizontalMargin>0.01</horizontalMargin>
+			<forceUppercase>1</forceUppercase>
+			<scrollSound>./../../_inc/sound/scroll.wav</scrollSound>
+			<scrollbarColor>333333ff</scrollbarColor>
+			<scrollbarCorner>0.49</scrollbarCorner>
+			<scrollbarSize>0.005</scrollbarSize>
+			<scrollbarAlignment>outerright</scrollbarAlignment>
+		</textlist>
+	</view>
+<!-- Navigation arrows, if enabled -->
+  	<include ifSubset="arrows:On">./../../_inc/views/arrows.xml</include>
+</theme>

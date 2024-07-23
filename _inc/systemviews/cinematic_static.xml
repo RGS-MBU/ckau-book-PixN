@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+	<include>./../../_inc/systemviews/cinematic.xml</include>
+	<view name="system">
+		<video name="md_video" extra="static">
+			<path>./../../_inc/videos/static.mp4</path>
+			<audio>false</audio>
+			<delay>0</delay>
+		</video>
+	</view>
+</theme>

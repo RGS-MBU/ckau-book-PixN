@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./default.xml</include>
+	<view name="system, menu, basic, detailed, grid, gamecarousel">
+		<helpsystem name="help">
+			<iconA>./../../_inc/images/buttons/arcade/a.svg</iconA>
+			<iconB>./../../_inc/images/buttons/arcade/b.svg</iconB>
+			<iconX>./../../_inc/images/buttons/arcade/x.svg</iconX>
+			<iconY>./../../_inc/images/buttons/arcade/y.svg</iconY>
+		</helpsystem>
+	</view>
+	<view name="screen">
+		<controllerActivity name="controllerActivity">
+			<imagePath>./../../_inc/images/buttons/arcade/controller.svg</imagePath>
+			<itemSpacing>0.001</itemSpacing>
+			</controllerActivity>
+	</view>
+</theme>

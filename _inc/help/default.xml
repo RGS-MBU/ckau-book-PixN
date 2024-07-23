@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system, menu, basic, detailed, grid, gamecarousel">
+		<helpsystem name="help">
+			<fontPath>${fontDescReg}</fontPath>
+			<fontSize>0.024</fontSize>
+			<!-- <pos>0.012 0.9625</pos> -->
+			<origin>0.5 0</origin>
+			<pos>0.5 0.9625</pos>
+		</helpsystem>
+		<helpsystem name="help" if="{system.theme} == 'avgn'">
+			<pos>2 2</pos>
+		</helpsystem>
+<!-- Helpsystem bottom bar bg
+\\\\
+Current in "\systemcolors\colorful.xml"
+\\\\
+ -->
+		<!-- <image name="BottomBar" extra="static">
+			<tile>false</tile>
+			<size>1 0.05</size>
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<path>./_inc/images/space.png</path>
+			<color>141414B9</color>
+			<zIndex>91</zIndex>
+		</image> -->
+	</view>
+</theme>

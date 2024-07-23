@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+<!-- English -->
+	<variables>
+		<subset.colorset>Menu Item Color</subset.colorset>
+		<subset.sysbgcolor>Backgrounds Color</subset.sysbgcolor>
+		<subset.systemview>Systems logos type</subset.systemview>
+		<helpSubsetName>Buttons icons</helpSubsetName>
+		<helpbuttons>Button</helpbuttons>
+		<xboxbuttons>XBOX</xboxbuttons>
+		<psxbuttons>PlayStation</psxbuttons>
+		<psxbuttons_color>PlayStation (Color)</psxbuttons_color>
+		<arcadebuttons>Arcade</arcadebuttons>
+		<ninbuttons>Nintendo</ninbuttons>
+		<stbuttons>Standard</stbuttons>
+		<gameCarouselNoBoxartViewName>GameCarousel (No Boxart)</gameCarouselNoBoxartViewName>
+		<gameCarouselViewName>Detailed + Carousel</gameCarouselViewName>
+		<gamelist_logo>Gamelist Logo Animate</gamelist_logo>
+		<On_Logo3>On</On_Logo3>
+		<On_Logo>On (Black Bars)</On_Logo>
+		<Off_Logo>Off</Off_Logo>
+		<arrows>Up/Down navigation arrows</arrows>
+		<on_arrows>On</on_arrows>
+		<off_arrows>Off</off_arrows>
+		<VideoFullName>Fullscreen Video</VideoFullName>
+		<subset.blurfx>Blur FX (enable blur)</subset.blurfx>
+		<yes>Yes</yes>
+		<no>No</no>
+		<contentViewName>Content</contentViewName>
+		<contentBackground>Content Background</contentBackground>
+		<fanart>Fanart</fanart>
+		<thumbnail>Thumbnail</thumbnail>
+		<none>None</none>
+	</variables>
+	
+<!-- Языки / Other languages -->
+	<!-- Russian -->
+	<variables lang="ru">
+		<subset.colorset>Цвет элементов меню</subset.colorset>
+		<subset.sysbgcolor>Цвет фона</subset.sysbgcolor>
+		<blue>Синий</blue>
+		<red>Красный</red>
+		<green>Зеленый</green>
+		<yellow>Желтый</yellow>
+		<violet>Фиолетовый</violet>
+		<cyan>Циан</cyan>
+		<orange>Оранжевый</orange>
+		<gray>Серый</gray>
+		<subset.systemview>Тип логотипов систем</subset.systemview>
+		<swheel>Колесо</swheel>
+		<swheelanim>Колесо (с анимацией)</swheelanim>
+		<swheelleft>Колесо слева</swheelleft>
+		<swheelleftanim>Колесо слева (с анимацией)</swheelleftanim>
+		<svertical>Вертикально</svertical>
+		<sverticalanim>Вертикально (с анимацией)</sverticalanim>
+		<sverticalleft>Вертикально слева</sverticalleft>
+		<sverticalleftanim>Вертикально слева (с анимацией)</sverticalleftanim>
+		<shorizontal>Горизонтально</shorizontal>
+		<shorizontalanim>Горизонтально (с анимацией)</shorizontalanim>
+		<scenter>По центру</scenter>
+		<ssimple>Одиночный (с анимацией)</ssimple>
+		<carouselViewName>Карусель</carouselViewName>
+		<carouselDetailsViewName>Карусель + Подробно</carouselDetailsViewName>
+		<carouselDetailsMarqueeViewName>Карусель + Подробно + Лого</carouselDetailsMarqueeViewName>
+		<carouselFanartViewName>Карусель + Фанарт</carouselFanartViewName>
+		<WallViewName>Обои</WallViewName>
+		<gamecarousel>Подробно + Карусель</gamecarousel>
+		<gameCarouselNoBoxartViewName>Подробно + Карусель (Без Обложки)</gameCarouselNoBoxartViewName>
+		<DetailedWheelName>Подробно + Колесо</DetailedWheelName>
+		<gameCarouselViewName>Подробно + Карусель</gameCarouselViewName>
+		<WallpapersCarouselName>Обои + Карусель</WallpapersCarouselName>
+		<WallpapersHeroesName>Шапка (фанарт) + Карусель</WallpapersHeroesName>
+		<VideoFullName>Видео на весь экран</VideoFullName>
+		<tilesViewName>Плитки</tilesViewName>
+		<tilesVideoViewName>Плитки + Видео</tilesVideoViewName>
+		<iconsViewName>Журналы</iconsViewName>
+		<gridDetailsViewName>Сетка + Подробно</gridDetailsViewName>
+		<gridDetailsMarqueeViewName>Сетка + Подробно + Лого</gridDetailsMarqueeViewName>
+		<gridFanartViewName>Сетка + Фанарт</gridFanartViewName>
+		<logoDetailsViewName>Лого + Подробно</logoDetailsViewName>
+		<NoVideoDetailsViewName>Подробно Без Видео</NoVideoDetailsViewName>
+		<DetailDarkViewName>Подробно (Тёмная версия)</DetailDarkViewName>
+		<subset.systembackground>Фон списка систем</subset.systembackground>
+		<Art_169>Консоли</Art_169>
+		<CV1>Видео на весь экран</CV1>
+		<CV2>Статичное видео</CV2>
+		<ColorfulAnim>Colorful (с анимацией)</ColorfulAnim>
+		<ColorfulAnimTransparent>Colorful (с анимацией и бок. панелью)</ColorfulAnimTransparent>
+		<ColorfulNoAnim>Colorful (без анимации)</ColorfulNoAnim>
+		<ColorfulNoAnimNoVideo>Colorful (без анимации/видео)</ColorfulNoAnimNoVideo>
+		<ColorfulGrid>Colorful (сетка)</ColorfulGrid>
+		<Art2_169>Обои</Art2_169>
+		<ColorfulViewName>Colorful (вертикально)</ColorfulViewName>
+		<ColorfulViewNameGame>Colorful + Список (вертикально)</ColorfulViewNameGame>
+		<Colorful2ViewName>Colorful (горизонтально)</Colorful2ViewName>
+		<Colorful2ViewNameGame>Colorful + Список (горизонтально)</Colorful2ViewNameGame>
+		<Colorful2-2ViewNameGame>Colorful + Список (горизонтально 2)</Colorful2-2ViewNameGame>
+		<DarkfulAnim>Darkful (с анимацией)</DarkfulAnim>
+		<DarkfulNoAnim>Darkful (без анимации)</DarkfulNoAnim>
+		<DarkfulNoAnimNoVideo>Darkful (без анимации/видео)</DarkfulNoAnimNoVideo>
+		<helpSubsetName>Иконки кнопок</helpSubsetName>
+		<helpbuttons>Кнопки</helpbuttons>
+		<xboxbuttons>XBOX</xboxbuttons>
+		<psxbuttons>PlayStation</psxbuttons>
+		<psxbuttons_color>PlayStation (цветные)</psxbuttons_color>
+		<arcadebuttons>Аркадные</arcadebuttons>
+		<ninbuttons>Nintendo</ninbuttons>
+		<stbuttons>По умолчанию</stbuttons>
+		<gamelist_logo>Анимация лого при переходе</gamelist_logo>
+		<On_Logo>ВКЛ (Полоски)</On_Logo>
+		<On_Logo2>ВКЛ (Без чёрных полос)</On_Logo2>
+		<On_Logo3>ВКЛ</On_Logo3>
+		<Off_Logo>ВЫКЛ</Off_Logo>
+		<arrows>Стреки навигации Вверх/Вниз</arrows>
+		<on_arrows>ВКЛ</on_arrows>
+		<off_arrows>ВЫКЛ</off_arrows>
+		<subset.blurfx>Blur FX (включить размытие)</subset.blurfx>
+		<yes>Да</yes>
+		<no>Нет</no>
+		<contentViewName>Контент</contentViewName>
+		<contentBackground>Фон контента</contentBackground>
+		<fanart>Фан-арты</fanart>
+		<thumbnail>Обложки</thumbnail>
+		<none>Ничего</none>
+	</variables>
+
+	<!-- Italian -->
+	<variables lang="it">
+		<subset.colorset>Colore voce menu</subset.colorset>
+		<subset.sysbgcolor>Colore degli sfondi</subset.sysbgcolor>
+		<blue>Blu</blue>
+		<red>Rosso</red>
+		<green>Verde</green>
+		<yellow>Giallo</yellow>
+		<violet>Viola</violet>
+		<cyan>Ciano</cyan>
+		<orange>Arancione</orange>
+		<gray>Grigio</gray>
+		<subset.systemview>Tipo di loghi di sistema</subset.systemview>
+		<swheel>Ruota</swheel>
+		<swheelanim>Ruota (con animazione)</swheelanim>
+		<swheelleft>Ruota sx</swheelleft>
+		<swheelleftanim>Ruota sx (con animazione)</swheelleftanim>
+		<svertical>Verticale</svertical>
+		<sverticalanim>Verticale (con animazione)</sverticalanim>
+		<sverticalleft>Verticale sx</sverticalleft>
+		<sverticalleftanim>Verticale sx (сon animazione)</sverticalleftanim>
+		<shorizontal>Orizzontale</shorizontal>
+		<shorizontalanim>Orizzontale (сon animazione)</shorizontalanim>
+		<scenter>Centrale</scenter>
+		<ssimple>Semplice (con animazione)</ssimple>
+		<carouselViewName>Carosello</carouselViewName>
+		<carouselDetailsViewName>Carosello + Dettagli</carouselDetailsViewName>
+		<carouselDetailsMarqueeViewName>Carosello + Dettagli + Logo</carouselDetailsMarqueeViewName>
+		<carouselFanartViewName>Carosello + Fanart</carouselFanartViewName>
+		<WallViewName>Wallpaper</WallViewName>
+		<gameCarousel>Dettagliato + Carosello</gameCarousel>
+		<gameCarouselNoBoxartViewName>Dettagliato + Carosello (No Boxart)</gameCarouselNoBoxartViewName>
+		<DetailedWheelName>Dettagliato + Ruota</DetailedWheelName>
+		<gameCarouselViewName>Dettagliato + Carosello</gameCarouselViewName>
+		<WallpapersCarouselName>Wallpaper + Carosello</WallpapersCarouselName>
+		<WallpapersHeroesName>Wallpaper (fanart) + Carosello</WallpapersHeroesName>
+		<VideoFullName>Video a schermo intero</VideoFullName>
+		<tilesViewName>Pannelli</tilesViewName>
+		<tilesVideoViewName>Pannelli + Video</tilesVideoViewName>
+		<iconsViewName>Icone</iconsViewName>
+		<gridDetailsViewName>Griglia + Dettagli</gridDetailsViewName>
+		<gridDetailsMarqueeViewName>Griglia + Dettagli + Logo</gridDetailsMarqueeViewName>
+		<gridFanartViewName>Griglia + Fanart</gridFanartViewName>
+		<logoDetailsViewName>Logo + Dettagli</logoDetailsViewName>
+		<NoVideoDetailsViewName>Dettagliato senza video</NoVideoDetailsViewName>
+		<DetailDarkViewName>Dettagliato (scuro)</DetailDarkViewName>
+		<subset.systembackground>Sfondo vista sistemi</subset.systembackground>
+		<Art_169>Console</Art_169>
+		<CV1>Video a schermo intero</CV1>
+		<CV2>Video statico</CV2>
+		<ColorfulAnim>Colorful (con animazione)</ColorfulAnim>
+		<ColorfulAnimTransparent>Colorful (con animazione, barra laterale)</ColorfulAnimTransparent>
+		<ColorfulNoAnim>Colorful (senza animazione)</ColorfulNoAnim>
+		<ColorfulNoAnimNoVideo>Colorful (senza animazione/video)</ColorfulNoAnimNoVideo>
+		<Art2_169>Wallpaper</Art2_169>
+		<ColorfulViewName>Colorful (verticale)</ColorfulViewName>
+		<ColorfulViewNameGame>Colorful + Gamelist (verticale)</ColorfulViewNameGame>
+		<Colorful2ViewName>Colorful (orizzontale)</Colorful2ViewName>
+		<Colorful2ViewNameGame>Colorful + Gamelist (orizzontale)</Colorful2ViewNameGame>
+		<Colorful2-2ViewNameGame>Colorful + Gamelist (orizzontale 2)</Colorful2-2ViewNameGame>
+		<DarkfulAnim>Darkful (con animazione)</DarkfulAnim>
+		<DarkfulNoAnim>Darkful (senza animazione)</DarkfulNoAnim>
+		<DarkfulNoAnimNoVideo>Darkful (senza animazione/video)</DarkfulNoAnimNoVideo>
+		<helpSubsetName>Icone pulsanti</helpSubsetName>
+		<helpbuttons>Pulsanti</helpbuttons>
+		<xboxbuttons>XBOX</xboxbuttons>
+		<psxbuttons>PlayStation</psxbuttons>
+		<psxbuttons_color>PlayStation (colorati)</psxbuttons_color>
+		<arcadebuttons>Arcade</arcadebuttons>
+		<ninbuttons>Nintendo</ninbuttons>
+		<stbuttons>Standard</stbuttons>
+		<gamelist_logo>Animazione logo</gamelist_logo>
+		<On_Logo>On (bordi)</On_Logo>
+		<On_Logo2>On (senza bordi neri)</On_Logo2>
+		<On_Logo3>On</On_Logo3>
+		<Off_Logo>Off</Off_Logo>
+		<arrows>Frecce di navigazione su/giù</arrows>
+		<on_arrows>On</on_arrows>
+		<off_arrows>Off</off_arrows>
+		<subset.blurfx>Blur FX (abilita sfocatura)</subset.blurfx>
+		<yes>SÌ</yes>
+		<no>NO</no>
+		<contentViewName>Contenuto</contentViewName>
+		<contentBackground>Sfondo del contenuto</contentBackground>
+		<fanart>Fanart</fanart>
+		<thumbnail>Miniature</thumbnail>
+		<none>Nessuno</none>
+	</variables>
+
+	<!-- Polish -->
+	<variables lang="pl">
+		<subset.colorset>Kolor pozycji menu</subset.colorset>
+		<subset.sysbgcolor>Kolor Tła</subset.sysbgcolor>
+		<blue>Niebieski</blue>
+		<red>Czerwony</red>
+		<green>Zielony</green>
+		<yellow>Żółty</yellow>
+		<violet>Fioletowy</violet>
+		<cyan>Cyjan</cyan>
+		<orange>Pomarańczowy</orange>
+		<subset.systemview>Typ logo systemów</subset.systemview>
+		<swheel>Koło z prawej</swheel>
+		<swheelanim>Koło z prawej (z animacją)</swheelanim>
+		<swheelleft>Koło z lewej</swheelleft>
+		<swheelleftanim>Koło z lewej (z animacją)</swheelleftanim>
+		<svertical>Pionowo z prawej</svertical>
+		<sverticalanim>Pionowo z prawej (z animacją)</sverticalanim>
+		<sverticalleft>Pionowo z lewej</sverticalleft>
+		<sverticalleftanim>Pionowo z lewej (z animacją)</sverticalleftanim>
+		<shorizontal>Poziomo</shorizontal>
+		<shorizontalanim>Poziomo (z animacją)</shorizontalanim>
+		<scenter>Centralnie</scenter>
+		<ssimple>Proste (z animacją)</ssimple>
+		<carouselViewName>Karuzela</carouselViewName>
+		<carouselDetailsViewName>Karuzela + Szczegóły</carouselDetailsViewName>
+		<carouselDetailsMarqueeViewName>Karuzela + Szczegóły + Logo</carouselDetailsMarqueeViewName>
+		<carouselFanartViewName>Karuzela + Fanart</carouselFanartViewName>
+		<WallViewName>Tło</WallViewName>
+		<gameCarousel>Szczegóły + Karuzela</gameCarousel>
+		<gameCarouselNoBoxartViewName>Szczegóły + Karuzela (No Boxart)</gameCarouselNoBoxartViewName>
+		<DetailedWheelName>Szczegóły + Koło</DetailedWheelName>
+		<gameCarouselViewName>Szczegóły + Karuzela</gameCarouselViewName>
+		<WallpapersCarouselName>Tło + Karuzela</WallpapersCarouselName>
+		<WallpapersHeroesName>Tło (fanart) + Karuzela</WallpapersHeroesName>
+		<VideoFullName>Wideo pełnoekranowe</VideoFullName>
+		<tilesViewName>Kafelki</tilesViewName>
+		<tilesVideoViewName>Kafelki + Wideo</tilesVideoViewName>
+		<iconsViewName>Ikony</iconsViewName>
+		<gridDetailsViewName>Siatka + Szczegóły</gridDetailsViewName>
+		<gridDetailsMarqueeViewName>Siatka + Szczegóły + Logo</gridDetailsMarqueeViewName>
+		<gridFanartViewName>Siatka + Fanart</gridFanartViewName>
+		<logoDetailsViewName>Logo + Szczegóły</logoDetailsViewName>
+		<NoVideoDetailsViewName>Szczegóły i brak wideo</NoVideoDetailsViewName>
+		<DetailDarkViewName>Szczegóły (ciemny)</DetailDarkViewName>
+		<subset.systembackground>Tło listy systemów</subset.systembackground>
+		<Art_169>Zdjęcie systemu</Art_169>
+		<CV1>Filmowe</CV1>
+		<CV2>Filmowe statyczne</CV2>
+		<Art2_169>Fan art systemu</Art2_169>
+		<ColorfulAnim>Colorful (z animacją)</ColorfulAnim>
+		<ColorfulAnimTransparent>Colorful (z animacją, Pasek boczny)</ColorfulAnimTransparent>
+		<ColorfulNoAnim>Colorful (bez animacji)</ColorfulNoAnim>
+		<ColorfulNoAnimNoVideo>Colorful (bez animacji/video)</ColorfulNoAnimNoVideo>
+		<Art2_169>Tapeta</Art2_169>
+		<ColorfulViewName>Colorful (pionowo)</ColorfulViewName>
+		<ColorfulViewNameGame>Colorful + Lista gier (pionowo)</ColorfulViewNameGame>
+		<Colorful2ViewName>Colorful (poziomo)</Colorful2ViewName>
+		<Colorful2ViewNameGame>Colorful + Lista gier (poziomo)</Colorful2ViewNameGame>
+		<Colorful2-2ViewNameGame>Colorful + Lista gier (poziomo 2)</Colorful2-2ViewNameGame>
+		<DarkfulAnim>Darkful (z animacją)</DarkfulAnim>
+		<DarkfulNoAnim>Darkful (bez animacji)</DarkfulNoAnim>
+		<DarkfulNoAnimNoVideo>Darkful (bez animacji/video)</DarkfulNoAnimNoVideo>
+		<helpSubsetName>Ikony przycisków</helpSubsetName>
+		<helpbuttons>Przyciski</helpbuttons>
+		<xboxbuttons>XBOX</xboxbuttons>
+		<psxbuttons>PlayStation</psxbuttons>
+		<psxbuttons_color>PlayStation (kolor)</psxbuttons_color>
+		<arcadebuttons>Arcade</arcadebuttons>
+		<ninbuttons>Nintendo</ninbuttons>
+		<stbuttons>Standard</stbuttons>
+		<gamelist_logo>Animowane logo</gamelist_logo>
+		<On_Logo>Włączone (obwódki)</On_Logo>
+		<On_Logo2>Włączone (bez czarnej obwódki)</On_Logo2>
+		<On_Logo3>Włączone</On_Logo3>
+		<Off_Logo>Wyłączone</Off_Logo>
+		<arrows>Strzałki nawigacyjne góra/dół</arrows>
+		<on_arrows>Włączone</on_arrows>
+		<off_arrows>Wyłączone</off_arrows>
+		<subset.blurfx>Blur FX (włącz rozmycie)</subset.blurfx>
+		<yes>Tak</yes>
+		<no>NIE</no>
+		<contentViewName>Treść</contentViewName>
+		<contentBackground>Tło treści</contentBackground>
+		<fanart>Fanart</fanart>
+		<thumbnail>Miniatura</thumbnail>
+		<none>Brak</none>
+	</variables>
+
+	<!-- French -->
+	<variables lang="fr">
+		<subset.colorset>Couleur de l'élément de menu</subset.colorset>
+		<subset.sysbgcolor>Couleur d'arrière-plan</subset.sysbgcolor>
+		<blue>Bleu</blue>
+		<red>Rouge</red>
+		<green>Vert</green>
+		<yellow>Jaune</yellow>
+		<violet>Violet</violet>
+		<cyan>Cyan</cyan>
+		<orange>Orange</orange>
+		<gray>Gris</gray>
+		<subset.systemview>Type de logos de systèmes</subset.systemview>
+		<swheel>Roue</swheel>
+		<swheelanim>Roue (animée)</swheelanim>
+		<swheelleft>Roue à gauche</swheelleft>
+		<swheelleftanim>Roue à gauche (animée)</swheelleftanim>
+		<svertical>Verticale</svertical>
+		<sverticalanim>Verticale (animée)</sverticalanim>
+		<sverticalleft>Verticale à gauche</sverticalleft>
+		<sverticalleftanim>Verticale à gauche (animée)</sverticalleftanim>
+		<shorizontal>Horizontale</shorizontal>
+		<shorizontalanim>Horizontale (animée)</shorizontalanim>
+		<scenter>Centrée</scenter>
+		<ssimple>Simple (animée)</ssimple>
+		<carouselViewName>Carrousel</carouselViewName>
+		<carouselDetailsViewName>Carrousel + Détails</carouselDetailsViewName>
+		<carouselDetailsMarqueeViewName>Carrousel + Détails + Logo</carouselDetailsMarqueeViewName>
+		<carouselFanartViewName>Carrousel + Fanart</carouselFanartViewName>
+		<WallViewName>Papier Peint</WallViewName>
+		<gameCarousel>Détaillé + Carrousel</gameCarousel>
+		<gameCarouselNoBoxartViewName>Détaillé + Carrousel (No Boxart)</gameCarouselNoBoxartViewName>
+		<DetailedWheelName>Détaillé + Roue</DetailedWheelName>
+		<gameCarouselViewName>Détaillé + Carrousel</gameCarouselViewName>
+		<WallpapersCarouselName>Papier Peint + Carrousel</WallpapersCarouselName>
+		<WallpapersHeroesName>Papier Peint (fan art) + Carrousel</WallpapersHeroesName>
+		<VideoFullName>Vidéo en plein écran</VideoFullName>
+		<tilesViewName>Vignettes</tilesViewName>
+		<tilesVideoViewName>Vignettes + Vidéo</tilesVideoViewName>
+		<iconsViewName>Icônes</iconsViewName>
+		<gridDetailsViewName>Grille + Détails</gridDetailsViewName>
+		<gridDetailsMarqueeViewName>Grille + Détails + Logo</gridDetailsMarqueeViewName>
+		<gridFanartViewName>Grille + Fanart</gridFanartViewName>
+		<logoDetailsViewName>Logo + Détails</logoDetailsViewName>
+		<NoVideoDetailsViewName>Détaillé sans vidéo</NoVideoDetailsViewName>
+		<DetailDarkViewName>Détaillé (sombre)</DetailDarkViewName>
+		<subset.systembackground>Arrière-Plan</subset.systembackground>
+		<Art_169>Console</Art_169>
+		<CV1>Vidéo plein écran</CV1>
+		<CV2>Vidéo Statique</CV2>
+		<ColorfulAnim>Colorful (animée)</ColorfulAnim>
+		<ColorfulAnimTransparent>Colorful (animée, barre latérale)</ColorfulAnimTransparent>
+		<ColorfulNoAnim>Colorful (sans animation)</ColorfulNoAnim>
+		<ColorfulNoAnimNoVideo>Colorful (sans animation/video)</ColorfulNoAnimNoVideo>
+		<Art2_169>Papier peint</Art2_169>
+		<ColorfulViewName>Colorful (Verticalement)</ColorfulViewName>
+		<ColorfulViewNameGame>Colorful + Liste de jeux (Verticalement)</ColorfulViewNameGame>
+		<Colorful2ViewName>Colorful (Horizontalement)</Colorful2ViewName>
+		<Colorful2ViewNameGame>Colorful + Liste de jeux (Horizontalement)</Colorful2ViewNameGame>
+		<Colorful2-2ViewNameGame>Colorful + Liste de jeux (Horizontalement 2)</Colorful2-2ViewNameGame>
+		<DarkfulAnim>Darkful (animée)</DarkfulAnim>
+		<DarkfulNoAnim>Darkful (sans animation)</DarkfulNoAnim>
+		<DarkfulNoAnimNoVideo>Darkful (sans animation/video)</DarkfulNoAnimNoVideo>
+		<helpSubsetName>Icônes de boutons</helpSubsetName>
+		<helpbuttons>Boutons</helpbuttons>
+		<xboxbuttons>XBOX</xboxbuttons>
+		<psxbuttons>PlayStation</psxbuttons>
+		<psxbuttons_color>PlayStation (en couleur)</psxbuttons_color>
+		<arcadebuttons>Arcade</arcadebuttons>
+		<ninbuttons>Nintendo</ninbuttons>
+		<stbuttons>Standard</stbuttons>
+		<gamelist_logo>Animation du logo</gamelist_logo>
+		<On_Logo>Allumé (bordures)</On_Logo>
+		<On_Logo2>Allumé (sans bordures noires)</On_Logo2>
+		<On_Logo3>Allumé</On_Logo3>
+		<Off_Logo>Éteint</Off_Logo>
+		<arrows>Flèches de navigation haut/bas</arrows>
+		<on_arrows>Allumé</on_arrows>
+		<off_arrows>Éteint</off_arrows>
+		<subset.blurfx>Blur FX (activer le flou)</subset.blurfx>
+		<yes>Oui</yes>
+		<no>Non</no>
+		<contentViewName>Contenu</contentViewName>
+		<contentBackground>Contexte du contenu</contentBackground>
+		<fanart>Fanart</fanart>
+		<thumbnail>Vignette</thumbnail>
+		<none>Aucune</none>
+	</variables>
+
+	<!-- German -->
+	<variables lang="de">
+		<subset.colorset>Farbe des Menüelements</subset.colorset>
+		<subset.sysbgcolor>Hintergrundfarbe</subset.sysbgcolor>
+		<blue>Blau</blue>
+		<red>Rot</red>
+		<green>Grün</green>
+		<yellow>Gelb</yellow>
+		<violet>Violett</violet>
+		<cyan>Cyan</cyan>
+		<orange>Orange</orange>
+		<gray>Grau</gray>
+		<subset.systemview>Typ der Systemlogos</subset.systemview>
+		<swheel>Rad</swheel>
+		<swheelanim>Rad (mit Animation)</swheelanim>
+		<swheelleft>Linkes Rad</swheelleft>
+		<swheelleftanim>Linkes Rad (mit Animation)</swheelleftanim>
+		<svertical>Vertikal</svertical>
+		<sverticalanim>Vertikal (mit Animation)</sverticalanim>
+		<sverticalleft>Linkes vertikales Rad</sverticalleft>
+		<sverticalleftanim>Linkes vertikales Rad (mit Animation)</sverticalleftanim>
+		<shorizontal>Horizontal</shorizontal>
+		<shorizontalanim>Horizontal (mit Animation)</shorizontalanim>
+		<scenter>Zentrum</scenter>
+		<ssimple>Einfach (mit Animation)</ssimple>
+		<carouselViewName>Karussell</carouselViewName>
+		<carouselDetailsViewName>Karussell + Details</carouselDetailsViewName>
+		<carouselDetailsMarqueeViewName>Karussell + Details + Logo</carouselDetailsMarqueeViewName>
+		<carouselFanartViewName>Karussell + Fanart</carouselFanartViewName>
+		<WallViewName>Hintergrundbild</WallViewName>
+		<gameCarousel>Spielkarussell + Details</gameCarousel>
+		<gameCarouselNoBoxartViewName>Spielkarussell + Details (No Boxart)</gameCarouselNoBoxartViewName>
+		<DetailedWheelName>Detailliertes Rad</DetailedWheelName>
+		<gameCarouselViewName>Spielkarussell + Details</gameCarouselViewName>
+		<WallpapersCarouselName>Hintergrundbildkarussell</WallpapersCarouselName>
+		<WallpapersHeroesName>Hintergrundbild (Fanart) + Karussell</WallpapersHeroesName>
+		<VideoFullName>Vollbildvideo</VideoFullName>
+		<tilesViewName>Fliesen</tilesViewName>
+		<tilesVideoViewName>Fliesen + Video</tilesVideoViewName>
+		<iconsViewName>Icons</iconsViewName>
+		<gridDetailsViewName>Raster + Details</gridDetailsViewName>
+		<gridDetailsMarqueeViewName>Raster + Details + Logo</gridDetailsMarqueeViewName>
+		<gridFanartViewName>Raster + Fanart</gridFanartViewName>
+		<logoDetailsViewName>Logo + Details</logoDetailsViewName>
+		<NoVideoDetailsViewName>Detailliert no Video</NoVideoDetailsViewName>
+		<DetailDarkViewName>Detailliert (dunkel)</DetailDarkViewName>
+		<subset.systembackground>Systemhintergrund</subset.systembackground>
+		<Art_169>Konsole</Art_169>
+		<CV1>Vollbildvideo</CV1>
+		<CV2>Statisches Video</CV2>
+		<ColorfulAnim>Bunt (mit Animation)</ColorfulAnim>
+		<ColorfulAnimTransparent>Bunt (mit Animation, Seitenleiste)</ColorfulAnimTransparent>
+		<ColorfulNoAnim>Bunt (ohne Animation)</ColorfulNoAnim>
+		<ColorfulNoAnimNoVideo>Bunt (ohne Animation/video)</ColorfulNoAnimNoVideo>
+		<Art2_169>Hintergrundbild</Art2_169>
+		<ColorfulViewName>Colorful (vertikal)</ColorfulViewName>
+		<ColorfulViewNameGame>Colorful + Spielliste (vertikal)</ColorfulViewNameGame>
+		<Colorful2ViewName>Colorful (horizontal)</Colorful2ViewName>
+		<Colorful2ViewNameGame>Colorful + Spieliste (horizontal)</Colorful2ViewNameGame>
+		<Colorful2-2ViewNameGame>Colorful + Gamelist (horizontal 2)</Colorful2-2ViewNameGame>
+		<DarkfulAnim>Darkful (mit Animation)</DarkfulAnim>
+		<DarkfulNoAnim>Darkful (ohne Animation)</DarkfulNoAnim>
+		<DarkfulNoAnimNoVideo>Darkful (ohne Animation)</DarkfulNoAnimNoVideo>
+		<helpSubsetName>Symbol Schaltflächen</helpSubsetName>
+		<helpbuttons>Schaltflächen</helpbuttons>
+		<xboxbuttons>XBOX</xboxbuttons>
+		<psxbuttons>PlayStation</psxbuttons>
+		<psxbuttons_color>PlayStation (farbig)</psxbuttons_color>
+		<arcadebuttons>Arcade</arcadebuttons>
+		<ninbuttons>Nintendo</ninbuttons>
+		<stbuttons>Standard</stbuttons>
+		<gamelist_logo>Animationslogo</gamelist_logo>
+		<On_Logo>An (Ränder)</On_Logo>
+		<On_Logo2>An (ohne schwarze Ränder)</On_Logo2>
+		<On_Logo3>An</On_Logo3>
+		<Off_Logo>Aus</Off_Logo>
+		<arrows>Pfeile zur Navigation auf/ab</arrows>
+		<on_arrows>An</on_arrows>
+		<off_arrows>Aus</off_arrows>
+		<subset.blurfx>Blur FX (Unschärfe aktivieren)</subset.blurfx>
+		<yes>Ja</yes>
+		<no>NEIN</no>
+		<contentViewName>Inhalt</contentViewName>
+		<contentBackground>Inhalt Hintergrund</contentBackground>
+		<fanart>Fanart</fanart>
+		<thumbnail>Vorschaubild</thumbnail>
+		<none>Keine</none>
+	</variables>
+
+	<!-- Spanish -->
+	<variables lang="es">
+		<subset.colorset>Color del elemento del menú</subset.colorset>
+		<subset.sysbgcolor>Color de fondos</subset.sysbgcolor>
+		<blue>Azul</blue>
+		<red>Rojo</red>
+		<green>Verde</green>
+		<yellow>Amarillo</yellow>
+		<violet>Violeta</violet>
+		<cyan>Cian</cyan>
+		<orange>Naranja</orange>
+		<gray>Gris</gray>
+		<subset.systemview>Tipo de logotipos de sistemas</subset.systemview>
+		<swheel>Rueda</swheel>
+		<swheelanim>Rueda (con animación)</swheelanim>
+		<swheelleft>Rueda izquierda</swheelleft>
+		<swheelleftanim>Rueda izquierda (con animación)</swheelleftanim>
+		<svertical>Vertical</svertical>
+		<sverticalanim>Vertical (con animación)</sverticalanim>
+		<sverticalleft>Rueda Vertical Izquierda</sverticalleft>
+		<sverticalleftanim>Rueda Vertical Izquierda (con animación)</sverticalleftanim>
+		<shorizontal>Horizontal</shorizontal>
+		<shorizontalanim>Horizontal (con animación)</shorizontalanim>
+		<scenter>Centrado</scenter>
+		<ssimple>Sencillo (con animación)</ssimple>
+		<carouselViewName>Carrusel</carouselViewName>
+		<carouselDetailsViewName>Carrusel + Detalles</carouselDetailsViewName>
+		<carouselDetailsMarqueeViewName>Carrusel + Detalles + Logo</carouselDetailsMarqueeViewName>
+		<carouselFanartViewName>Carrusel + Fanart</carouselFanartViewName>
+		<WallViewName>Fondo de pantalla</WallViewName>
+		<gameCarousel>Carrusel de Juegos + Detalles</gameCarousel>
+		<gameCarouselNoBoxartViewName>Carrusel de Juegos + Detalles (No Boxart)</gameCarouselNoBoxartViewName>
+		<DetailedWheelName>Rueda con Detalles</DetailedWheelName>
+		<gameCarouselViewName>Carrusel de Juegos + Detalles</gameCarouselViewName>
+		<WallpapersCarouselName>Carrusel de Fondos de pantalla</WallpapersCarouselName>
+		<WallpapersHeroesName>Fondos de pantalla (Fanart) + Carrusel</WallpapersHeroesName>
+		<VideoFullName>Vídeo a pantalla completa</VideoFullName>
+		<tilesViewName>Mosaico</tilesViewName>
+		<tilesVideoViewName>Mosaico + Video</tilesVideoViewName>
+		<iconsViewName>Iconos</iconsViewName>
+		<gridDetailsViewName>Cuadrícula + Detalles</gridDetailsViewName>
+		<gridDetailsMarqueeViewName>Cuadrícula + Detalles + Logo</gridDetailsMarqueeViewName>
+		<gridFanartViewName>Cuadrícula + Fanart</gridFanartViewName>
+		<logoDetailsViewName>Logo + Detalles</logoDetailsViewName>
+		<NoVideoDetailsViewName>Detallado sin Video</NoVideoDetailsViewName>
+		<DetailDarkViewName>Detallado (oscuro)</DetailDarkViewName>
+		<subset.systembackground>Imagen de Fondo</subset.systembackground>
+		<Art_169>Consola</Art_169>
+		<CV1>Video a Pantalla Completa</CV1>
+		<CV2>Video Estático</CV2>
+		<ColorfulAnim>Colorido (con animación)</ColorfulAnim>
+		<ColorfulAnimTransparent>Colorido (con animación, barra lateral)</ColorfulAnimTransparent>
+		<ColorfulNoAnim>Colorido (sin animación)</ColorfulNoAnim>
+		<ColorfulNoAnimNoVideo>Colorido (sin animación/vídeo)</ColorfulNoAnimNoVideo>
+		<Art2_169>Wallpaper</Art2_169>
+		<ColorfulViewName>Colorido (vertical)</ColorfulViewName>
+		<ColorfulViewNameGame>Colorido + Lista de Juegos (vertical)</ColorfulViewNameGame>
+		<Colorful2ViewName>Colorido (horizontal)</Colorful2ViewName>
+		<Colorful2ViewNameGame>Colorido + Lista de Juegos (horizontal)</Colorful2ViewNameGame>
+		<Colorido2-2ViewNameGame>Colorido + Lista de Juegos (horizontal 2)</Colorido2-2ViewNameGame>
+		<DarkfulAnim>Darkful (con animación)</DarkfulAnim>
+		<DarkfulNoAnim>Darkful (sin animación)</DarkfulNoAnim>
+		<DarkfulNoAnimNoVideo>Darkful (sin animación/vídeo)</DarkfulNoAnimNoVideo>
+		<helpSubsetName>Icono Botones</helpSubsetName>
+		<helpbuttons>Botones</helpbuttons>
+		<xboxbuttons>XBOX</xboxbuttons>
+		<psxbuttons>PlayStation</psxbuttons>
+		<psxbuttons_color>PlayStation (color)</psxbuttons_color>
+		<arcadebuttons>Arcade</arcadebuttons>
+		<ninbuttons>Nintendo</ninbuttons>
+		<stbuttons>Estándar</stbuttons>
+		<gamelist_logo>Logos Animados</gamelist_logo>
+		<On_Logo>Activado (con bordes)</On_Logo>
+		<On_Logo2>Activado (sin bordes negros)</On_Logo2>
+		<On_Logo3>Activado</On_Logo3>
+		<Off_Logo>Desactivado</Off_Logo>
+		<arrows>Flechas de navegación arriba/abajo</arrows>
+		<on_arrows>Activado</on_arrows>
+		<off_arrows>Desactivado</off_arrows>
+		<subset.blurfx>Blur FX (habilitar desenfoque)</subset.blurfx>
+		<yes>Sí</yes>
+		<no>No</no>
+		<contentViewName>Contenido</contentViewName>
+		<contentBackground>Contenido Fondo</contentBackground>
+		<fanart>Fanart</fanart>
+		<thumbnail>Miniaturas</thumbnail>
+		<none>Ninguno</none>
+	</variables>
+</theme>

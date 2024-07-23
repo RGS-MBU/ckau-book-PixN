@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+
+	<view name="menu">
+		<menuText name="menutext" extra="true">
+			<fontSize>0.0415</fontSize>
+			<color>969696</color>
+			<separatorColor>363636FF</separatorColor>
+			<selectorColor>${baseColor}</selectorColor>
+			<selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+			<selectedColor>FFFFFF</selectedColor>
+			<selectorGradientType>horizontal</selectorGradientType>
+		</menuText>
+		<menuTextSmall name="menutextsmall" extra="true">
+			<fontSize>0.03</fontSize>
+			<color>deec00</color>
+		</menuTextSmall>
+	</view>
+
+</theme>
