@@ -49,7 +49,9 @@
 			<path>./../../_inc/images/space.png</path>
 			<color>cccccc</color>
 		</image>
-		<image name="md_thumbnail">
+		<image name="thumbnail-detailed" extra="true">
+			<path>{game:thumbnail}</path>
+			<visible>true</visible>
 			<origin>0.5 1</origin>
 			<pos>0.18 0.6777777777777778</pos>
 			<maxSize>0.3078125 0.585</maxSize>

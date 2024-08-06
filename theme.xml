@@ -241,39 +241,8 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 <!-- Game views -->
 	<include>./_inc/views/basic.xml</include>
 	<include>./_inc/views/detailed.xml</include>
-	<include>./_inc/views/Detailed Dark.xml</include>
-	<include>./_inc/views/Detailed No Video.xml</include>
 	<include>./_inc/views/gamecarousel.xml</include>
-	<include>./_inc/views/DetailedWheel.xml</include>
-	<include>./_inc/views/gamecarousel No Boxart.xml</include>
 	<include>./_inc/views/grid.xml</include>
-	<include>./_inc/views/Grid + Details.xml</include>
-	<include>./_inc/views/Grid + Details + Marquee.xml</include>
-	<include>./_inc/views/Grid + Fanart.xml</include>
-	<include>./_inc/views/Logo + Details.xml</include>
-	<include>./_inc/views/Wallpapers.xml</include>
-	<include>./_inc/views/WallpapersCarousel.xml</include>
-	<include>./_inc/views/WallpapersHeroes.xml</include>
-	<include>./_inc/views/VideoFull.xml</include>
-	<include>./_inc/views/Carousel.xml</include>
-	<include>./_inc/views/Carousel + Details.xml</include>
-	<include>./_inc/views/Carousel + Details + Marquee.xml</include>
-	<include>./_inc/views/Carousel + Fanart.xml</include>
-	<include>./_inc/views/Tiles.xml</include>
-	<include>./_inc/views/Tiles + Video.xml</include>
-	<include>./_inc/views/Icons.xml</include>
-	<include>./_inc/views/Colorful (vertically).xml</include>
-	<include>./_inc/views/Colorful + Gamelist (vertically).xml</include>
-	<include>./_inc/views/Colorful + Wheel Left (vertically).xml</include>
-	<include>./_inc/views/Colorful + Wheel Right (vertically).xml</include>
-	<include>./_inc/views/Colorful (horizontally).xml</include>
-	<include>./_inc/views/Colorful + Gamelist (horizontally).xml</include>
-	<include>./_inc/views/Colorful + Gamelist (horizontally 2).xml</include>
-	<include>./_inc/views/Colorful + Wheel Left (horizontally).xml</include>
-	<include>./_inc/views/Colorful + Wheel Right (horizontally).xml</include>
-
-<!-- Presets -->
-	<include>./_inc/presets/${system.theme}.xml</include>
 
 <!-- Game views (common elements) -->
 	<view name="basic,detailed,grid,gamecarousel">
@@ -316,7 +285,7 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 	</subset>
 
 <!-- Icon animations in gameviews -->
-	<customView name="Colorful + Wheel Right (horizontally), Colorful + Wheel Left (horizontally), Colorful + Gamelist (horizontally), Colorful + Gamelist (horizontally 2), Colorful (horizontally), Colorful + Wheel Right (vertically), Colorful + Wheel Left (vertically), Colorful + Gamelist (vertically), Colorful (vertically)">
+<!-- 	<customView name="Colorful + Wheel Right (horizontally), Colorful + Wheel Left (horizontally), Colorful + Gamelist (horizontally), Colorful + Gamelist (horizontally 2), Colorful (horizontally), Colorful + Wheel Right (vertically), Colorful + Wheel Left (vertically), Colorful + Gamelist (vertically), Colorful (vertically)">
 			<image name="gametime_logo,genre_logo,developer_logo,playcount_logo,publisher_logo,release_date_logo,md_kidgame,md_notkidgame,md_hidden,md_savestate,md_nosavestate,md_cheevos,md_notcheevos,md_manual,md_nomanual,md_flag">
 				<storyboard>
 					<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
@@ -342,7 +311,7 @@ originally based on:	art from "Colorful" by viking (https://forums.launchbox-app
 					<animation property="opacity" from="0" to="1" begin="1500" duration="2000" mode="EaseIn"/>
 				</storyboard>
 			</rating>
-	</customView>
+	</customView> -->
 
 <!-- Custom scroll sound -->
 	<include>./_inc/views/ScrollSound.xml</include>
