@@ -146,6 +146,7 @@
 		<sysColor if="${system.theme} == 'gbc2players'">f5ba2d</sysColor>
 		<sysColor if="${system.theme} == 'gbh'">e03e3a</sysColor>
 		<sysColor if="${system.theme} == 'gc'">9583f0</sysColor>
+		<sysColor if="${system.theme} == 'gc-jap'">9583f0</sysColor>
 		<sysColor if="${system.theme} == 'genesis'">0e7cce</sysColor>
 		<sysColor if="${system.theme} == 'genh'">0e7cce</sysColor>
 		<sysColor if="${system.theme} == 'ggh'">3770b2</sysColor>
@@ -265,6 +266,7 @@
 		<sysColor if="${system.theme} == 'pcengine'">596358</sysColor>
 		<sysColor if="${system.theme} == 'pcenginecd'">ff9a46</sysColor>
 		<sysColor if="${system.theme} == 'pcfx'">9579db</sysColor>
+		<sysColor if="${system.theme} == 'pcvr'">6b8b99</sysColor>
 		<sysColor if="${system.theme} == 'pdp1'">5f8fc8</sysColor>
 		<sysColor if="${system.theme} == 'pegasus'">5b6559</sysColor>
 		<sysColor if="${system.theme} == 'pecom64'">486278</sysColor>
