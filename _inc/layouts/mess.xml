@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<!-- fix bg color -->
+		<image name="sysbg-fix" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<maxSize>1 1</maxSize>
+			<scale if="${screen.ratio} == '16/10'">0.9</scale>
+			<scale if="${screen.ratio} == '4/3'">0.75</scale>
+			<path>./../../_inc/anim/auto-fix.png</path>
+			<zIndex>26</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.22 0.5" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+
+		<image name="sysbg-video" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
+			<zIndex>3</zIndex>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.492</pos>
+			<maxSize>0.6</maxSize>
+			<storyboard>
+				<animation property="pos" to="0.22 0.492" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<video name="videobox" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../_inc/anim/video/${system.theme}-${lang}.mp4</path>
+			<path>./../../_inc/anim/video/${synonym}.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}-${lang}.mp4</path>
+			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}.mp4</path>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.48</origin>
+			<pos>0.508 0.492</pos>
+			<maxSize>0.103</maxSize>
+			<rotation>-2</rotation>
+			<zIndex>26</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.228 0.492" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<video name="videobox2" extra="true">
+			<path>./../../_inc/anim/video/favorites2.mp4</path>
+			<path>./../../../ckau-book-addons/_inc/anim/video/favorites2.mp4</path>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<pos>0.49 0.4929</pos>
+			<maxSize>0.555</maxSize>
+			<zIndex>25</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.21 0.4929" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<text name="TextDate" extra="true">
+			<text/>
+		</text>
+		<text name="TextManufacturer" extra="true">
+			<text>MAME Team</text>
+			<text lang="pl">Kolekcja</text>
+			<text lang="ru">Коллекция</text>
+			<text lang="es">Recopilación</text>
+			<text lang="fr">Collection</text>
+			<text lang="it">Collezione</text>
+		</text>
+		<text name="TextName" extra="true">
+			<text>MESS</text>
+			<text lang="pl">MESS</text>
+			<text lang="ru">MESS</text>
+			<text lang="es">MESS</text>
+			<text lang="fr">MESS</text>
+			<text lang="it">MESS</text>
+		</text>
+		<text name="TextDesc" extra="true">
+			<text>Multi Emulator Super System (MESS) was an emulator for various consoles and computer systems, based on the MAME core. It used to be a standalone program, but is now integrated into MAME. MESS emulated portable and console gaming systems, computer platforms, and calculators..</text>
+			<text lang="pl">Multi Emulator Super System (MESS) był emulatorem różnych konsol i systemów komputerowych, opartym na rdzeniu MAME. Kiedyś był to samodzielny program, ale teraz jest zintegrowany z MAME. Przenośne i konsolowe systemy do gier, platformy komputerowe i kalkulatory emulowane przez MESS.</text>
+			<text lang="ru">Multi Emulator Super System (MESS) — эмулятор различных консолей и компьютерных систем, основанный на ядре MAME. Раньше это была отдельная программа, но теперь она интегрирована в MAME. MESS эмулировала портативные и консольные игровые системы, компьютерные платформы и калькуляторы.</text>
+			<text lang="es">Multi Emulator Super System (MESS) era un emulador para varias consolas y sistemas informáticos, basado en el núcleo MAME. Solía ​​ser un programa independiente, pero ahora está integrado en MAME. MESS emuló sistemas de juegos, plataformas informáticas y calculadoras portátiles y de consola.</text>
+			<text lang="de">Multi Emulator Super System (MESS) war ein Emulator für verschiedene Konsolen und Computersysteme, basierend auf dem MAME-Kern. Früher war es ein eigenständiges Programm, jetzt ist es in MAME integriert. MESS emulierte tragbare und Konsolenspielsysteme, Computerplattformen und Taschenrechner.</text>
+			<text lang="fr">Multi Emulator Super System (MESS) était un émulateur pour diverses consoles et systèmes informatiques, basé sur le noyau MAME. Il s'agissait auparavant d'un programme autonome, mais il est désormais intégré à MAME. MESS émulait des systèmes de jeux portables et sur consoles, des plates-formes informatiques et des calculatrices.</text>
+			<text lang="it">Multi Emulator Super System (MESS) era un emulatore per varie console e sistemi informatici, basato sul core MAME. In passato era un programma autonomo, ma ora è integrato in MAME. MESS emulava sistemi di gioco portatili e console, piattaforme di computer e calcolatrici.</text>
+		</text>
+	</view>
+</theme>
