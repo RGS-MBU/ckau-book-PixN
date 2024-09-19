@@ -34,7 +34,7 @@ github:			https://github.com/CkauNui/ckau-book
 			<zIndex>140</zIndex>
 		</text>
 		<text name="TextAddon" extra="true">
-			<text>Addons: 4K Images, HD videos, Collections and more!</text>
+			<text></text>
 			<text lang="pl">Dodatki: Obrazy 4K, Filmy HD, Kolekcje i wiele więcej!</text>
 			<text lang="ru">Аддоны: 4K-изображения, HD-видео, коллекции и многое другое!</text>
 			<text lang="es">Complementos: Imágenes 4K, vídeos HD, colecciones y mucho más.</text>
