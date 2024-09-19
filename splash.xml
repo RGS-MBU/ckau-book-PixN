@@ -21,15 +21,15 @@ github:			https://github.com/CkauNui/ckau-book
 <view name="splash">
 		<text name="TextGithub" extra="true">
 			<text>GitHub.com/CkauNui/ckau-book</text>
+			<color>FFFFFF59</color>
 			<alignment>center</alignment>
 			<pos>0 0.05</pos>
 			<size>1 0.034</size>
-			<fontSize>0.03</fontSize>
-			<fontPath>./_inc/fonts/Gilroy-Bold.ttf</fontPath>
-			<color>d9d9d9</color>
-			<glowColor>000000</glowColor>
-			<glowSize>1</glowSize>
-			<glowOffset>3 2</glowOffset>
+			<fontSize>0.038</fontSize>
+			<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+			<glowColor>00000018</glowColor>
+			<glowSize>0.1</glowSize>
+			<glowOffset>0</glowOffset>
 			<zIndex>140</zIndex>
 			<zIndex>140</zIndex>
 		</text>
@@ -58,7 +58,7 @@ github:			https://github.com/CkauNui/ckau-book
 		<image name="background">
 			<path>./_inc/images/splash.jpg</path>
 		</image>
-
+		<!--
 		<image name="progressbar">
 			<origin>0 0</origin>
 			<pos>0.2005208333333333 0.9</pos>
@@ -77,7 +77,25 @@ github:			https://github.com/CkauNui/ckau-book
 			<gradientType>horizontal</gradientType>
 			<zIndex>7</zIndex>
 		</image>
-
+		-->
+		<image name="progressbarbg" extra="true">
+			<color>00abff</color>
+			<colorEnd>330099</colorEnd>
+			<zIndex>5</zIndex>
+		</image>
+		<image name="progressbar">
+			<color>ffffff00</color>
+			<origin>0.5 0.5</origin>
+			 <size>0.69 0.011</size>
+			 <pos>0.51 0.9</pos>
+			<colorEnd>ffffff00</colorEnd>
+			</image>
+		<image name="progressbar:active">
+			<color>ffffff00</color>
+			<colorEnd>ffffff00</colorEnd>
+			<zIndex>7</zIndex>
+		</image>
+		<!--
 		<text name="label">
 			<fontPath>./_inc/fonts/Gilroy-Bold.ttf</fontPath>
 			<color>d9d9d9</color>
@@ -85,7 +103,18 @@ github:			https://github.com/CkauNui/ckau-book
 			<glowSize>1</glowSize>
 			<glowOffset>3 2</glowOffset>
 		</text>
-		
+		-->
+		<text name="label">
+		  <color>FFFFFF59</color>
+		  <origin>0.5 0.5</origin>
+		  <alignment>center</alignment>
+		  <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+	      <pos>0.5 0.94</pos>
+		  <fontSize>0.038</fontSize>
+		  <glowColor>00000018</glowColor>
+		  <glowSize>0.1</glowSize>
+		  <glowOffset>0</glowOffset>
+		</text>
 		<text name="cheevosUser" extra="true">
 			<text>${cheevos.username}</text>
 			<pos>0 0.18</pos>
