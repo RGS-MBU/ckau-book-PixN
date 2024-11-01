@@ -343,6 +343,8 @@
 		<sysColor if="${system.theme} == 'socrates'">2f7bc7</sysColor>
 		<sysColor if="${system.theme} == 'solarus'">332364</sysColor>
 		<sysColor if="${system.theme} == 'sonicretro'">3770b2</sysColor>
+		<sysColor if="${system.theme} == 'sonic3-air'">3770b2</sysColor>
+		<sysColor if="${system.theme} == 'sonic-mania'">3770b2</sysColor>
 		<sysColor if="${system.theme} == 'sorcerer'">889cb3</sysColor>
 		<sysColor if="${system.theme} == 'spectravideo'">c12e3d</sysColor>
 		<sysColor if="${system.theme} == 'steam'">215d90</sysColor>
