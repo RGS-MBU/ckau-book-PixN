@@ -54,7 +54,19 @@
 		<sysColor if="${system.theme} == 'auto-neverplayed'">77858f</sysColor>
 		<sysColor if="${system.theme} == 'auto-retroachievements'">5c61bd</sysColor>
 		<sysColor if="${system.theme} == 'auto-verticalarcade'">e8bb42</sysColor>
-		<sysColor if="${system.theme} == 'auto-wheel'">cc3333</sysColor>  
+		<sysColor if="${system.theme} == 'auto-wheel'">cc3333</sysColor>
+		<sysColor if="${system.theme} == '3players'">82cdea</sysColor>
+		<sysColor if="${system.theme} == '4players'">de9a39</sysColor>
+		<sysColor if="${system.theme} == 'arcade-classics'">ce413e</sysColor>
+		<sysColor if="${system.theme} == 'arcade-killer'">7e5bd6</sysColor>
+		<sysColor if="${system.theme} == 'beatemup'">ce3d3d</sysColor>
+		<sysColor if="${system.theme} == 'fighting'">d64444</sysColor>
+		<sysColor if="${system.theme} == 'platform'">77858f</sysColor>
+		<sysColor if="${system.theme} == 'puzzle'">5c61bd</sysColor>
+		<sysColor if="${system.theme} == 'run-and-gun'">e8bb42</sysColor>
+		<sysColor if="${system.theme} == 'shumps-horizontal'">cc3333</sysColor> 
+		<sysColor if="${system.theme} == 'shumps-vertical'">82cdea</sysColor>
+		<sysColor if="${system.theme} == 'sports'">de9a39</sysColor>
 		<sysColor if="${system.theme} == 'avgn'">f5bb1a</sysColor>
 		<sysColor if="${system.theme} == 'batocera'">5e61b9</sysColor>
 		<sysColor if="${system.theme} == 'batoparrot'">0a6043</sysColor>
