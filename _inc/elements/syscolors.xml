@@ -10,6 +10,7 @@
 		<sysColor if="${system.theme} == 'abuse'">6d2216</sysColor>
 		<sysColor if="${system.theme} == 'actionmax'">7c848d</sysColor>
 		<sysColor if="${system.theme} == 'adam'">5a93af</sysColor>
+		<sysColor if="${system.theme} == 'adrenaline'">0078b2</sysColor>
 		<sysColor if="${system.theme} == 'advision'">d1a941</sysColor>
 		<sysColor if="${system.theme} == 'aleck64'">9ebbf6</sysColor>
 		<sysColor if="${system.theme} == 'alice32'">5b6559</sysColor>
@@ -24,6 +25,7 @@
 		<sysColor if="${system.theme} == 'amstradcpc'">26619c</sysColor>
 		<sysColor if="${system.theme} == 'android'">5a9035</sysColor>
 		<sysColor if="${system.theme} == 'apfm1000'">0a6043</sysColor>
+		<sysColor if="${system.theme} == 'apogeebk01'">5a93af</sysColor>
 		<sysColor if="${system.theme} == 'apple2'">26a9e1</sysColor>
 		<sysColor if="${system.theme} == 'apple2gs'">4f65d2</sysColor>
 		<sysColor if="${system.theme} == 'appleios'">f99f46</sysColor>
@@ -38,6 +40,7 @@
 		<sysColor if="${system.theme} == 'atari2600'">8481ab</sysColor>
 		<sysColor if="${system.theme} == 'atari5200'">ce3d3d</sysColor>
 		<sysColor if="${system.theme} == 'atari7800'">2f7bc7</sysColor>
+		<sysColor if="${system.theme} == 'atari7800-us'">2f7bc7</sysColor>
 		<sysColor if="${system.theme} == 'atari800'">cf9243</sysColor>
 		<sysColor if="${system.theme} == 'atarijaguar'">d1a941</sysColor>
 		<sysColor if="${system.theme} == 'atarijaguarcd'">2f7bc7</sysColor>
@@ -45,28 +48,35 @@
 		<sysColor if="${system.theme} == 'atarist'">3871c5</sysColor>
 		<sysColor if="${system.theme} == 'atom'">5e61b9</sysColor>
 		<sysColor if="${system.theme} == 'atomiswave'">30ae6e</sysColor>
+		<sysColor if="${system.theme} == 'auto-action'">d1a941</sysColor>
+		<sysColor if="${system.theme} == 'auto-adventure'">5b6559</sysColor>
 		<sysColor if="${system.theme} == 'auto-allgames'">82cdea</sysColor>
 		<sysColor if="${system.theme} == 'auto-at2players'">de9a39</sysColor>
 		<sysColor if="${system.theme} == 'auto-at4players'">ce413e</sysColor>
+		<sysColor if="${system.theme} == 'auto-beatemup'">d64444</sysColor>
 		<sysColor if="${system.theme} == 'auto-favorites'">ce3d3d</sysColor>
+		<sysColor if="${system.theme} == 'auto-fight'">8481ab</sysColor>
+		<sysColor if="${system.theme} == 'auto-huntingandfishing'">d7ab3c</sysColor>
 		<sysColor if="${system.theme} == 'auto-lastplayed'">7e5bd6</sysColor>
 		<sysColor if="${system.theme} == 'auto-lightgun'">d64444</sysColor>
 		<sysColor if="${system.theme} == 'auto-neverplayed'">77858f</sysColor>
+		<sysColor if="${system.theme} == 'auto-platform'">009f42</sysColor>
+		<sysColor if="${system.theme} == 'auto-pinball'">5e61b9</sysColor>
+		<sysColor if="${system.theme} == 'auto-playingcards'">cf9243</sysColor>
+		<sysColor if="${system.theme} == 'auto-puzzle'">c53745</sysColor>
+		<sysColor if="${system.theme} == 'auto-quiz'">878c92</sysColor>
+		<sysColor if="${system.theme} == 'auto-racedriving'">d1a941</sysColor>
+		<sysColor if="${system.theme} == 'auto-reflection'">2671c6</sysColor>
 		<sysColor if="${system.theme} == 'auto-retroachievements'">5c61bd</sysColor>
+		<sysColor if="${system.theme} == 'auto-roleplayings'">18abd0</sysColor>
+		<sysColor if="${system.theme} == 'auto-runandgun'">e8bb42</sysColor>
+		<sysColor if="${system.theme} == 'auto-shootemup'">5f8fc8</sysColor>
+		<sysColor if="${system.theme} == 'auto-shooter'">309496</sysColor>
+		<sysColor if="${system.theme} == 'auto-sports'">377fde</sysColor>
+		<sysColor if="${system.theme} == 'auto-sportswithanimals'">5a93af</sysColor>
+		<sysColor if="${system.theme} == 'auto-strategy'">b93141</sysColor>
 		<sysColor if="${system.theme} == 'auto-verticalarcade'">e8bb42</sysColor>
 		<sysColor if="${system.theme} == 'auto-wheel'">cc3333</sysColor>
-		<sysColor if="${system.theme} == '3players'">82cdea</sysColor>
-		<sysColor if="${system.theme} == '4players'">de9a39</sysColor>
-		<sysColor if="${system.theme} == 'arcade-classics'">ce413e</sysColor>
-		<sysColor if="${system.theme} == 'arcade-killer'">7e5bd6</sysColor>
-		<sysColor if="${system.theme} == 'beatemup'">ce3d3d</sysColor>
-		<sysColor if="${system.theme} == 'fighting'">d64444</sysColor>
-		<sysColor if="${system.theme} == 'platform'">77858f</sysColor>
-		<sysColor if="${system.theme} == 'puzzle'">5c61bd</sysColor>
-		<sysColor if="${system.theme} == 'run-and-gun'">e8bb42</sysColor>
-		<sysColor if="${system.theme} == 'shumps-horizontal'">cc3333</sysColor> 
-		<sysColor if="${system.theme} == 'shumps-vertical'">82cdea</sysColor>
-		<sysColor if="${system.theme} == 'sports'">de9a39</sysColor>
 		<sysColor if="${system.theme} == 'avgn'">f5bb1a</sysColor>
 		<sysColor if="${system.theme} == 'batocera'">5e61b9</sysColor>
 		<sysColor if="${system.theme} == 'batoparrot'">0a6043</sysColor>
@@ -98,6 +108,7 @@
 		<sysColor if="${system.theme} == 'clonehero'">426d7b</sysColor>
 		<sysColor if="${system.theme} == 'coco'">d1aa41</sysColor>
 		<sysColor if="${system.theme} == 'colecovision'">de5d40</sysColor>
+		<sysColor if="${system.theme} == 'commanderx16'">727099</sysColor>
 		<sysColor if="${system.theme} == 'corsixth'">de5d40</sysColor>
 		<sysColor if="${system.theme} == 'cpc464p'">26619c</sysColor>
 		<sysColor if="${system.theme} == 'cplus4'">5a93af</sysColor>
@@ -126,6 +137,8 @@
 		<sysColor if="${system.theme} == 'electron'">3f9b5b</sysColor>
 		<sysColor if="${system.theme} == 'elektronika'">8ea7ae</sysColor>
 		<sysColor if="${system.theme} == 'ep128'">31b06f</sysColor>
+		<sysColor if="${system.theme} == 'etlegacy'">5f665d</sysColor>
+		<sysColor if="${system.theme} == 'exaarcadia'">414141</sysColor>
 		<sysColor if="${system.theme} == 'exboard'">449cec</sysColor>
 		<sysColor if="${system.theme} == 'exl100'">3b92a5</sysColor>
 		<sysColor if="${system.theme} == 'fallout-ce'">458ebc</sysColor>
@@ -163,6 +176,7 @@
 		<sysColor if="${system.theme} == 'gbh'">e03e3a</sysColor>
 		<sysColor if="${system.theme} == 'gc'">9583f0</sysColor>
 		<sysColor if="${system.theme} == 'gc-jp'">9583f0</sysColor>
+		<sysColor if="${system.theme} == 'gemrb'">47574a</sysColor>
 		<sysColor if="${system.theme} == 'genesis'">0e7cce</sysColor>
 		<sysColor if="${system.theme} == 'genh'">0e7cce</sysColor>
 		<sysColor if="${system.theme} == 'ggh'">3770b2</sysColor>
@@ -188,6 +202,7 @@
 		<sysColor if="${system.theme} == 'iqueplayer'">1bb861</sysColor>
 		<sysColor if="${system.theme} == 'j2me'">f8981d</sysColor>
 		<sysColor if="${system.theme} == 'jupace'">8ea7ae</sysColor>
+		<sysColor if="${system.theme} == 'karaoke'">ba965e</sysColor>
 		<sysColor if="${system.theme} == 'kodi'">00141f</sysColor>
 		<sysColor if="${system.theme} == 'konamilcd'">0a6043</sysColor>
 		<sysColor if="${system.theme} == 'konamipc'">0a6043</sysColor>
@@ -245,6 +260,7 @@
 		<sysColor if="${system.theme} == 'n64dd'">1bb861</sysColor>
 		<sysColor if="${system.theme} == 'namco11'">fa584f</sysColor>
 		<sysColor if="${system.theme} == 'namco11'">fa584f</sysColor>
+		<sysColor if="${system.theme} == 'namco12'">42606b</sysColor>
 		<sysColor if="${system.theme} == 'namco22'">fa584f</sysColor>
 		<sysColor if="${system.theme} == 'namco2x6'">666666</sysColor>
 		<sysColor if="${system.theme} == 'namcoes3'">d64444</sysColor>
@@ -270,9 +286,12 @@
 		<sysColor if="${system.theme} == 'nomad'">c53745</sysColor>
 		<sysColor if="${system.theme} == 'odcommander'">eea147</sysColor>
 		<sysColor if="${system.theme} == 'odyssey2'">3a445f</sysColor>
+		<sysColor if="${system.theme} == 'ondra'">5a93af</sysColor>
 		<sysColor if="${system.theme} == 'openbor'">5e61b9</sysColor>
+		<sysColor if="${system.theme} == 'opengoal'">6b996d</sysColor>
 		<sysColor if="${system.theme} == 'openlara'">529caa</sysColor>
 		<sysColor if="${system.theme} == 'openjazz'">4fbe5d</sysColor>
+		<sysColor if="${system.theme} == 'orao'">3f5867</sysColor>
 		<sysColor if="${system.theme} == 'oric'">7c848d</sysColor>
 		<sysColor if="${system.theme} == 'oricatmos'">7c848d</sysColor>
 		<sysColor if="${system.theme} == 'p2000t'">889cb3</sysColor>
@@ -298,6 +317,7 @@
 		<sysColor if="${system.theme} == 'pippin'">687681</sysColor>
 		<sysColor if="${system.theme} == 'plugnplay'">00b2b2</sysColor>
 		<sysColor if="${system.theme} == 'plus4'">a279e0</sysColor>
+		<sysColor if="${system.theme} == 'pocketchallengev2'">c8a260</sysColor>
 		<sysColor if="${system.theme} == 'pocketstation'">878c92</sysColor>
 		<sysColor if="${system.theme} == 'pokemini'">5f459c</sysColor>
 		<sysColor if="${system.theme} == 'ports'">786a96</sysColor>
@@ -315,6 +335,7 @@
 		<sysColor if="${system.theme} == 'pygame'">0dd3a2</sysColor>
 		<sysColor if="${system.theme} == 'pyxel'">00a9e5</sysColor>
 		<sysColor if="${system.theme} == 'quake3'">999999</sysColor>
+		<sysColor if="${system.theme} == 'radio'">878c92</sysColor>
 		<sysColor if="${system.theme} == 'rawthrills'">ee333e</sysColor>
 		<sysColor if="${system.theme} == 'raze'">b93141</sysColor>
 		<sysColor if="${system.theme} == 'realrtcw'">606863</sysColor>
@@ -356,14 +377,13 @@
 		<sysColor if="${system.theme} == 'socrates'">2f7bc7</sysColor>
 		<sysColor if="${system.theme} == 'solarus'">332364</sysColor>
 		<sysColor if="${system.theme} == 'sonicretro'">3770b2</sysColor>
-		<sysColor if="${system.theme} == 'sonic3-air'">3770b2</sysColor>
-		<sysColor if="${system.theme} == 'sonic-mania'">3770b2</sysColor>
 		<sysColor if="${system.theme} == 'sorcerer'">889cb3</sysColor>
 		<sysColor if="${system.theme} == 'spectravideo'">c12e3d</sysColor>
 		<sysColor if="${system.theme} == 'steam'">215d90</sysColor>
 		<sysColor if="${system.theme} == 'studio2'">0a6043</sysColor>
 		<sysColor if="${system.theme} == 'sufami'">479f3e</sysColor>
 		<sysColor if="${system.theme} == 'superbroswar'">18abd0</sysColor>
+		<sysColor if="${system.theme} == 'supercharger'">3d72d3</sysColor>
 		<sysColor if="${system.theme} == 'supergrafx'">68b7dd</sysColor>
 		<sysColor if="${system.theme} == 'supervision'">37b7a0</sysColor>
 		<sysColor if="${system.theme} == 'supracan'">0dbd91</sysColor>
@@ -391,6 +411,7 @@
 		<sysColor if="${system.theme} == 'typex2'">2a7fbd</sysColor>
 		<sysColor if="${system.theme} == 'tyrian'">f5bb1a</sysColor>
 		<sysColor if="${system.theme} == 'tyrquake'">eb891c</sysColor>
+		<sysColor if="${system.theme} == 'unis'">5ba3ed</sysColor>
 		<sysColor if="${system.theme} == 'uzebox'">ce3d3d</sysColor>
 		<sysColor if="${system.theme} == 'vc4000'">0a6043</sysColor>
 		<sysColor if="${system.theme} == 'vectrex'">509ad9</sysColor>
@@ -404,11 +425,13 @@
 		<sysColor if="${system.theme} == 'videopac'">3a445f</sysColor>
 		<sysColor if="${system.theme} == 'videopacplus'">3a445f</sysColor>
 		<sysColor if="${system.theme} == 'vii'">80ccea</sysColor>
+		<sysColor if="${system.theme} == 'vircon32'">939393</sysColor>
 		<sysColor if="${system.theme} == 'virtualboy'">655dd3</sysColor>
 		<sysColor if="${system.theme} == 'vis'">3b2d47</sysColor>
 		<sysColor if="${system.theme} == 'vitaquake2'">30ae6e</sysColor>
 		<sysColor if="${system.theme} == 'vpinball'">fa584f</sysColor>
 		<sysColor if="${system.theme} == 'vsmile'">544d77</sysColor>
+		<sysColor if="${system.theme} == 'wahlap'">6a6969</sysColor>
 		<sysColor if="${system.theme} == 'wasm4'">596358</sysColor>
 		<sysColor if="${system.theme} == 'wii'">80ccea</sysColor>
 		<sysColor if="${system.theme} == 'wiiu'">59afd1</sysColor>
@@ -442,5 +465,19 @@
 		<sysColor if="${system.theme} == 'zinc'">39ddf4</sysColor>
 		<sysColor if="${system.theme} == 'zx81'">b92e34</sysColor>
 		<sysColor if="${system.theme} == 'zxspectrum'">8ea7ae</sysColor>
+		<sysColor if="${system.theme} == 'sonic3-air'">3770b2</sysColor>
+		<sysColor if="${system.theme} == 'sonic-mania'">3770b2</sysColor>
+		<sysColor if="${system.theme} == '3players'">82cdea</sysColor>
+		<sysColor if="${system.theme} == '4players'">de9a39</sysColor>
+		<sysColor if="${system.theme} == 'arcade-classics'">ce413e</sysColor>
+		<sysColor if="${system.theme} == 'arcade-killer'">7e5bd6</sysColor>
+		<sysColor if="${system.theme} == 'beatemup'">ce3d3d</sysColor>
+		<sysColor if="${system.theme} == 'fighting'">d64444</sysColor>
+		<sysColor if="${system.theme} == 'platform'">77858f</sysColor>
+		<sysColor if="${system.theme} == 'puzzle'">5c61bd</sysColor>
+		<sysColor if="${system.theme} == 'run-and-gun'">e8bb42</sysColor>
+		<sysColor if="${system.theme} == 'shumps-horizontal'">cc3333</sysColor> 
+		<sysColor if="${system.theme} == 'shumps-vertical'">82cdea</sysColor>
+		<sysColor if="${system.theme} == 'sports'">de9a39</sysColor>
 	</variables>
 </theme>
