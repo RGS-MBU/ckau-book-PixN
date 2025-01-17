@@ -479,5 +479,6 @@
 		<sysColor if="${system.theme} == 'shumps-horizontal'">cc3333</sysColor> 
 		<sysColor if="${system.theme} == 'shumps-vertical'">82cdea</sysColor>
 		<sysColor if="${system.theme} == 'sports'">de9a39</sysColor>
+		<sysColor if="${system.theme} == 'mess'">e39837</sysColor>
 	</variables>
 </theme>
