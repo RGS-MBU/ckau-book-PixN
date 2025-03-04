@@ -19,6 +19,7 @@ github:			https://github.com/CkauNui/ckau-book
 	<include subset="colorset" name="Gray" displayName="${gray}">./_inc/colors/gray.xml</include>
 
 <view name="splash">
+		<!--
 		<text name="TextGithub" extra="true">
 			<text>GitHub.com/CkauNui/ckau-book</text>
 			<color>FFFFFF59</color>
@@ -51,11 +52,14 @@ github:			https://github.com/CkauNui/ckau-book
 			<glowOffset>3 2</glowOffset>
 			<zIndex>140</zIndex>
 		</text>
-		
+		-->
 		<splash name="splash">
 			<backgroundColor>161616</backgroundColor>
 		</splash>
 		<image name="background">
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<minSize>1 1</minSize>
 			<path>./_inc/images/splash.jpg</path>
 		</image>
 		<!--
