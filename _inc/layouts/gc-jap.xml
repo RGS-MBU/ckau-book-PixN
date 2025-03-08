@@ -2,6 +2,10 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
+		<image name="sysart" extra="true">
+			<path>./../../_inc/anim/gc.png</path>
+			<path>./../../../ckau-book-addons/_inc/anim/4K/gc.png</path>
+		</image>
 		<image name="sysbg-video" extra="true">
 			<color>000000</color>
 			<path>./../../_inc/images/space43.png</path>

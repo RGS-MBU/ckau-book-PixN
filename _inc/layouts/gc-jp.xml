@@ -2,6 +2,10 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
+		<image name="sysart" extra="true">
+			<path>./../../_inc/anim/gc.png</path>
+			<path>./../../../ckau-book-addons/_inc/anim/4K/gc.png</path>
+		</image>
 		<image name="sysbg-video" extra="true">
 			<color>000000</color>
 			<path>./../../_inc/images/space43.png</path>
@@ -44,7 +48,7 @@
 			<text>Nintendo</text>
 		</text>
 		<text name="TextName" extra="true">
-			<text>GameCube (Japan)</text>
+			<text>GameCube</text>
 		</text>
 		<text name="TextDesc" extra="true">
 			<text>The Nintendo GameCube is a home video game console released by Nintendo in Japan and North America in 2001 and in PAL territories in 2002. The GameCube is Nintendo's entry in the sixth generation of video game consoles and is the successor to their previous console, the Nintendo 64. The GameCube competed with Sony's PlayStation 2 and Microsoft's Xbox.
