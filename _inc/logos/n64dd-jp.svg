@@ -4,14 +4,19 @@
    width="6185.3984"
    version="1.1"
    id="svg167380"
-   sodipodi:docname="n64dd.svg"
+   sodipodi:docname="n64dd-jp.svg"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs167384" />
+     id="defs167384">
+		
+		
+		
+		
+	</defs>
   <sodipodi:namedview
      id="namedview167382"
      pagecolor="#ffffff"
@@ -29,7 +34,7 @@
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g12"
+     inkscape:current-layer="svg167380"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1" />
   <g
@@ -38,115 +43,139 @@
     <g
        id="layer2_57_"
        transform="matrix(0.21386059,0,0,0.21386059,12.869588,-203.79659)">
-      <g
-         id="polygon3542_57_">
-        <polygon
-           class="st2"
-           points="429.5,231.7 524.1,267.9 549.4,239.5 549.4,46.3 429.5,92.8 330.5,269.6 "
-           id="polygon11"
-           style="fill:#354ea2" />
-      </g>
-      <g
-         id="polygon3558_57_">
-        <polygon
-           class="st2"
-           points="429.5,330.4 558.4,281 737.4,536.8 737.4,211.6 859.1,164.7 859.1,677 737.4,728.2 558.4,494.6 558.4,803.4 429.5,857.9 "
-           id="polygon12"
-           style="fill:#354ea2" />
-      </g>
-      <g
-         id="polygon3560_57_">
-        <polygon
-           class="st2"
-           points="121.7,455.9 121.7,728.2 235.9,677.6 "
-           id="polygon13"
-           style="fill:#354ea2" />
-      </g>
-    </g>
+			<g
+   id="polygon3542_57_">
+				<polygon
+   class="st2"
+   points="429.5,231.7 524.1,267.9 549.4,239.5 549.4,46.3 429.5,92.8 330.5,269.6 "
+   id="polygon11"
+   style="fill:#354ea2" />
+
+			</g>
+
+			<g
+   id="polygon3558_57_">
+				<polygon
+   class="st2"
+   points="429.5,330.4 558.4,281 737.4,536.8 737.4,211.6 859.1,164.7 859.1,677 737.4,728.2 558.4,494.6 558.4,803.4 429.5,857.9 "
+   id="polygon12"
+   style="fill:#354ea2" />
+
+			</g>
+
+			<g
+   id="polygon3560_57_">
+				<polygon
+   class="st2"
+   points="121.7,455.9 121.7,728.2 235.9,677.6 "
+   id="polygon13"
+   style="fill:#354ea2" />
+
+			</g>
+
+		</g>
     <g
        id="layer3_57_"
        transform="matrix(0.21386059,0,0,0.21386059,12.869588,-203.79659)">
-      <g
-         id="polygon3538_57_">
-        <polygon
-           class="st3"
-           points="309.6,46.2 243.4,164.7 300.7,281 330.5,269.6 429.5,92.8 "
-           id="polygon14"
-           style="fill:#23b057" />
-      </g>
-      <g
-         id="polygon3540_57_">
-        <polygon
-           class="st3"
-           points="558.4,281 524.1,267.9 615.7,164.7 737.4,211.6 737.4,536.8 "
-           id="polygon15"
-           style="fill:#23b057" />
-      </g>
-      <g
-         id="polygon3552_57_">
-        <polygon
-           class="st3"
-           points="121.7,455.9 300.7,803.4 429.5,857.9 429.5,330.4 300.7,281 300.7,548.8 121.7,211.6 0,164.7 0,677 121.7,728.2 "
-           id="polygon16"
-           style="fill:#23b057" />
-      </g>
-    </g>
+			<g
+   id="polygon3538_57_">
+				<polygon
+   class="st3"
+   points="309.6,46.2 243.4,164.7 300.7,281 330.5,269.6 429.5,92.8 "
+   id="polygon14"
+   style="fill:#23b057" />
+
+			</g>
+
+			<g
+   id="polygon3540_57_">
+				<polygon
+   class="st3"
+   points="558.4,281 524.1,267.9 615.7,164.7 737.4,211.6 737.4,536.8 "
+   id="polygon15"
+   style="fill:#23b057" />
+
+			</g>
+
+			<g
+   id="polygon3552_57_">
+				<polygon
+   class="st3"
+   points="121.7,455.9 300.7,803.4 429.5,857.9 429.5,330.4 300.7,281 300.7,548.8 121.7,211.6 0,164.7 0,677 121.7,728.2 "
+   id="polygon16"
+   style="fill:#23b057" />
+
+			</g>
+
+		</g>
     <g
        id="layer4_57_"
        transform="matrix(0.21386059,0,0,0.21386059,12.869588,-203.79659)">
-      <g
-         id="polygon3554_57_">
-        <polygon
-           class="st1"
-           points="121.7,211.6 243.4,164.7 300.7,281 300.7,548.8 "
-           id="polygon17"
-           style="fill:#f01b25" />
-      </g>
-      <g
-         id="polygon3556_57_">
-        <polygon
-           class="st1"
-           points="558.4,622.2 595,673.5 737.4,728.2 558.4,494.6 "
-           id="polygon18"
-           style="fill:#f01b25" />
-      </g>
-    </g>
+			<g
+   id="polygon3554_57_">
+				<polygon
+   class="st1"
+   points="121.7,211.6 243.4,164.7 300.7,281 300.7,548.8 "
+   id="polygon17"
+   style="fill:#f01b25" />
+
+			</g>
+
+			<g
+   id="polygon3556_57_">
+				<polygon
+   class="st1"
+   points="558.4,622.2 595,673.5 737.4,728.2 558.4,494.6 "
+   id="polygon18"
+   style="fill:#f01b25" />
+
+			</g>
+
+		</g>
     <g
        id="layer5_57_"
        transform="matrix(0.21386059,0,0,0.21386059,12.869588,-203.79659)">
-      <g
-         id="polygon3544_57_">
-        <polygon
-           class="st4"
-           points="300.7,281 429.5,231.7 558.4,281 429.5,330.4 "
-           id="polygon19"
-           style="fill:#ffa623" />
-      </g>
-      <g
-         id="polygon3546_57_">
-        <polygon
-           class="st4"
-           points="859.1,164.7 737.4,211.6 615.7,164.7 737.4,117.9 "
-           id="polygon20"
-           style="fill:#ffa623" />
-      </g>
-      <g
-         id="polygon3548_57_">
-        <polygon
-           class="st4"
-           points="243.4,164.7 121.7,211.6 0,164.7 121.7,117.9 "
-           id="polygon21"
-           style="fill:#ffa623" />
-      </g>
-      <g
-         id="polygon3550_57_">
-        <polygon
-           class="st4"
-           points="309.6,46.2 429.5,92.8 549.4,46.3 429.5,0 "
-           id="polygon22"
-           style="fill:#ffa623" />
-      </g>
-    </g>
+			<g
+   id="polygon3544_57_">
+				<polygon
+   class="st4"
+   points="300.7,281 429.5,231.7 558.4,281 429.5,330.4 "
+   id="polygon19"
+   style="fill:#ffa623" />
+
+			</g>
+
+			<g
+   id="polygon3546_57_">
+				<polygon
+   class="st4"
+   points="859.1,164.7 737.4,211.6 615.7,164.7 737.4,117.9 "
+   id="polygon20"
+   style="fill:#ffa623" />
+
+			</g>
+
+			<g
+   id="polygon3548_57_">
+				<polygon
+   class="st4"
+   points="243.4,164.7 121.7,211.6 0,164.7 121.7,117.9 "
+   id="polygon21"
+   style="fill:#ffa623" />
+
+			</g>
+
+			<g
+   id="polygon3550_57_">
+				<polygon
+   class="st4"
+   points="309.6,46.2 429.5,92.8 549.4,46.3 429.5,0 "
+   id="polygon22"
+   style="fill:#ffa623" />
+
+			</g>
+
+		</g>
   </g>
   <g
      transform="matrix(1.3333333,0,0,-1.3333333,2346.4008,1961.4554)"
@@ -180,12 +209,11 @@
       </g>
       <path
          id="path26"
-         style="display:none;fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 14454,13054.7 259.5,-259.5 150,150 -225.8,225.8 h 501.8 v -123 c 0,-22.5 -18,-40.5 -40.5,-40.5 h -129 v -212.3 h 240 c 78,0 141.8,63.8 141.8,141.8 v 233.2 h 312 v 164.3 h -311.3 v 72.7 h 193.5 v 585.8 h -489 v 72.7 h 607.5 V 14230 H 15057 v 95.2 h -212.2 v -95.2 h -608.3 v -164.3 h 608.3 v -72.7 h -489.1 v -585.8 h 784.5 v -72.7 h -903.7 v -164.3 h 333 z m 879.8,483.8 h -276.758 v 126.012 h 276.758 z m 0,257.2 h -276.758 v 65.977 h 276.758 z m -489,0 h -276.758 v 65.977 h 276.758 z m -276.8,-131.2 h 276.758 v -126.012 H 14568 Z" />
       <g
          transform="scale(1.05184)"
-         id="g28"
-         style="display:none">
+         id="g28">
         <path
            id="path30"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -193,8 +221,7 @@
       </g>
       <g
          transform="scale(1.15735)"
-         id="g32"
-         style="display:none">
+         id="g32">
         <path
            id="path34"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -202,8 +229,7 @@
       </g>
       <g
          transform="scale(1.17308)"
-         id="g36"
-         style="display:none">
+         id="g36">
         <path
            id="path38"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -211,8 +237,7 @@
       </g>
       <g
          transform="scale(1.50014)"
-         id="g40"
-         style="display:none">
+         id="g40">
         <path
            id="path42"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -220,8 +245,7 @@
       </g>
       <g
          transform="scale(1.5785)"
-         id="g44"
-         style="display:none">
+         id="g44">
         <path
            id="path46"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -229,8 +253,7 @@
       </g>
       <g
          transform="scale(1.67071)"
-         id="g48"
-         style="display:none">
+         id="g48">
         <path
            id="path50"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -238,8 +261,7 @@
       </g>
       <g
          transform="scale(1.14115)"
-         id="g52"
-         style="display:none">
+         id="g52">
         <path
            id="path54"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -247,8 +269,7 @@
       </g>
       <g
          transform="scale(1.23133)"
-         id="g56"
-         style="display:none">
+         id="g56">
         <path
            id="path58"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -256,8 +277,7 @@
       </g>
       <g
          transform="scale(1.31945)"
-         id="g60"
-         style="display:none">
+         id="g60">
         <path
            id="path62"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -265,8 +285,7 @@
       </g>
       <g
          transform="scale(1.48348)"
-         id="g64"
-         style="display:none">
+         id="g64">
         <path
            id="path66"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -274,8 +293,7 @@
       </g>
       <g
          transform="scale(1.49922)"
-         id="g68"
-         style="display:none">
+         id="g68">
         <path
            id="path70"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -283,8 +301,7 @@
       </g>
       <g
          transform="scale(1.76641)"
-         id="g72"
-         style="display:none">
+         id="g72">
         <path
            id="path74"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -292,8 +309,7 @@
       </g>
       <g
          transform="scale(1.58535)"
-         id="g76"
-         style="display:none">
+         id="g76">
         <path
            id="path78"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -301,8 +317,7 @@
       </g>
       <g
          transform="scale(1.39799)"
-         id="g80"
-         style="display:none">
+         id="g80">
         <path
            id="path82"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -310,8 +325,7 @@
       </g>
       <g
          transform="scale(1.74856)"
-         id="g84"
-         style="display:none">
+         id="g84">
         <path
            id="path86"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -359,20 +373,19 @@
          d="m 6701.25,13114 h -575.23 v 167.3 h 513.75 v 383.9 h -513.75 v 156.8 h 557.96 v 395.2 h -1110 v -1495.5 h 1127.27 z" />
       <path
          id="path108"
-         style="display:none;fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 15333,1481.48 h 153.75 V 1945 H 15333 Z" />
       <path
          id="path110"
-         style="display:none;fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 15681.8,1481.48 h 153.75 V 1945 h -153.75 z" />
       <path
          id="path112"
-         style="display:none;fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 13934.3,993.98 h 751.4 V 779.492 c 0,-190.512 47.3,-301.523 -570,-497.262 L 14202,6.25 c 453,116.25 817.5,249.73 817.5,773.242 V 993.98 h 626.2 v 333.75 h -1711.4 z" />
       <g
          transform="scale(1.14801)"
-         id="g114"
-         style="display:none">
+         id="g114">
         <path
            id="path116"
            style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -380,20 +393,19 @@
       </g>
       <path
          id="path118"
-         style="display:none;fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 14181,1576.72 h 947.23 v 333.75 H 14181 Z" />
       <path
          id="path120"
-         style="display:none;fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 9384.77,1482.97 h 1165.43 v -405 H 9444.77 V 744.219 H 10550.2 V 340 H 9383.98 V 6.25 H 10884 v 1476.72 h 0.8 v 333.75 H 9384.77 Z" />
       <path
          id="path122"
-         style="display:none;fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 6857.27,1816.72 h -1500 v -333.75 h 0.74 V 6.25 h 1500 v 1587.73 h -0.74 z M 5691.02,1482.97 h 832.5 V 340 h -832.5 z" />
       <g
          transform="scale(1.05612)"
-         id="g124"
-         style="display:none">
+         id="g124">
         <path
            id="path126"
            style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -401,12 +413,11 @@
       </g>
       <path
          id="path128"
-         style="display:none;fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 11364.8,333.242 c 0,0 45.7,-295.5115 50.9,-327.77325 C 12573,62.5 12828,392.5 12925.5,1310.47 l -315,91.52 c -21,-605.271 -199.5,-893.24 -556.5,-1008.01 -171,-54.761 -434.2,-69.761 -689.2,-60.738 z" />
       <g
          transform="scale(1.27035)"
-         id="g130"
-         style="display:none">
+         id="g130">
         <path
            id="path132"
            style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -414,8 +425,7 @@
       </g>
       <g
          transform="scale(1.2917)"
-         id="g134"
-         style="display:none">
+         id="g134">
         <path
            id="path136"
            style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -423,8 +433,7 @@
       </g>
       <g
          transform="scale(1.28006)"
-         id="g138"
-         style="display:none">
+         id="g138">
         <path
            id="path140"
            style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -432,8 +441,7 @@
       </g>
       <g
          transform="scale(1.46825)"
-         id="g142"
-         style="display:none">
+         id="g142">
         <path
            id="path144"
            style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -441,8 +449,7 @@
       </g>
       <g
          transform="scale(1.24831)"
-         id="g146"
-         style="display:none">
+         id="g146">
         <path
            id="path148"
            style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -450,8 +457,7 @@
       </g>
       <g
          transform="scale(1.37637)"
-         id="g150"
-         style="display:none">
+         id="g150">
         <path
            id="path152"
            style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -459,11 +465,11 @@
       </g>
       <path
          id="path154"
-         style="display:none;fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 8063.24,1892.5 -329.26,81.72 c -85.46,-308.24 -225.74,-684.73 -451.48,-912.74 6.76,-15 138.01,-317.261 138.01,-317.261 205.51,189.761 372.73,459.021 495,738.751 h 628.47 v -103.48 c 0,-594.021 -551.25,-989.26 -1135.46,-1043.24 0,0 47.22,-306.0195 50.97,-330.78125 C 8283.01,130.742 8877.73,613.75 8877.73,1379.49 v 437.23 h -836.99 c 7.5,25.51 15,51.01 22.5,75.78 z" />
       <path
          id="path156"
-         style="display:none;fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#f01b25;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 12204.8,1653.24 c -241.6,117.74 -496.6,204.73 -759.8,257.23 -21.8,-109.49 -43.5,-218.24 -65.2,-327.74 230.9,-46.48 455.2,-121.48 666.7,-224.25 z" />
       <g
          transform="matrix(1.7664107,0,0,1.7664107,-2.8591785e-7,-0.00462248)"
@@ -475,8 +481,7 @@
       </g>
       <g
          transform="scale(1.16453)"
-         id="g162"
-         style="display:none">
+         id="g162">
         <path
            id="path164"
            style="fill:#334fa2;fill-opacity:1;fill-rule:nonzero;stroke:none"
