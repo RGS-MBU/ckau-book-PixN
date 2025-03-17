@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<image name="sysbg-video" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.29</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.43</origin>
+			<pos>0.5 0.35</pos>
+			<maxSize>0.25</maxSize>
+			<storyboard>
+				<animation property="pos" to="0.22 0.35" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<video name="videobox" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../_inc/anim/video/${synonym}.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}.mp4</path>
+			<default>./../../_inc/anim/video/CRT_Noise.mp4</default>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.29</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.43</origin>
+			<pos>0.5 0.35</pos>
+			<maxSize>0.24</maxSize>
+			<zIndex>25</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.22 0.35" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<text name="TextDate" extra="true">
+			<text>1985</text>
+		</text>
+		<text name="TextManufacturer" extra="true">
+			<text>Sharp</text>
+		</text>
+		<text name="TextName" extra="true">
+			<text>MZ-2500</text>
+		</text>
+		<text name="TextDesc" extra="true">
+			<text>The MZ-2500, also known as the Super MZ, is an 8-bit personal computer released on 1 October 1985 as part of the Sharp MZ series. It is a successor to the MZ-2000/2200 and a direct successor to the MZ-80B from the previous generation. The MZ-2000 was a model that was given significant functions, along with a faster processing speed. It is also the final model of the entire 8-bit MZ series with architecture of its kind. It is sometimes referred to as the best 8-bit machine along with the 6809 FM77AV and the MB-S1. In Japanese computer magazines, the MZ-2500 was also called 'The Phoenix'. Its successor was the Sharp MZ-2861 which has a compatible mode and a newly developed 16-bit mode. The development code is LEY and can be found in the circuit diagram.</text>
+		</text>
+	</view>
+</theme>
