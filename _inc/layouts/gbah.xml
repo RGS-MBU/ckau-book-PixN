@@ -61,22 +61,13 @@
 		</video>
 		<text name="TextDate" extra="true">
 			<text>2001</text>
+			
 		</text>
 		<text name="TextManufacturer" extra="true">
 			<text>Nintendo</text>
 		</text>
 		<text name="TextName" extra="true">
 			<text>Game Boy Advance</text>
-		</text>
-		<text name="TextVariant" extra="true">
-			<text>ROM Hacks</text>
-			<text lang="pl">Hacki rom</text>
-			<text lang="ru">Хаки</text>
-			<text lang="es">ROM Hacks</text>
-			<text lang="de">ROM-Hacks</text>
-			<text lang="fr">ROM Hacks</text>
-			<text lang="it">ROM Hacks</text>
-			<text lang="pt">Hacks de ROM</text>
 		</text>
 		<text name="TextDesc" extra="true">
 			<text>The Game Boy Advance (GBA) is a 32-bit handheld game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color. It was released in Japan on March 21, 2001, in North America on June 11, 2001, in Australia and Europe on June 22, 2001, and in mainland China on June 8, 2004 as iQue Game Boy Advance. The GBA is part of the sixth generation of video game consoles. The original model does not have an illuminated screen; Nintendo addressed that with the release of a redesigned model with a frontlit screen, the Game Boy Advance SP, in 2003. A newer revision of the redesign was released in 2005, with a backlit screen. The final redesign, the Game Boy Micro, was released in 2005.
@@ -106,10 +97,6 @@ Au 30 juin 2010, 81,51 millions d'unités de la série Game Boy Advance ont ét�
 			<text lang="it">Il Game Boy Advance (GBA) è una console portatile a 32 bit sviluppata, prodotta e commercializzata da Nintendo come successore del Game Boy Color. È stata rilasciata in Giappone il 21 marzo 2001, in Nord America l'11 giugno 2001, in Australia e in Europa il 22 giugno 2001 e nella Cina continentale l'8 giugno 2004 come iQue Game Boy Advance. Il GBA fa parte della sesta generazione di console per videogiochi. Il modello originale non ha uno schermo illuminato; Nintendo ha risolto questo problema con l'uscita di un modello ridisegnato con uno schermo illuminato frontalmente, il Game Boy Advance SP, nel 2003. Nel 2005 è stata rilasciata una nuova revisione del modello, con uno schermo retroilluminato. La versione finale, il Game Boy Micro, è stata rilasciata nel 2005.
 
 Al 30 giugno 2010 sono state vendute 81,51 milioni di unità della serie Game Boy Advance in tutto il mondo. Il suo successore, il Nintendo DS, è uscito nel novembre 2004 ed è retrocompatibile con il software del Game Boy Advance.</text>
-			<text lang="pt">Game Boy Advance (jap. ゲームボーイアドバンス Gēmu Bōi Adobansu, GBA) – console portátil de jogos produzida pela Nintendo. É a sucessora da popular console Game Boy Color. Foi lançada no Japão em 21 de março de 2001, na América do Norte em 11 de junho de 2001, na Europa em 22 de junho de 2001 e na China em 8 de junho de 2004.
-
-Especificações:
-O Game Boy Advance possui um processador RISC ARM7TDMI de 32 bits com clock de 16,8 MHz e um CISC de 8 bits baseado em Z80 (para compatibilidade com jogos para versões anteriores da console) com clock de 4 ou 8 MHz. A console é alimentada por duas pilhas AA ou por fonte de alimentação AC. É compatível com jogos para Game Boy Color e Game Boy original, e também pode ser usado como um controlador para o GameCube com um cabo apropriado.</text>
 		</text>
 	</view>
 </theme>

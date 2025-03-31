@@ -2,21 +2,79 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
-		<image name="sysbg-video-arcade" extra="true">
-			<color>000000</color>
+		<image name="sysbg-left" extra="true">
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.3 0.3</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.4</origin>
+			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
+			<pos>0.26 0.36</pos>
+			<minSize>0.1 0.2</minSize>
+			<rotation>8</rotation>
 			<path>./../../_inc/images/space.png</path>
+			<zIndex>27</zIndex>
+			<storyboard>
+				<animation property="pos" to="-0.02 0.36" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="sysbg-right" extra="true">
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.7 0.3</origin>
+			<origin if="${screen.ratio} == '16/10'">0.54 0.4</origin>
+			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
+			<pos>0.74 0.36</pos>
+			<minSize>0.1 0.2</minSize>
+			<rotation>-8</rotation>
+			<path>./../../_inc/images/space.png</path>
+			<zIndex>27</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.46 0.36" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="sysbg-video" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
 			<zIndex>2</zIndex>
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
 			<pos>0.5 0.363</pos>
-			<size>0.38 0.15</size>
-			<size if="${screen.ratio} == '21/9'">0.285 0.15</size>
+			<maxSize>0.15</maxSize>
 			<storyboard>
 				<animation property="pos" to="0.22 0.363" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</image>
-		<video name="videoboxarcade" extra="true">
+		<image name="sysbg-video-left" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
+			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
+			<pos>0.36 0.37</pos>
+			<maxSize>0.14</maxSize>
+			<rotation>0</rotation>
+			<storyboard>
+				<animation property="pos" to="0.08 0.37" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="sysbg-video-right" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
+			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
+			<pos>0.638 0.37</pos>
+			<maxSize>0.14</maxSize>
+			<rotation>0</rotation>
+			<storyboard>
+				<animation property="pos" to="0.358 0.37" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<video name="videobox" extra="true">
+			<path>{random}</path>
 			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
 			<path>./../../_inc/anim/video/${synonym}.mp4</path>
 			<!-- Loads platform video from addon directory, if available -->
@@ -27,11 +85,51 @@
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
-			<pos>0.499 0.366</pos>
-			<maxSize>0.376</maxSize>
+			<pos>0.5 0.363</pos>
+			<maxSize>0.14</maxSize>
 			<zIndex>25</zIndex>
 			<storyboard>
-				<animation property="pos" to="0.219 0.366" begin="2000" duration="1000" mode="linear"/>
+				<animation property="pos" to="0.22 0.363" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<video name="videobox2" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}-right.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}-right.mp4</path>
+			<audio>false</audio>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
+			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
+			<pos>0.655 0.37</pos>
+			<maxSize>0.13</maxSize>
+			<zIndex>25</zIndex>
+			<rotation>0</rotation>
+			<storyboard>
+				<animation property="pos" to="0.375 0.37" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<video name="videobox3" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}-left.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}-left.mp4</path>
+			<audio>false</audio>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
+			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
+			<pos>0.345 0.37</pos>
+			<maxSize>0.13</maxSize>
+			<zIndex>25</zIndex>
+			<rotation>0</rotation>
+			<storyboard>
+				<animation property="pos" to="0.065 0.37" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</video>
 		<text name="TextDate" extra="true">
@@ -58,7 +156,6 @@
 			<text lang="de">Ein Arcade-Spiel oder Münzspiel ist ein münzbetriebenes Unterhaltungsgerät, das typischerweise in öffentlichen Einrichtungen wie Restaurants, Bars und Spielhallen aufgestellt wird. Bei den meisten Spielhallen handelt es sich um Videospiele, Flipperautomaten, elektromechanische Spiele, Rücknahmespiele oder Merchandiser. Obwohl die genauen Daten umstritten sind, wird das goldene Zeitalter der Spielhallen-Videospiele gewöhnlich als ein Zeitraum definiert, der irgendwann in den späten 1970er Jahren begann und irgendwann Mitte der 1980er Jahre endete. Abgesehen von einem kurzen Aufschwung in den frühen 1990er Jahren ging die Arcade-Industrie in der westlichen Hemisphäre zurück, als konkurrierende Videospielkonsolen wie die Sony PlayStation und die Microsoft Xbox ihre Grafik- und Spielfunktionen verbesserten und ihre Kosten senkten. In der östlichen Hemisphäre gibt es nach wie vor eine starke Spielhallenindustrie.</text>
 			<text lang="fr">Un jeu d'arcade ou jeu à pièces est une machine de divertissement fonctionnant avec des pièces de monnaie, généralement installée dans des établissements publics tels que des restaurants, des bars et des salles de jeux. La plupart des jeux d'arcade sont des jeux vidéo, des flippers, des jeux électromécaniques, des jeux de rachat ou des présentoirs. Bien que les dates exactes soient controversées, l'âge d'or des jeux vidéo d'arcade est généralement défini comme une période commençant à la fin des années 1970 et se terminant au milieu des années 1980. À l'exception d'une brève résurgence au début des années 1990, l'industrie des salles d'arcade a ensuite décliné dans l'hémisphère occidental à mesure que les consoles de jeux vidéo de salon concurrentes, telles que la PlayStation de Sony et la Xbox de Microsoft, amélioraient leurs graphismes et leurs capacités de jeu et diminuaient leurs coûts. L'hémisphère oriental conserve une forte industrie des salles d'arcade.</text>
 			<text lang="it">Un gioco arcade o coin-op è una macchina per l'intrattenimento a moneta tipicamente installata in esercizi pubblici come ristoranti, bar e sale giochi. La maggior parte dei giochi arcade sono videogiochi, flipper, giochi elettromeccanici, giochi a premio o merchandiser. Sebbene le date esatte siano discusse, l'età d'oro dei videogiochi arcade è solitamente definita come un periodo che inizia alla fine degli anni Settanta e termina alla metà degli anni Ottanta. Se si esclude una breve ripresa all'inizio degli anni Novanta, l'industria delle sale giochi ha subito un declino nell'emisfero occidentale a causa dell'aumento della grafica e delle capacità di gioco delle console domestiche concorrenti, come la PlayStation di Sony e la Xbox di Microsoft, e della riduzione dei costi. L'emisfero orientale conserva una forte industria delle sale giochi.</text>
-			<text lang="pt">Máquina de jogos – uma estrutura destinada ao entretenimento, geralmente colocada em salões de jogos, pubs ou clubes. O jogo é iniciado quando uma moeda ou ficha é inserida na ranhura de inserção, e a diversão geralmente é limitada por um determinado limite definido pelo fabricante ou proprietário da máquina (por exemplo, número de tentativas/vidas, avançar para um nível superior, atingir um determinado objetivo em um determinado tempo, completar o jogo). Normalmente, as máquinas de jogos eram equipadas com um manche (joystick) e várias teclas; até quatro conjuntos desses eram usados, para que até quatro pessoas pudessem jogar simultaneamente em uma única máquina. Outras soluções também foram usadas, como o botão giratório em Pong, armas de luz em jogos de tiro, volantes em jogos de corrida (às vezes até cockpits inteiros de carros), tapetes de dança ou dois joysticks em alguns jogos de tiro, que eram precursores de jogos de tiro com dois joysticks, ou jogos de luta como International Karate.</text>
 		</text>
 	</view>
 </theme>

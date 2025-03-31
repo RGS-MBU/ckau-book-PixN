@@ -2,21 +2,79 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
-		<image name="sysbg-video-arcade" extra="true">
-			<color>000000</color>
+		<image name="sysbg-left" extra="true">
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.3 0.3</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.4</origin>
+			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
+			<pos>0.26 0.36</pos>
+			<minSize>0.1 0.2</minSize>
+			<rotation>8</rotation>
 			<path>./../../_inc/images/space.png</path>
+			<zIndex>27</zIndex>
+			<storyboard>
+				<animation property="pos" to="-0.02 0.36" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="sysbg-right" extra="true">
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.7 0.3</origin>
+			<origin if="${screen.ratio} == '16/10'">0.54 0.4</origin>
+			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
+			<pos>0.74 0.36</pos>
+			<minSize>0.1 0.2</minSize>
+			<rotation>-8</rotation>
+			<path>./../../_inc/images/space.png</path>
+			<zIndex>27</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.46 0.36" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="sysbg-video" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
 			<zIndex>2</zIndex>
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
 			<pos>0.5 0.363</pos>
-			<size>0.38 0.15</size>
-			<size if="${screen.ratio} == '21/9'">0.285 0.15</size>
+			<maxSize>0.15</maxSize>
 			<storyboard>
 				<animation property="pos" to="0.22 0.363" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</image>
-		<video name="videoboxarcade" extra="true">
+		<image name="sysbg-video-left" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
+			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
+			<pos>0.36 0.37</pos>
+			<maxSize>0.14</maxSize>
+			<rotation>0</rotation>
+			<storyboard>
+				<animation property="pos" to="0.08 0.37" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="sysbg-video-right" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
+			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
+			<pos>0.638 0.37</pos>
+			<maxSize>0.14</maxSize>
+			<rotation>0</rotation>
+			<storyboard>
+				<animation property="pos" to="0.358 0.37" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<video name="videobox" extra="true">
+			<path>{random}</path>
 			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
 			<path>./../../_inc/anim/video/${synonym}.mp4</path>
 			<!-- Loads platform video from addon directory, if available -->
@@ -27,11 +85,53 @@
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
-			<pos>0.499 0.366</pos>
-			<maxSize>0.376</maxSize>
+			<pos>0.5 0.363</pos>
+			<maxSize>0.14</maxSize>
 			<zIndex>25</zIndex>
 			<storyboard>
-				<animation property="pos" to="0.219 0.366" begin="2000" duration="1000" mode="linear"/>
+				<animation property="pos" to="0.22 0.363" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<video name="videobox2" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}-right.mp4</path>
+			<path>./../../_inc/anim/video/${synonym}-right.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}-right.mp4</path>
+			<audio>false</audio>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
+			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
+			<pos>0.655 0.37</pos>
+			<maxSize>0.13</maxSize>
+			<zIndex>25</zIndex>
+			<rotation>0</rotation>
+			<storyboard>
+				<animation property="pos" to="0.375 0.37" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<video name="videobox3" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}-left.mp4</path>
+			<path>./../../_inc/anim/video/${synonym}-left.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}-left.mp4</path>
+			<audio>false</audio>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
+			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
+			<pos>0.345 0.37</pos>
+			<maxSize>0.13</maxSize>
+			<zIndex>25</zIndex>
+			<rotation>0</rotation>
+			<storyboard>
+				<animation property="pos" to="0.065 0.37" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</video>
 		<text name="TextDate" extra="true">
@@ -62,9 +162,6 @@ La première version publique de MAME a été publiée par Nicola Salmoria le 5 
 			<text lang="it">MAME (originariamente acronimo di Multiple Arcade Machine Emulator) è un emulatore gratuito e open-source progettato per ricreare l'hardware dei sistemi di gioco arcade nel software dei moderni personal computer e di altre piattaforme. Il suo scopo è quello di preservare la storia del gioco, evitando che i giochi d'epoca vadano persi o dimenticati. Lo fa emulando il funzionamento interno delle macchine arcade emulate; la possibilità di giocare effettivamente ai giochi è considerata "un piacevole effetto collaterale". Joystiq ha indicato MAME come un'applicazione che ogni giocatore Windows e Mac dovrebbe avere.
 
 La prima versione pubblica del MAME è stata realizzata da Nicola Salmoria il 5 febbraio 1997. Attualmente supporta oltre 7.000 giochi unici e 10.000 immagini ROM, anche se non tutti i giochi sono giocabili. MESS, un emulatore per molte console di videogiochi e sistemi informatici, basato sul nucleo di MAME, è stato integrato in MAME nel 2015.</text>
-			<text lang="pt">MAME (originalmente abreviação de Multiple Arcade Machine Emulator) é um emulador gratuito de código aberto, projetado para reproduzir o hardware de sistemas de jogos de arcade em software em computadores pessoais modernos e outras plataformas. Seu objetivo é preservar a história dos jogos, evitando a perda ou o esquecimento de jogos antigos. Ele faz isso emulando o funcionamento interno das máquinas de arcade emuladas; a capacidade de realmente jogar os jogos é considerada um "efeito colateral agradável". O Joystiq incluiu o MAME na lista de aplicativos que todo jogador de Windows e Mac deveria ter.
-
-A primeira versão pública do MAME foi lançada por Nicola Salmoria em 5 de fevereiro de 1997. Atualmente, ele suporta mais de 7.000 jogos únicos e 10.000 conjuntos atuais de imagens ROM, embora nem todos sejam jogáveis. MESS, um emulador para vários consoles de videogames e sistemas computacionais, baseado no núcleo do MAME, foi integrado ao MAME em 2015.</text>
 		</text>
 	</view>
 </theme>

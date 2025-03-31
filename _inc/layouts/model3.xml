@@ -6,7 +6,7 @@
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.3 0.2</origin>
 			<origin if="${screen.ratio} == '16/10'">0.4 0.35</origin>
-			<origin if="${screen.ratio} == '21/9'">0.1 0.5</origin>
+			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
 			<pos>0.285 0.36</pos>
 			<minSize>0.1 0.3</minSize>
 			<rotation>26</rotation>
@@ -18,34 +18,67 @@
 		</image>
 		<image name="sysbg-right" extra="true">
 			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.6 0.2</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.35</origin>
-			<origin if="${screen.ratio} == '21/9'">0.9 0.5</origin>
-			<pos>0.71 0.36</pos>
+			<origin if="${screen.ratio} == '4/3'">0.7 0.2</origin>
+			<origin if="${screen.ratio} == '16/10'">0.6 0.35</origin>
+			<origin if="${screen.ratio} == '21/9'">0.95 0.5</origin>
+			<pos>0.72 0.36</pos>
 			<minSize>0.1 0.3</minSize>
 			<rotation>-26</rotation>
 			<path>./../../_inc/images/space.png</path>
 			<zIndex>27</zIndex>
 			<storyboard>
-				<animation property="pos" to="0.43 0.36" begin="2000" duration="1000" mode="linear"/>
+				<animation property="pos" to="0.44 0.36" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</image>
-		<image name="sysbg-video-arcade" extra="true">
+		<image name="sysbg-video" extra="true">
 			<color>000000</color>
-			<path>./../../_inc/images/space.png</path>
+			<path>./../../_inc/images/space43.png</path>
 			<zIndex>2</zIndex>
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 0.35</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.45</origin>
 			<pos>0.50 0.435</pos>
-			<size>0.38 0.2</size>
-			<size if="${screen.ratio} == '4/3'">0.38 0.15</size>
-			<size if="${screen.ratio} == '21/9'">0.29 0.2</size>
+			<maxSize>0.2</maxSize>
 			<storyboard>
 				<animation property="pos" to="0.22 0.435" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</image>
-		<video name="videoboxarcade" extra="true">
+		<image name="sysbg-video-left" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space169.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.48 0.26</origin>
+			<origin if="${screen.ratio} == '16/10'">0.52 0.44</origin>
+			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
+			<pos>0.365 0.43</pos>
+			<maxSize>0.135</maxSize>
+			<maxSize if="${screen.ratio} == '4/3'">0.175</maxSize>
+			<maxSize if="${screen.ratio} == '16/10'">0.15</maxSize>
+			<rotation>-64</rotation>
+			<storyboard>
+				<animation property="pos" to="0.085 0.43" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="sysbg-video-right" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space169.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.52 0.26</origin>
+			<origin if="${screen.ratio} == '16/10'">0.48 0.44</origin>
+			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
+			<pos>0.635 0.435</pos>
+			<maxSize>0.135</maxSize>
+			<maxSize if="${screen.ratio} == '4/3'">0.175</maxSize>
+			<maxSize if="${screen.ratio} == '16/10'">0.15</maxSize>
+			<rotation>64</rotation>
+			<storyboard>
+				<animation property="pos" to="0.355 0.435" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<video name="videobox" extra="true">
+			<path>{random}</path>
 			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
 			<path>./../../_inc/anim/video/${synonym}.mp4</path>
 			<!-- Loads platform video from addon directory, if available -->
@@ -54,13 +87,53 @@
 			<delay>0</delay>
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 0.38</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.48</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.35</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.45</origin>
 			<pos>0.50 0.436</pos>
-			<maxSize>0.36</maxSize>
+			<maxSize>0.175</maxSize>
 			<zIndex>26</zIndex>
 			<storyboard>
 				<animation property="pos" to="0.22 0.436" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<video name="videobox2" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}-right.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}-right.mp4</path>
+			<audio>false</audio>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.48 0.325</origin>
+			<origin if="${screen.ratio} == '16/10'">0.48 0.44</origin>
+			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
+			<pos>0.64 0.435</pos>
+			<maxSize>0.13</maxSize>
+			<zIndex>25</zIndex>
+			<rotation>0</rotation>
+			<storyboard>
+				<animation property="pos" to="0.36 0.435" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<video name="videobox3" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}-left.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}-left.mp4</path>
+			<audio>false</audio>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.52 0.325</origin>
+			<origin if="${screen.ratio} == '16/10'">0.52 0.44</origin>
+			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
+			<pos>0.36 0.435</pos>
+			<maxSize>0.13</maxSize>
+			<zIndex>25</zIndex>
+			<rotation>0</rotation>
+			<storyboard>
+				<animation property="pos" to="0.08 0.435" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</video>
 		<text name="TextDate" extra="true">
@@ -105,11 +178,6 @@ Il était équipé d'un processeur PowerPC 603e d'IBM-Motorola pouvant fonctionn
 Al momento dell'uscita, la scheda Model 3 era significativamente più potente di qualsiasi altra piattaforma arcade sul mercato, nonché di qualsiasi console o computer domestico dell'epoca, con una fedeltà grafica pari a quella del Dreamcast o persino di alcuni titoli della prima PlayStation 2; ci vollero diversi anni prima che i sistemi domestici si mettessero al passo.
 
 Aveva una CPU IBM-Motorola PowerPC 603e che poteva funzionare a 66, 100 o 166 MHz, 33 MB di RAM e due GPU Lockheed Martin Real3D/Pro-1000. Il Model 3 fu seguito dal Sega Naomi nel 1998, che utilizzava un'architettura simile a quella del Sega Dreamcast.</text>
-			<text lang="pt">Sega Model 3 é uma plataforma de arcade lançada em 1996 como sucessor do Sega Model 2. O Model 3 continuou várias séries de jogos de arcade que apareceram nas plataformas anteriores da Sega. Essas jogos incluem: Daytona USA 2, Sega Rally 2, Virtua Fighter 3 e Star Wars Trilogy Arcade.
-
-No momento de seu lançamento, o hardware do Model 3 era consideravelmente mais potente que qualquer outra plataforma de arcade no mercado, além de qualquer console doméstico ou computador da época, com fidelidade gráfica próxima ao Dreamcast, e até mesmo alguns títulos iniciais do PlayStation 2; os sistemas domésticos levaram alguns anos para alcançar o mesmo nível.
-
-Ele possuía um processador IBM-Motorola PowerPC 603e que podia operar a 66, 100 ou 166 MHz, 33 MB de RAM e dois processadores gráficos Lockheed Martin Real3D/Pro-1000. Após o Model 3, em 1998, surgiu o Sega Naomi, que utilizava uma arquitetura semelhante ao Sega Dreamcast.</text>
 		</text>
 	</view>
 </theme>

@@ -16,59 +16,12 @@
 
 <include>${themePath}/_inc/layouts/${system.theme}.xml</include>
 
+
 	<view name="system">
 
-		<image name="sysbg-left" extra="true">
-			<visible>false</visible>
-		</image>
-		<image name="sysbg-right" extra="true">
-			<visible>false</visible>
-		</image>
-		<image name="sysbg-video" extra="true">
-			<visible>false</visible>
-		</image>
-		<image name="sysbg-video-left" extra="true">
-			<visible>false</visible>
-		</image>
-		<image name="sysbg-video-right" extra="true">
-			<visible>false</visible>
-		</image>
-		<video name="videobox" extra="true">
-			<visible>false</visible>
-		</video>
-		<video name="videobox2" extra="true">
-			<visible>false</visible>
-		</video>
-		<video name="videobox3" extra="true">
-			<visible>false</visible>
-		</video>
-		<text name="TextDate" extra="true">
-			<visible>false</visible>
-		</text>
-		<text name="TextManufacturer" extra="true">
-			<pos>0.02 0</pos>
-			<size>0.47 0</size>
-			<alignment>right</alignment>
-			<fontPath>${fontNameBold}</fontPath>
-			<fontSize>0.04</fontSize>
-			<fontSize if="${screen.ratio} == '4/3'">0.03</fontSize>
-			<zIndex>140</zIndex>
-		</text>
-		<text name="TextName" extra="true">
-			<pos>0.5 0</pos>
-			<size>0.47 0</size>
-			<alignment>left</alignment>
-			<fontPath>${fontNameBold}</fontPath>
-			<fontSize>0.04</fontSize>
-			<fontSize if="${screen.ratio} == '4/3'">0.045</fontSize>
-			<zIndex>140</zIndex>
-		</text>
-		<text name="TextVariant" extra="true">
-			<visible>false</visible>
-		</text>
-		<text name="TextDesc" extra="true">
-			<visible>false</visible>
-		</text>
+
+
+
 
 
 
@@ -89,6 +42,8 @@
 			<scrollbarCorner>0.49</scrollbarCorner>
 			<scrollbarSize>0.005</scrollbarSize>
 			<scrollbarAlignment>right</scrollbarAlignment>
+
+
 
 			<itemTemplate>
 				<container>
@@ -204,24 +159,20 @@
 							<color>00000080</color>
 							<zIndex>5</zIndex>
 						<storyboard event="activate">
-							<animation property="pos" begin="1100" to="0.5 0.1" duration="400" mode="easeOut"/>
-							<animation property="scale" begin="1100" to="0.7" duration="400" mode="easeOut"/>
+							<animation property="pos" begin="1100" to="0.5 0.2" duration="400" mode="easeOut"/>
 						</storyboard>
 						<storyboard event="deactivate">
 							<animation property="pos" to="0.5" duration="400" mode="easeOut"/>
-							<animation property="scale" to="1" duration="400" mode="easeOut"/>
 						</storyboard>
 						</image>
 						<image name="theLogoImage" pos="0.5" origin="0.5" maxSize="1" linearSmooth="true">
 							<path>{system:logo}</path>
 							<zIndex>6</zIndex>
 						<storyboard event="activate">
-							<animation property="pos" begin="1100" to="0.5 0.1" duration="400" mode="easeOut"/>
-							<animation property="scale" begin="1100" to="0.7" duration="400" mode="easeOut"/>
+							<animation property="pos" begin="1100" to="0.5 0.2" duration="400" mode="easeOut"/>
 						</storyboard>
 						<storyboard event="deactivate">
 							<animation property="pos" to="0.5" duration="400" mode="easeOut"/>
-							<animation property="scale" to="1" duration="400" mode="easeOut"/>
 						</storyboard>
 						</image>
 						<text name="substitutionText" color="white" alignment="center" multiLine="true">
@@ -259,7 +210,6 @@
 			<path>${themePath}/_inc/logos/${synonym}-w-${lang}.png</path>
 			<path>${themePath}/_inc/logos/${synonym}-w-${lang}.svg</path>
 		</image>
-	<!-- Regional logos -->
 		<image name="logo" region="eu"></image>
 		<image name="logo" region="us">
 			<path>${themePath}/_inc/logos/us/${system.theme}-w.png</path>

@@ -2,48 +2,81 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
-		<!-- fix bg color -->
-		<image name="sysbg-fix" extra="true">
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.5</pos>
-			<maxSize>1 1</maxSize>
-			<scale if="${screen.ratio} == '16/10'">0.9</scale>
-			<scale if="${screen.ratio} == '4/3'">0.75</scale>
-			<path>./../../_inc/anim/wiiu-fix.png</path>
-			<zIndex>27</zIndex>
-			<storyboard>
-				<animation property="pos" to="0.22 0.5" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</image>
 		<image name="sysbg-video" extra="true">
 			<color>000000</color>
-			<path>./../../_inc/images/space.png</path>
+			<path>./../../_inc/images/space169.png</path>
 			<zIndex>2</zIndex>
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.5</pos>
-			<size>0.5 0.75</size>
-			<size if="${screen.ratio} == '4/3'">0.65 0.6</size>
-			<size if="${screen.ratio} == '16/10'">0.55 0.6</size>
-			<size if="${screen.ratio} == '21/9'">0.4 0.75</size>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.426</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.475</origin>
+			<pos>0.5 0.415</pos>
+			<maxSize>0.415</maxSize>
+			<maxSize if="${screen.ratio} == '4/3'">0.543</maxSize>
+			<maxSize if="${screen.ratio} == '16/10'">0.454</maxSize>
 			<storyboard>
-				<animation property="pos" to="0.22 0.5" begin="2000" duration="1000" mode="linear"/>
+				<animation property="pos" to="0.22 0.415" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="sysbg-video-right" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 1.1</origin>
+			<origin if="${screen.ratio} == '16/10'">0.508 0.67</origin>
+			<origin if="${screen.ratio} == '21/9'">0.9 0.5</origin>
+			<pos>0.602 0.718</pos>
+			<maxSize>0.12</maxSize>
+			<maxSize if="${screen.ratio} == '4/3'">0.12</maxSize>
+			<rotation>6</rotation>
+			<storyboard>
+				<animation property="pos" to="0.322 0.718" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</image>
 		<video name="videobox" extra="true">
+			<path>{random}</path>
 			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
 			<path>./../../_inc/anim/video/${synonym}.mp4</path>
 			<!-- Loads platform video from addon directory, if available -->
 			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}.mp4</path>
 			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}.mp4</path>
+			<default>./../../_inc/anim/video/CRT_Noise169.mp4</default>
 			<delay>0</delay>
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '21/9'">0.5 0.502</origin>
-			<pos>0.5 0.494</pos>
-			<maxSize>0.555</maxSize>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.426</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.475</origin>
+			<pos>0.5 0.415</pos>
+			<maxSize>0.41</maxSize>
+			<maxSize if="${screen.ratio} == '4/3'">0.533</maxSize>
+			<maxSize if="${screen.ratio} == '16/10'">0.444</maxSize>
+			<zIndex>25</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.22 0.415" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
+		<video name="videobox2" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}2.mp4</path>
+			<path>./../../_inc/anim/video/${synonym}2.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}2.mp4</path>
+			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}2.mp4</path>
+			<audio>false</audio>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 1.15</origin>
+			<origin if="${screen.ratio} == '16/10'">0.508 0.67</origin>
+			<origin if="${screen.ratio} == '21/9'">0.9 0.5</origin>
+			<pos>0.6 0.718</pos>
+			<maxSize>0.1</maxSize>
+			<maxSize if="${screen.ratio} == '4/3'">0.142</maxSize>
+			<maxSize if="${screen.ratio} == '16/10'">0.115</maxSize>
+			<rotation>0</rotation>
 			<zIndex>26</zIndex>
 			<storyboard>
-				<animation property="pos" to="0.22 0.494" begin="2000" duration="1000" mode="linear"/>
+				<animation property="pos" to="0.32 0.718" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</video>
 		<text name="TextDate" extra="true">
@@ -81,9 +114,6 @@ La Wii U est la première console Nintendo à prendre en charge les graphismes H
 			<text lang="it">La Wii U (WEE YOO) è una console per videogiochi domestica sviluppata da Nintendo come successore della Wii. Rilasciata alla fine del 2012, è la prima console per videogiochi di ottava generazione e compete con la Xbox One di Microsoft e la PlayStation 4 di Sony.
 
 La Wii U fu la prima console Nintendo a supportare la grafica HD. Il controller principale della console è il Wii U GamePad, dotato di touchscreen incorporato, tasti direzionali, stick analogici e tasti azione. Lo schermo può essere utilizzato come complemento del display principale o nei giochi supportati per giocare direttamente sul GamePad. Il Wii U Pro Controller può essere utilizzato al suo posto come alternativa più tradizionale. La console Wii U è retrocompatibile con tutti i software e gli accessori Wii. I giochi possono supportare qualsiasi combinazione di GamePad, telecomando Wii, Nunchuk, Balance Board, controller classico Nintendo o controller Wii U Pro. Le funzionalità online sono incentrate sulla piattaforma Nintendo Network e su Miiverse, un servizio di social networking integrato che consente agli utenti di condividere contenuti in comunità specifiche per i giochi.</text>
-			<text lang="pt">Wii U – um console de videogame produzido pela empresa japonesa Nintendo. O console foi oficialmente anunciado em 25 de abril de 2011. Foi lançado em 18 de novembro de 2012 na América do Norte. O lançamento na Europa ocorreu em 30 de novembro e no Japão em 8 de dezembro de 2012. Um protótipo do Wii U foi apresentado em 7 de junho de 2011 na E3. A produção do console foi descontinuada em todo o mundo em 31 de janeiro de 2017.
-
-O processador do console, fabricado pela IBM usando tecnologia de 45 nanômetros, utiliza soluções desenvolvidas para o supercomputador Watson. O controle do Wii U, além dos botões de controle típicos, possui uma tela sensível ao toque de 6,2 polegadas, giroscópio, acelerômetro, microfone, alto-falantes e câmera.</text>
 		</text>
 	</view>
 </theme>

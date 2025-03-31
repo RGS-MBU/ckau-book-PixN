@@ -56,10 +56,9 @@
 			<path>./../../_inc/logos/${synonym}-${lang}.svg</path>
 			<linearSmooth>true</linearSmooth>
 		</image>
-	<!-- Regional logos -->
 		<image name="logo, logo1" region="eu"></image>
 		<image name="logo, logo1" region="us">
-			<path>./../../_inc/logos/us/${system.theme}-w.png</path>
+			<path>./../../_inc/logos/us/${system.theme}-w.png</path>			
 			<path>./../../_inc/logos/us/${system.theme}-w.svg</path>
 			<path>./../../_inc/logos/us/${system.theme}.png</path>
 			<path>./../../_inc/logos/us/${system.theme}.svg</path>

@@ -42,18 +42,15 @@
 			<text>Steepler</text>
 		</text>
 		<text name="TextName" extra="true">
-			<text>Dendy (NES)</text>
+			<text>Dendy (NES - TOP)</text>
 		</text>
-		<text name="TextVariant" extra="true">
-			<text>Top games</text>
-			<text lang="pl">Najlepsze gry</text>
-			<text lang="ru">Лучшие игры</text>
-			<text lang="es">Top Juegos</text>
-			<text lang="de">Top-Spiele</text>
-			<text lang="fr">Top Jeux</text>
-			<text lang="it">Giochi Top</text>
-			<text lang="pt">Melhores jogos</text>
+		<!-- Support different names for regional consoles/computers -->
+		<text name="TextName" extra="true" region="eu"/>
+		<text name="TextName" extra="true" region="us"/>
+		<text name="TextName" extra="true" region="jp">
+			<text>Family Computer</text>
 		</text>
+		<!-- -->
 		<text name="TextDesc" extra="true">
 			<text>Dendy (Russian: Де́нди) is a series of home video game consoles, an unofficial hardware clone of Nintendo's third-generation Famicom. Dendy was produced by Steepler since late 1992, and assembled in Taiwan from Chinese components. It was mainly sold in Russia and post-Soviet countries. Manufacturing assembly grew to add the Subor factory in China and at Tenzor factory in Dubna town in Russia.
 
@@ -76,9 +73,6 @@ La gamme Dendy était divisée en deux catégories : le Dendy Classic de base et
 			<text lang="it">Dendy (in russo: Де́нди) è una serie di console per videogiochi domestiche, un clone hardware non ufficiale del Famicom di terza generazione di Nintendo. Dendy è stata prodotta da Steepler a partire dalla fine del 1992 e assemblata a Taiwan con componenti cinesi. È stato venduto principalmente in Russia e nei paesi post-sovietici. L'assemblaggio è cresciuto fino ad aggiungere la fabbrica Subor in Cina e la fabbrica Tenzor nella città di Dubna in Russia.
 
 La linea Dendy era divisa in due categorie: la Dendy Classic di base e la Dendy Junior economica, che si differenziano per design, qualità e prezzo. Il Classic è una copia della console Micro Genius della Taiwan TXC Corporation ed è stato prodotto nella stessa fabbrica. La Junior è stata realizzata con una tecnologia system on a chip più economica, specifica per Steepler. Una versione Dendy Pro con un gamepad cablato e uno wireless è stata venduta solo in un piccolo lotto.</text>
-			<text lang="pt">Dendy (russo: Де́нди) é uma série de consoles domésticos de videogame, um clone não oficial de hardware de terceira geração do Famicom da Nintendo. O Dendy foi produzido pela Steepler a partir do final de 1992 e montado em Taiwan com componentes chineses. Ele foi vendido principalmente na Rússia e em países pós-soviéticos. A produção se expandiu para a fábrica Subor na China e a fábrica Tenzor na cidade de Dubna, na Rússia.
-
-A linha Dendy foi dividida em duas categorias: o Dendy Classic básico e o Dendy Junior econômico, que diferem em aparência, qualidade e preço. O Classic é uma cópia do console Micro Genius da empresa taiwanesa TXC Corporation e foi produzido na mesma fábrica. O Junior foi feito com um sistema mais barato em tecnologia de chip especificamente para a Steepler. A versão Dendy Pro com um gamepad com fio e um sem fio foi vendida apenas em uma pequena produção.</text>
 		</text>
 	</view>
 </theme>
