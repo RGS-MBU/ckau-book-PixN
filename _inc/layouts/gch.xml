@@ -21,12 +21,10 @@
 		</image>
 		<video name="videobox" extra="true">
 			<path>{random}</path>
-			<path>./../../_inc/anim/video/gc.mp4</path>			
-			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../_inc/anim/video/gc.mp4</path>
 			<path>./../../_inc/anim/video/${synonym}.mp4</path>
 			<!-- Loads platform video from addon directory, if available -->
 			<path>./../../../ckau-book-addons/_inc/anim/video/gc.mp4</path>
-			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}.mp4</path>
 			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}.mp4</path>
 			<default>./../../_inc/anim/video/CRT_Noise.mp4</default>
 			<delay>0</delay>
@@ -41,6 +39,22 @@
 				<animation property="pos" to="0.219 0.367" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</video>
+		<video name="videoglich" extra="true">
+			<path>./../../_inc/anim/video/glich.mp4</path>
+			<delay>0</delay>
+			<effect>none</effect>
+ 			<origin>0.5 0.5</origin>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.33</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.44</origin>
+			<pos>0.499 0.367</pos>
+			<maxSize>0.264</maxSize>
+			<zIndex>26</zIndex>
+			<color>FFFFFF50</color>
+			<storyboard>
+				<animation property="pos" to="0.219 0.367" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
 		<text name="TextDate" extra="true">
 			<text>2001</text>
 		</text>
@@ -49,6 +63,16 @@
 		</text>
 		<text name="TextName" extra="true">
 			<text>GameCube</text>
+		</text>
+		<text name="TextVariant" extra="true">
+			<text>ROM Hacks</text>
+			<text lang="pl">Hacki rom</text>
+			<text lang="ru">Хаки</text>
+			<text lang="es">ROM Hacks</text>
+			<text lang="de">ROM-Hacks</text>
+			<text lang="fr">ROM Hacks</text>
+			<text lang="it">ROM Hacks</text>
+			<text lang="pt">Hacks de ROM</text>
 		</text>
 		<text name="TextDesc" extra="true">
 			<text>The Nintendo GameCube is a home video game console released by Nintendo in Japan and North America in 2001 and in PAL territories in 2002. The GameCube is Nintendo's entry in the sixth generation of video game consoles and is the successor to their previous console, the Nintendo 64. The GameCube competed with Sony's PlayStation 2 and Microsoft's Xbox.
@@ -84,6 +108,17 @@ La GameCube est la première console Nintendo à utiliser des disques optiques c
 			<text lang="it">Il Nintendo GameCube è una console per videogiochi domestica pubblicata da Nintendo in Giappone e Nord America nel 2001 e nei territori PAL nel 2002. Il GameCube rappresenta l'ingresso di Nintendo nella sesta generazione di console per videogiochi ed è il successore della precedente console, il Nintendo 64. Il GameCube ha fatto concorrenza alla PlayStation 2 di Sony e alla Xbox di Microsoft.
 
 Il GameCube fu la prima console Nintendo a utilizzare dischi ottici come supporto di memorizzazione principale. I dischi erano in formato miniDVD, ma la console non era stata progettata per riprodurre DVD o CD audio a grandezza naturale, a differenza dei suoi concorrenti, e si è concentrata principalmente sul gioco. La console supporta un numero limitato di giochi online tramite un adattatore GameCube a banda larga o modem e può essere collegata a un Game Boy Advance con un cavo di collegamento, che consente ai giocatori di accedere a funzioni esclusive del gioco utilizzando il palmare come secondo schermo e controller, come una Wii U.</text>
+			<text lang="pt">GameCube – console de jogos de sexta geração, produzida e lançada em 2001 pela empresa japonesa Nintendo. A console, como o nome sugere, tem formato de cubo, ao qual os controles são conectados. É a sucessora do Nintendo 64.
+
+Os primeiros rumores sobre a console, inicialmente conhecida pelo nome de código Dolphin, surgiram em 1999. A console foi exibida pela primeira vez na feira SpaceWorld em 2000. Após seu lançamento, a console, segundo dados oficiais da Nintendo até o final de março de 2008, foi vendida em cerca de 21,7 milhões de unidades.
+
+Especificações técnicas:
+Dimensões: 11,4 cm (altura) × 15 cm (largura) × 16 cm (espessura)
+Processador: IBM PowerPC “Gekko” com frequência de 485 MHz
+Memória: 24 MB de RAM
+Processador gráfico: Flipper de 162 MHz
+Placa de som: DSP de 16 bits, 64 canais, memória de áudio de 16 MB
+Mídia de armazenamento: Nintendo GameCube Disc, capacidade de 1,5 GB</text>
 		</text>
 	</view>
 </theme>

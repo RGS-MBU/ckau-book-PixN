@@ -53,6 +53,16 @@
 		<text name="TextName" extra="true">
 			<text>Saturn</text>
 		</text>
+		<text name="TextVariant" extra="true">
+			<text>Japanese version</text>
+			<text lang="pl">Wersja japońska</text>
+			<text lang="ru">Японская версия</text>
+			<text lang="es">Versión japonesa</text>
+			<text lang="de">Japanische Version</text>
+			<text lang="fr">Version japonaise</text>
+			<text lang="it">Versione giapponese</text>
+			<text lang="pt">Versão japonesa</text>
+		</text>
 		<text name="TextDesc" extra="true">
 			<text>The Sega Saturn is a home video game console developed by Sega and released on November 22, 1994 in Japan, May 11, 1995 in North America, and July 8, 1995 in Europe. Part of the fifth generation of video game consoles, it was the successor to the successful Sega Genesis. The Saturn has a dual-CPU architecture and eight processors. Its games are in CD-ROM format, and its game library contains several ports of arcade games as well as original games.
 
@@ -73,6 +83,7 @@ Le développement de la Saturn a commencé en 1992, l'année même où le matér
 			<text lang="it">Il Sega Saturn è una console per videogiochi domestica sviluppata da Sega e rilasciata il 22 novembre 1994 in Giappone, l'11 maggio 1995 in Nord America e l'8 luglio 1995 in Europa. Appartenente alla quinta generazione di console per videogiochi, è il successore della fortunata Sega Genesis. Il Saturn ha un'architettura dual-CPU e otto processori. I suoi giochi sono in formato CD-ROM e la sua libreria di giochi contiene diversi porting di giochi arcade e giochi originali.
 
 Lo sviluppo del Saturn iniziò nel 1992, lo stesso anno in cui debuttò l'innovativo hardware arcade 3D Model 1 di Sega. Il Saturn fu progettato con una nuova CPU dell'azienda elettronica giapponese Hitachi. All'inizio del 1994 Sega aggiunse un altro processore di visualizzazione video per competere meglio con l'imminente PlayStation di Sony.</text>
+			<text lang="pt">Sega Saturn (jap. セガサターン) – console de videogame de 32 bits da Sega lançada em 22 de novembro de 1994. No dia do lançamento da console no Japão, foram vendidas cerca de 170.000 unidades. Por um tempo, foi concorrente do Sony PlayStation. Como o design foi modificado drasticamente pouco antes do lançamento da console no mercado, a Sega não conseguiu otimizar a produção (ou seja, reduzir seus custos) para competir com a Sony em termos de preço. No momento do lançamento, o preço da console no Japão era de 44.800 ienes (cerca de 490 dólares), e nos EUA, 399 dólares, enquanto o produto da Sony era cerca de 100 dólares mais barato. Nas primeiras duas semanas, foram vendidas 2,5 milhões de unidades. No entanto, a crescente popularidade do console Sony PlayStation mudou a alta taxa de vendas do dispositivo. O console foi suportado até 1998 nos EUA e até 1999 no Japão.</text>
 		</text>
 	</view>
 </theme>

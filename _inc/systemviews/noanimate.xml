@@ -26,6 +26,11 @@
 				<visible>0</visible>
 			</storyboard>
 		</video>
+		<video name="videoglich" extra="true">
+			<storyboard>
+				<visible>0</visible>
+			</storyboard>
+		</video>
 		<image name="sysbg-fix" extra="true">
 			<storyboard>
 				<visible>0</visible>
@@ -72,6 +77,19 @@
 		</text>
 		<text name="TextDesc" extra="true">
 			<visible>0</visible>
-		</text>	
+		</text>
+		<text name="TextVariant" extra="true">
+			<visible>0</visible>
+		</text>
+		<video name="videoboxarcade" extra="true">
+			<storyboard>
+				<visible>0</visible>
+			</storyboard>
+		</video>
+		<image name="sysbg-video-arcade" extra="true">
+			<storyboard>
+				<visible>0</visible>
+			</storyboard>
+		</image>
 	</view>
 </theme>

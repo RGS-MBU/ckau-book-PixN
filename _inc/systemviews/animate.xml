@@ -2,13 +2,13 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	
-<variables>
-    <!-- Example evaluated variables, usable in if="" conditions -->
-    <wideScreen>${screen.ratio} == "16/9" || ${screen.ratio} == "16/10" || ${screen.ratio} == "16/15" || ${screen.ratio} == "21/9"</wideScreen>
-    <fullHD>${screen.height} >= 1080</fullHD>
-    <pxScale1>1080 / ${screen.height}</pxScale1>
-    <pxScale2>1920 / ${screen.whight}</pxScale2>
-  </variables>
+	<variables>
+		<!-- Example evaluated variables, usable in if="" conditions -->
+		<wideScreen>${screen.ratio} == "16/9" || ${screen.ratio} == "16/10" || ${screen.ratio} == "16/15" || ${screen.ratio} == "21/9"</wideScreen>
+		<fullHD>${screen.height} >= 1080</fullHD>
+		<pxScale1>1080 / ${screen.height}</pxScale1>
+		<pxScale2>1920 / ${screen.whight}</pxScale2>
+ 	 </variables>
 	
 	<!-- Loads system desc & animations, attemps to load synonym if not available -->
 	<include>./../../_inc/layouts/${system.theme}.xml</include>
@@ -58,6 +58,9 @@
 			<scale if="${screen.ratio} == '4/3'">0.75</scale>
 			<scale if="${screen.ratio} == '16/10'">0.9</scale>
 		</image>
+		<!-- <image name="sysbg-video-arcade" extra="true">
+			<size if="${screen.ratio} == '21/9'">0.285 0.15</size>
+		</image> -->
 		<image name="sysbg-video-left" extra="true">
 			<scale if="${screen.ratio} == '4/3'">0.75</scale>
 			<scale if="${screen.ratio} == '16/10'">0.9</scale>
@@ -78,8 +81,11 @@
 			<scale if="${screen.ratio} == '4/3'">0.75</scale>
 			<scale if="${screen.ratio} == '16/10'">0.9</scale>
 		</video>
-
-
+		<video name="videoboxarcade" extra="true">
+			<scale if="${screen.ratio} == '4/3'">1</scale>
+			<scale if="${screen.ratio} == '16/10'">1</scale>
+			<scale if="${screen.ratio} == '21/9'">0.75</scale>
+		</video>
 
 <!-- System info desc -->
 		<text name="TextDate" extra="true">
@@ -99,6 +105,7 @@
 			<size>0.47 0</size>
 			<fontPath>${fontNameBold}</fontPath>
 			<fontSize>0.04</fontSize>
+			<fontSize if="${screen.ratio} == '4/3'">0.03</fontSize>
 			<zIndex>140</zIndex>
 			<storyboard>
 				<animation property="x" from="0.6" begin="2500" duration="600" mode="EaseOut"/>
@@ -111,12 +118,29 @@
 			<size>0.47 0</size>
 			<fontPath>${fontNameBold}</fontPath>
 			<fontSize>0.065</fontSize>
+			<fontSize if="${screen.ratio} == '21/9'">0.062</fontSize>
+			<fontSize if="${screen.ratio} == '4/3'">0.045</fontSize>
 			<lineSpacing>1.0</lineSpacing>
 			<zIndex>140</zIndex>
 			<storyboard>
 				<animation property="x" from="0.6" begin="2500" duration="600" mode="EaseInOut"/>
 				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
 				<animation property="opacity" from="0" to="1" begin="2500" duration="500" mode="EaseIn"/>
+			</storyboard>
+		</text>
+		<text name="TextVariant" extra="true">
+			<pos>0.49 0.318</pos>
+			<size>0.47 0</size>
+			<autoScroll>vertical</autoScroll>
+			<verticalAlignment>top</verticalAlignment>
+			<fontPath>${fontNameBold}</fontPath>
+			<fontSize>0.02</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<zIndex>140</zIndex>
+			<storyboard>
+				<animation property="y" from="0.3" begin="3000" duration="500" mode="linear"/>
+				<animation property="opacity" to="0" begin="0" duration="0" mode="linear"/>
+				<animation property="opacity" from="0" to="1" begin="3000" duration="500" mode="EaseIn"/>
 			</storyboard>
 		</text>
 		<text name="TextDesc" extra="true">
@@ -135,7 +159,7 @@
 			</storyboard>
 		</text>
 
-<!-- Support different images for regional consoles/computers -->
+<!-- Regional consoles/computers -->
 		<image name="sysart" extra="true" region="eu"></image>
 		<image name="sysart" extra="true" region="us">
 			<path>./../../_inc/anim/us/${system.theme}.png</path>

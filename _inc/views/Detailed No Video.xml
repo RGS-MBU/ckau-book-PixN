@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<formatVersion>7</formatVersion>
+<!-- Подробно без видео -->
+	<customView name="Detailed No Video" inherits="detailed" displayName="${NoVideoDetailsViewName}">
+		<video name="md_video">
+			<pos>1 1</pos>
+			<size>0 0</size>
+			<zIndex>0</zIndex>
+			<visible>false</visible>
+		</video>
+		<image name="md_image">
+			<pos>0.520625 0.678</pos>
+			<maxSize>0.35</maxSize>
+			<origin>0.5 1</origin>
+			<scaleOrigin>1</scaleOrigin>
+			<zIndex>110</zIndex>
+		</image>
+	</customView>
+<!-- Navigation arrows, if enabled -->
+	<include ifSubset="arrows:On">./../../_inc/views/arrows.xml</include>
+</theme>

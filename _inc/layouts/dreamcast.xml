@@ -36,6 +36,12 @@
 			</storyboard>
 		</video>
 		<text name="TextDate" extra="true">
+			<text>1999</text>
+		</text>
+	<!-- Regional consoles/computers -->
+		<text name="TextDate" extra="true" region="eu"/>
+		<text name="TextDate" extra="true" region="us"/>
+		<text name="TextDate" extra="true" region="jp">
 			<text>1998</text>
 		</text>
 		<text name="TextManufacturer" extra="true">
@@ -60,9 +66,9 @@ Dane techniczne:
 - procesor dźwięku – 45 MHz Yamaha ASIC 64 kanały, wsparcie dla dźwięku przestrzennego QSound, wsparcie dla kompresji ADPCM 4:1
 - Konsola posiada także wbudowany napęd GD-ROM (płyty o pojemności 1,2 GB), prędkość odczytu 12x (1,8 MB/s) oraz wbudowany modem (wczesna wersja japońska 33,6 kb/s, reszta świata zwykły 56 kb/s). 
 - Posiada również kartę pamięci o nazwie VMU (Visual Memory Unit), która w odróżnieniu od innych kart pamięci posiada wyświetlacz oraz możliwość uruchamiania gier specjalnie dla niej napisanych.</text>
-			<text lang="ru">Пятая и последняя игровая приставка компании Sega, наследник Sega Saturn. Приставка была выпущена за пятнадцать месяцев до выхода PlayStation 2 и за два года до GameCube с Xbox. Однако ей не удалось набрать популярности после выхода PlayStation 2, и Sega решила закрыть проект и уйти с рынка игровых приставок.
+			<text lang="ru">Пятая и последняя игровая приставка компании Sega, наследник Sega Saturn. Приставка была выпущена за пятнадцать месяцев до выхода PlayStation 2 и за два года до GameCube с Xbox. Однако ей не удалось набрать популярности после выхода PlayStation 2. Тогда Sega решила закрыть проект и уйти с рынка игровых приставок.
 
-Sega выпустила множество моделей Dreamcast, большинство из которых были эксклюзивными для Японии. Восстановленные приставки Dreamcast, известные под названием R7, первоначально использовались в качестве сетевой приставки в японских патинко салонах. Другая модель, Divers 2000 CX-1, имеет форму, схожую с головой Соника и включает телевизор и программное обеспечение для телеконференций. Версия Hello Kitty, выпущенная ограниченной партией в 2000 экземпляров, предназначалась для японских геймерш. Были изданы специальные версии совместно с играми Seaman и Resident Evil Code: Veronica. Автомобильная компания Toyota в своих 160 автодилерских центрах продавала специальную версию Dreamcast. В Северной Америке была выпущена ограниченная версия приставки чёрного цвета с логотипом Sega Sports на крышке, у которой в комплекте были чёрные игровые контроллеры и две игры.</text>
+Sega выпустила множество моделей Dreamcast, большинство из которых были эксклюзивными для Японии. Восстановленные приставки Dreamcast, известные под названием R7, первоначально использовались в качестве сетевой приставки в японских патинко салонах. Другая модель, Divers 2000 CX-1, имеет форму, схожую с головой Соника и включает телевизор с программным обеспечением для телеконференций. Версия Hello Kitty, выпущенная ограниченной партией в 2000 экземпляров, предназначалась для японских геймерш. Были изданы специальные версии совместно с играми Seaman и Resident Evil Code: Veronica. Автомобильная компания Toyota в своих 160 автодилерских центрах продавала специальную версию Dreamcast. В Северной Америке была выпущена ограниченная версия приставки чёрного цвета с логотипом Sega Sports на крышке, у которой в комплекте были чёрные игровые контроллеры и две игры.</text>
 			<text lang="es">La Dreamcast es una videoconsola doméstica lanzada por Sega el 27 de noviembre de 1998 en Japón, el 9 de septiembre de 1999 en Norteamérica y el 14 de octubre de 1999 en Europa. Fue la primera de la sexta generación de consolas de videojuegos, precediendo a la PlayStation 2 de Sony, la GameCube de Nintendo y la Xbox de Microsoft. La Dreamcast fue la última consola doméstica de Sega, marcando el final de los dieciocho años de la compañía en el mercado de las consolas.
 
 En contraste con el costoso hardware de la fracasada Sega Saturn, la Dreamcast se diseñó para reducir costes con componentes "listos para usar", como una CPU Hitachi SH-4 y una GPU NEC PowerVR2. Lanzada en Japón con escasa acogida, la Dreamcast tuvo un exitoso lanzamiento en EE.UU., respaldado por una gran campaña de marketing, pero el interés por el sistema fue decayendo a medida que Sony creaba expectación por la inminente PlayStation 2. Las ventas no alcanzaron los objetivos de Sega en el mercado. Las ventas no cumplieron las expectativas de Sega a pesar de varios recortes de precios, y la empresa siguió incurriendo en importantes pérdidas financieras. Tras un cambio de liderazgo, Sega dejó de comercializar Dreamcast el 31 de marzo de 2001, retirándose del negocio de las consolas y reestructurándose como editora de terceros. En total, se vendieron 9,13 millones de unidades de Dreamcast en todo el mundo.</text>
@@ -75,6 +81,18 @@ Contrairement au matériel coûteux de la Sega Saturn, qui n'a pas connu le succ
 			<text lang="it">Il Dreamcast è una console per videogiochi domestica rilasciata da Sega il 27 novembre 1998 in Giappone, il 9 settembre 1999 in Nord America e il 14 ottobre 1999 in Europa. È stata la prima della sesta generazione di console per videogiochi, preceduta dalla PlayStation 2 di Sony, dal GameCube di Nintendo e dalla Xbox di Microsoft. Il Dreamcast è stata l'ultima console domestica di Sega, segnando la fine dei diciotto anni di presenza dell'azienda nel mercato delle console.
 
 In contrasto con il costoso hardware del fallimentare Sega Saturn, il Dreamcast fu progettato per ridurre i costi con componenti "off-the-shelf", tra cui una CPU Hitachi SH-4 e una GPU NEC PowerVR2. Uscito in Giappone con un'accoglienza modesta, il Dreamcast ebbe un lancio di successo negli Stati Uniti, sostenuto da un'ampia campagna di marketing, ma l'interesse per il sistema diminuì costantemente mentre Sony creava un'atmosfera di entusiasmo per l'imminente PlayStation 2. Le vendite non raggiunsero i livelli di Sega Saturn. Le vendite non soddisfavano le aspettative di Sega, nonostante i numerosi tagli di prezzo, e l'azienda continuava a subire notevoli perdite finanziarie. Dopo un cambio di leadership, il 31 marzo 2001 Sega ha dismesso il Dreamcast, ritirandosi dal settore delle console e ristrutturandosi come editore di terze parti. In totale sono state vendute 9,13 milioni di unità Dreamcast in tutto il mondo.</text>
+			<text lang="pt">Dreamcast (em japonês: ドリームキャスト) – console de videogame da Sega, sendo uma plataforma de sexta geração. A venda oficial começou em 27 de novembro de 1998. Atualmente, novos exemplares do console não são fabricados nem lançam novos jogos para ele. Também são mais frequentemente lançados programas, emuladores e jogos caseiros, criados por internautas ou empresas menores.
+
+Na fase de produção, o console recebeu os seguintes nomes: White Belt, Black Belt, Dural, Dricas, Vortex, Katana, Shark e Guppy. Em outubro de 2007, a biblioteca de jogos oficiais para esta plataforma tinha mais de 325 títulos. O próprio console não possui um sistema operacional próprio, ele é carregado do suporte com o jogo. Alguns títulos possuem o sistema Windows CE embutido.
+
+Especificações técnicas:
+- Coração do console Dreamcast – processador principal SH-4 200 MHz
+- processador – Hitachi SH-4 (SH7750) 200 MHz (processador RISC de 32 bits com unidade FPU de 128 bits, 360 MIPS, 1,4 GFLOPS)
+- memória principal – 16 MB SDRAM, memória gráfica – 8 MB SGRAM, memória do processador de som – 2 MB DRAM
+- processador gráfico – NEC PowerVR Series 2100 MHz, arquitetura de 128 bits, resolução máxima de 640x480, paleta de cores de 24 bits (16,7 milhões de cores), suporte de hardware para técnicas avançadas de 2D e 3D (compressão de textura 5:1, filtragem trilinear)
+- processador de som – 45 MHz Yamaha ASIC 64 canais, suporte para som surround QSound, suporte para compressão ADPCM 4:1
+- O console também possui uma unidade GD-ROM integrada (discos com capacidade de 1,2 GB), velocidade de leitura de 12x (1,8 MB/s) e modem integrado (versão japonesa inicial 33,6 kb/s, resto do mundo 56 kb/s comum). 
+- Também possui um cartão de memória chamado VMU (Visual Memory Unit), que, ao contrário de outros cartões de memória, possui uma tela e a capacidade de executar jogos escritos especificamente para ele.</text>
 		</text>
 	</view>
 </theme>

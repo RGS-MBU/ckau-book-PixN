@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+<formatVersion>7</formatVersion>
+<!-- Обои + Карусель -->
+	<customView name="VideoFull" inherits="gamecarousel" displayName="${VideoFullName}">
+		<image name="background" extra="true">
+			<color>141414</color>
+		</image>
+		<image name="gamelist-background" extra="true">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</image>
+		<text name="md_name" extra="true">
+			<pos>0 0</pos>
+			<size>1 0.03</size>
+			<alignment>center</alignment>
+			<color>FFFFFF1F</color>
+		</text>
+		<image name="art" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<path>./../../_inc/images/overlay.png</path>
+			<zIndex>112</zIndex>
+		</image>
+		<image name="md_fanart">
+			<tile>true</tile>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<color>FFFFFF5F</color>
+			<imageSource>fanart</imageSource>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="1" duration="400" mode="easeIn"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="offsetY" from="-0.01" to="0" duration="600" mode="EaseOutQuint"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="offsetY" from="0.01" to="0" duration="600" mode="EaseOutQuint"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" duration="400" mode="easeOut"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" duration="400" mode="easeOut"/>
+			</storyboard>
+		</image>
+		<image name="md_thumbnail">
+			<tile>true</tile>
+			<origin>0 1</origin>
+			<pos>0.015 0.785</pos>
+			<maxSize>0.3 0.61</maxSize>
+			<zIndex>170</zIndex>
+			<storyboard event="open">
+				<animation property="offsetX" from="-0.2" to="0" duration="500" mode="EaseOutQuint"/>
+			</storyboard>
+			<storyboard event="activate">
+				<animation property="offsetX" from="-0.2" to="0" begin="" duration="500" mode="EaseOutQuint"/>
+				<animation property="offsetX" from="0" to="-1.2" begin="3200" duration="1200" mode="EaseInQuint"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+		</image>
+		<image name="md-description-border" extra="true">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</image>
+		<text name="md_description">
+			<pos>0.015 0.8</pos>
+			<size>0.4 0.11</size>
+			<lineSpacing>1.1</lineSpacing>
+			<fontSize>0.024</fontSize>
+			<color>FFFFFFFF</color>
+			<glowColor>00000016</glowColor>
+			<glowSize>3</glowSize>
+			<zIndex>115</zIndex>
+		</text>
+		<image name="md-description-border2" extra="true">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</image>
+		<video name="md_video">
+			<pos>0.5 0.499</pos>
+			<size>1 1</size>
+			<origin>0.5 0.5</origin>
+			<delay>0.3</delay>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<snapshotSource>thumbnail</snapshotSource>
+		</video>
+		<image name="logo">
+			<pos>0.12 0.12</pos>
+			<maxSize>0.200 0.126</maxSize>
+			<visible>true</visible>
+		</image>
+		<text name="logoText">
+			<pos>0.784375 0.152</pos>
+			<size>0.15625 0.055</size>
+			<fontSize>0.044</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>555555</color>
+		</text>
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_gametime, md_publisher, md_developer,md_genre, md_lastplayed">
+			<color>111111</color>
+			<visible>false</visible>
+			<fontSize>0.019</fontSize>
+		</text>
+
+		<datetime name="md_releasedate">
+			<origin>0 0</origin>
+			<pos>0.193 0.926</pos>
+			<size>0.1 0.022</size>
+			<alignment>left</alignment>
+			<fontSize>0.024</fontSize>
+			<color>666666</color>
+			<zIndex>180</zIndex>
+			<visible>true</visible>
+		</datetime>
+		<rating name="md_rating">
+			<pos>0.04 0.92</pos>
+			<zIndex>150</zIndex>
+		</rating>
+		<image name="md_flag">
+			<origin>0 0</origin>
+			<pos>0.97 0.9305</pos>
+			<color>FFFFFF90</color>
+			<zIndex>150</zIndex>
+		</image>
+		<text name="md_players">
+			<pos>0.114 0.935</pos>
+			<zIndex>150</zIndex>
+		</text>
+		<image name="md_manual,md_nomanual">
+			<pos>0.1375 0.935</pos>
+			<zIndex>150</zIndex>
+		</image>
+		<image name="md_cheevos,md_notcheevos">
+			<pos>0.1585 0.935</pos>
+			<zIndex>150</zIndex>
+		</image>
+		<image name="fake_cheevos" extra="true">
+			<pos>0.1585 0.935</pos>
+			<zIndex>140</zIndex>
+		</image>
+		<image name="md_savestate,md_nosavestate">
+			<pos>0.18 0.935</pos>
+			<x ifCheevos="false">0.18</x>
+			<zIndex>150</zIndex>
+		</image>
+
+		<image name="md_hidden">
+			<pos>0.203 0.935</pos>
+			<zIndex>150</zIndex>
+		</image>
+		<image name="md_kidgame,md_notkidgame">
+			<pos>0.225 0.935</pos>
+			<zIndex>150</zIndex>
+		</image>
+
+
+		<image name="release_date_logo" extra="true">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</image>
+		<text name="md_publisher">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</text>
+		<image name="publisher_logo" extra="true">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</image>
+		<text name="md_playcount">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</text>
+		<image name="playcount_logo" extra="true">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</image>
+
+		<text name="md_developer">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</text>
+		<image name="developer_logo" extra="true">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</image>
+		<text name="md_genre">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</text>
+		<image name="genre_logo" extra="true">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</image>
+		<datetime name="md_lastplayed">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</datetime>
+		<image name="lastplayed_logo" extra="true">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</image>
+		<text name="md_gametime">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</text>
+		<image name="gametime_logo" extra="true">
+			<visible>false</visible>
+			<zIndex>1</zIndex>
+		</image>
+	</customView>
+<!-- Navigation arrows, if enabled -->
+	<include ifSubset="arrows:On">./../../_inc/views/arrows.xml</include>
+</theme>

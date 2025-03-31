@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="254.61586mm"
+   width="228.98593mm"
    height="26.080658mm"
-   viewBox="0 0 254.61587 26.080658"
+   viewBox="0 0 228.98594 26.080658"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="gbh.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,12 +25,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.6471871"
-     inkscape:cx="407.36113"
-     inkscape:cy="70.726634"
-     inkscape:window-width="3840"
-     inkscape:window-height="2066"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:cx="407.05758"
+     inkscape:cy="70.726635"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1" />
   <defs
@@ -203,7 +203,7 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient25"
+       xlink:href="#linearGradient18"
        id="linearGradient1"
        gradientUnits="userSpaceOnUse"
        x1="246.63577"
@@ -213,7 +213,7 @@
        gradientTransform="translate(485.06937,-106.84882)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient6"
+       xlink:href="#linearGradient18"
        id="linearGradient2"
        gradientUnits="userSpaceOnUse"
        x1="170.74883"
@@ -223,7 +223,7 @@
        gradientTransform="translate(485.06937,-106.84882)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient25"
+       xlink:href="#linearGradient18"
        id="linearGradient3"
        gradientUnits="userSpaceOnUse"
        x1="318.27304"
@@ -233,7 +233,7 @@
        gradientTransform="translate(485.06937,-106.84882)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient25"
+       xlink:href="#linearGradient18"
        id="linearGradient4"
        gradientUnits="userSpaceOnUse"
        x1="469.43985"
@@ -243,7 +243,7 @@
        gradientTransform="translate(485.06937,-106.84882)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient25"
+       xlink:href="#linearGradient18"
        id="linearGradient5"
        gradientUnits="userSpaceOnUse"
        x1="399.01675"
@@ -251,24 +251,29 @@
        x2="390.53146"
        y2="205.15173"
        gradientTransform="translate(485.06937,-106.84882)" />
+    <linearGradient
+       id="linearGradient18"
+       gradientUnits="userSpaceOnUse"
+       x1="127.571"
+       y1="-0.713"
+       x2="127.571"
+       y2="98.787003"
+       gradientTransform="matrix(0.99999769,0,0,0.99999769,-9.5978193e-4,-6.4086325e-4)">
+      <stop
+         offset="0.005"
+         style="stop-color:#c95252;stop-opacity:1;"
+         id="stop15-4" />
+      <stop
+         offset="1"
+         style="stop-color:#922e5c;stop-opacity:1;"
+         id="stop18-8" />
+    </linearGradient>
   </defs>
-  <text
-     xml:space="preserve"
-     style="font-size:38.1124px;line-height:0;font-family:NiseGenesis;-inkscape-font-specification:NiseGenesis;text-align:center;letter-spacing:-3.32446px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#2e5b92;fill-opacity:1;stroke-width:3.43011;paint-order:stroke markers fill"
-     x="72.359276"
-     y="55.599083"
-     id="text1"
-     inkscape:label="Hacks"
-     transform="matrix(1.0257793,0,0.00361317,0.97486857,0,0)"><tspan
-       sodipodi:role="line"
-       id="tspan1"
-       x="-1.4064687e-10"
-       y="-1.2529877e-09"
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold Italic';letter-spacing:-3.32446px;word-spacing:0px;fill:#2e5b92;fill-opacity:1;stroke-width:3.43011">HACKS</tspan></text>
   <g
      id="g22"
      inkscape:label="Gameboy"
-     transform="scale(0.26458333)">
+     transform="scale(0.26458333)"
+     style="display:inline">
     <path
        fill="url(#f)"
        d="m 538.61804,82.497359 c -3.66,0 -6.615,2.951 -6.615,6.593 a 6.608,6.608 0 0 0 6.615,6.634 c 3.641,0 6.592,-2.953 6.592,-6.634 a 6.596,6.596 0 0 0 -6.592,-6.593 v -0.907 a 7.5,7.5 0 0 1 7.498,7.5 c 0,4.173 -3.35,7.538 -7.498,7.538 a 7.526,7.526 0 0 1 -7.539,-7.538 c 0,-4.135 3.365,-7.499 7.539,-7.499 z"
@@ -315,7 +320,7 @@
   <g
      id="g23"
      inkscape:label="Hacks"
-     transform="matrix(0.26458333,0,0,0.26458333,-6.17332,-0.06039265)"
+     transform="matrix(0.19845705,0,0,0.19845705,33.374785,3.2138198)"
      style="fill:url(#linearGradient26)">
     <path
        d="M 718.24322,0.38555747 679.1221,98.643557 h 23.0486 l 11.21881,-29.11422 h 20.62075 l 3.64177,29.11422 h 21.90055 L 747.35743,0.38555747 Z m 10.91334,29.41769953 2.42784,20.31726 h -10.00888 z"

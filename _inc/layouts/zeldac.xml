@@ -2,8 +2,43 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
+		<image name="sysbg-video" extra="true">
+			<color>000000</color>
+			<path>./../../_inc/images/space43.png</path>
+			<zIndex>2</zIndex>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.4</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.45</origin>
+			<pos>0.498 0.48</pos>
+			<maxSize>0.28</maxSize>
+			<storyboard>
+				<animation property="pos" to="0.218 0.48" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</image>
+		<video name="videobox" extra="true">
+			<path>{random}</path>
+			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../_inc/anim/video/${synonym}.mp4</path>
+			<!-- Loads platform video from addon directory, if available -->
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}.mp4</path>
+			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}.mp4</path>
+			<delay>0</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.4</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.45</origin>
+			<pos>0.498 0.48</pos>
+			<maxSize>0.28</maxSize>
+			<zIndex>25</zIndex>
+			<storyboard>
+				<animation property="pos" to="0.218 0.48" begin="2000" duration="1000" mode="linear"/>
+			</storyboard>
+		</video>
 		<text name="TextDate" extra="true">
 			<text>1999</text>
+		</text>
+		<text name="TextManufacturer" extra="true">
+			<text>Armageddon Games</text>
 		</text>
 		<text name="TextName" extra="true">
 			<text>Zelda Classic</text>
@@ -32,6 +67,9 @@ En outre, Zelda Classic permet de développer de nouvelles quêtes qui peuvent u
 			<text lang="it">Zelda Classic è un tributo a quello che si ritiene essere il più grande videogioco RPG di tutti i tempi: The Legend of Zelda di Nintendo. È stato sviluppato come una replica esatta della versione NES che tutti conosciamo e amiamo.
 
 Oltre a questo, Zelda Classic permette di sviluppare nuove missioni che possono utilizzare la grafica tradizionale o quella migliorata, oltre a nuovi nemici, oggetti e sfide.</text>
+			<text lang="pt">Zelda Classic é uma homenagem ao melhor jogo de videogame de todos os tempos: The Legend of Zelda da Nintendo. Foi criado como uma réplica exata da versão NES que todos conhecemos e amamos.
+
+Além disso, Zelda Classic permite a criação de novas missões, que podem utilizar gráficos tradicionais ou aprimorados, bem como novos inimigos, itens e desafios.</text>
 		</text>
 	</view>
 </theme>

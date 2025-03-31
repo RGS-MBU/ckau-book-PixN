@@ -2,123 +2,51 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
-		<image name="sysbg-left" extra="true">
+		<!-- fix bg color -->
+		<image name="sysbg-fix" extra="true">
 			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 1.06</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.68</origin>
-			<origin if="${screen.ratio} == '21/9'">2.2 0.7</origin>
-			<pos>0.63 0.684</pos>
-			<minSize>0.02 0.11</minSize>
-			<zIndex>29</zIndex>
-			<rotation>13</rotation>
-			<path>./../../_inc/images/space.png</path>
+			<pos>0.5 0.5</pos>
+			<maxSize>1 1</maxSize>
+			<scale if="${screen.ratio} == '16/10'">0.9</scale>
+			<scale if="${screen.ratio} == '4/3'">0.75</scale>
+			<path>./../../_inc/anim/switch-fix.png</path>
+			<zIndex>27</zIndex>
 			<storyboard>
-				<animation property="pos" to="0.35 0.684" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</image>
-		<image name="sysbg-down" extra="true">
-			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.4 3.5</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 1.6</origin>
-			<origin if="${screen.ratio} == '21/9'">1.5 0.8</origin>
-			<pos>0.645 0.735</pos>
-			<minSize>0.04 0.02</minSize>
-			<zIndex>29</zIndex>
-			<rotation>12</rotation>
-			<path>./../../_inc/images/space.png</path>
-			<storyboard>
-				<animation property="pos" to="0.365 0.735" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</image>
-		<image name="sysbg-right" extra="true">
-			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 1.01</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.7</origin>
-			<origin if="${screen.ratio} == '21/9'">3.5 0.9</origin>
-			<pos>0.745 0.695</pos>
-			<minSize>0.02 0.13</minSize>
-			<zIndex>29</zIndex>
-			<rotation>13</rotation>
-			<path>./../../_inc/images/space.png</path>
-			<storyboard>
-				<animation property="pos" to="0.465 0.695" begin="2000" duration="1000" mode="linear"/>
+				<animation property="pos" to="0.22 0.5" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</image>
 		<image name="sysbg-video" extra="true">
 			<color>000000</color>
-			<path>./../../_inc/images/space169.png</path>
+			<path>./../../_inc/images/space.png</path>
 			<zIndex>2</zIndex>
 			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 0.435</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.4777</origin>
-			<pos>0.5 0.42</pos>
-			<maxSize>0.418</maxSize>
-			<maxSize if="${screen.ratio} == '4/3'">0.549</maxSize>
-			<maxSize if="${screen.ratio} == '16/10'">0.457</maxSize>
+			<pos>0.5 0.5</pos>
+			<size>0.5 0.8</size>
+			<size if="${screen.ratio} == '4/3'">0.65 0.6</size>
+			<size if="${screen.ratio} == '16/10'">0.55 0.6</size>
+			<size if="${screen.ratio} == '21/9'">0.4 0.75</size>
 			<storyboard>
-				<animation property="pos" to="0.22 0.42" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</image>
-		<image name="sysbg-video-right" extra="true">
-			<color>000000</color>
-			<path>./../../_inc/images/space43.png</path>
-			<zIndex>2</zIndex>
-			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 1.04</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.68</origin>
-			<origin if="${screen.ratio} == '21/9'">1.05 0.5</origin>
-			<pos>0.6843 0.6798</pos>
-			<maxSize>0.11</maxSize>
-			<maxSize if="${screen.ratio} == '4/3'">0.11</maxSize>
-			<rotation>8</rotation>
-			<storyboard>
-				<animation property="pos" to="0.4043 0.6798" begin="2000" duration="1000" mode="linear"/>
+				<animation property="pos" to="0.22 0.5" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</image>
 		<video name="videobox" extra="true">
-			<path>{random}</path>
 			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
 			<path>./../../_inc/anim/video/${synonym}.mp4</path>
 			<!-- Loads platform video from addon directory, if available -->
 			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}.mp4</path>
 			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}.mp4</path>
-			<default>./../../_inc/anim/video/CRT_Noise169.mp4</default>
 			<delay>0</delay>
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 0.435</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.4777</origin>
-			<pos>0.5 0.42</pos>
-			<maxSize>0.413</maxSize>
-			<maxSize if="${screen.ratio} == '4/3'">0.547</maxSize>
-			<maxSize if="${screen.ratio} == '16/10'">0.455</maxSize>
-			<zIndex>27</zIndex>
+			<origin if="${screen.ratio} == '4/3'">0.5 0.485</origin>
+			<origin if="${screen.ratio} == '16/10'">0.5 0.495</origin>
+			<origin if="${screen.ratio} == '21/9'">0.51 0.5</origin>
+			<pos>0.512 0.475</pos>
+			<maxSize>0.52</maxSize>
+			<maxSize if="${screen.ratio} == '4/3'">0.58</maxSize>
+			<zIndex>26</zIndex>
 			<storyboard>
-				<animation property="pos" to="0.22 0.42" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</video>
-		<video name="videobox2" extra="true">
-			<path>{random}</path>
-			<path>./../../_inc/anim/video/${system.theme}2.mp4</path>
-			<path>./../../_inc/anim/video/${synonym}2.mp4</path>
-			<!-- Loads platform video from addon directory, if available -->
-			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}2.mp4</path>
-			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}2.mp4</path>
-			<delay>0</delay>
-			<audio>false</audio>
-			<effect>none</effect>
-			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 1.08</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.7</origin>
-			<origin if="${screen.ratio} == '21/9'">1.05 0.5</origin>
-			<pos>0.685 0.681</pos>
-			<maxSize>0.11</maxSize>
-			<maxSize if="${screen.ratio} == '4/3'">0.14</maxSize>
-			<maxSize if="${screen.ratio} == '16/10'">0.12</maxSize>
-			<zIndex>28</zIndex>
-			<rotation>0</rotation>
-			<storyboard>
-				<animation property="pos" to="0.405 0.681" begin="2000" duration="1000" mode="linear"/>
+				<animation property="pos" to="0.232 0.475" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</video>
 		<text name="TextDate" extra="true">
@@ -157,6 +85,12 @@ Le logiciel de la Nintendo Switch prend en charge le jeu en ligne via la connect
 			<text lang="it">Nintendo Switch è una console per videogiochi, sviluppata da Nintendo e rilasciata in tutto il mondo nella maggior parte delle regioni il 3 marzo 2017. È una console ibrida che può essere utilizzata sia come console domestica che come dispositivo portatile. I suoi controller Joy-Con wireless, con pulsanti standard e stick analogici direzionali per l'input dell'utente, il rilevamento del movimento e il feedback tattile, possono essere collegati a entrambi i lati della console per supportare il gioco in stile portatile. Possono anche essere collegati a un accessorio per l'impugnatura per ottenere una forma tradizionale di gamepad per console domestica, o essere usati singolarmente nella mano come il telecomando Wii e il Nunchuk, supportando le modalità multiplayer locali.
 
 Il software di Nintendo Switch supporta il gioco online attraverso la connettività Internet e la connettività locale wireless ad hoc con altre console. I giochi e i software di Nintendo Switch sono disponibili sia su cartucce ROM fisiche basate su flash che in distribuzione digitale tramite il Nintendo eShop; la console non ha il blocco regionale. Il 20 settembre 2019 è stata rilasciata una versione della console incentrata sulla modalità portatile, chiamata Nintendo Switch Lite.</text>
+			<text lang="pt">Nintendo Switch (inicialmente Nintendo NX) – console de videogame da Nintendo lançada em 3 de março de 2017. É o sucessor do Wii U, lançado em 2012.
+
+A console foi equipada com um processador principal e um processador gráfico baseados na tecnologia Tegra X1 da Nvidia. Ele se compõe de quatro núcleos Cortex-A57 e quatro Cortex-A53. Ele exibe resolução de 1080p no modo televisão e 720p no modo portátil. A capacidade de armazenamento interno do dispositivo é de 32 GB. Ele suporta cartões de memória microSDHC e microSDXC com capacidade de até 2 terabytes.
+
+A estação de acoplamento possui uma porta HDMI, USB 3.0, duas portas USB 2.0 e uma entrada de carregamento tipo USB-C.
+O conjunto da console também inclui os controles Joy-Con: Joy-Con L e Joy-Con R. Ambos os controles são equipados com acelerômetro, giroscópio e também com vibração tátil. O Joy-Con R foi equipado adicionalmente com NFC e um sensor infravermelho, que pode identificar objetos e gestos.</text>
 		</text>
 	</view>
 </theme>

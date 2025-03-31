@@ -45,13 +45,6 @@
 		<text name="TextName" extra="true">
 			<text>Microvision</text>
 		</text>
-		<!-- Support different names for regional consoles/computers -->
-		<text name="TextName" extra="true" region="eu"/>
-		<text name="TextName" extra="true" region="us">
-			<text>Dreamcast Visual Memory System</text>
-		</text>
-		<text name="TextName" extra="true" region="jp"/>
-		<!-- -->
 		<text name="TextDesc" extra="true">
 			<text>The Microvision (aka Milton Bradley Microvision or MB Microvision) was the first handheld game console that used interchangeable cartridges and in that sense is reprogrammable.
 Unlike most later consoles, the Microvision did not contain an onboard processor (CPU). Instead, each game included its own processor contained within the removable cartridge. This meant that the console itself effectively consisted of the controls, LCD panel and LCD controller.
@@ -81,6 +74,11 @@ Le Microvision a été conçu par Jay Smith, l'ingénieur qui allait plus tard c
 A differenza della maggior parte delle console successive, il Microvision non conteneva un processore (CPU) a bordo. Al contrario, ogni gioco includeva un proprio processore contenuto nella cartuccia rimovibile. Ciò significa che la console stessa era costituita dai controlli, dal pannello LCD e dal controller LCD.
 
 Il Microvision fu progettato da Jay Smith, l'ingegnere che in seguito avrebbe progettato la console di gioco Vectrex. La sua combinazione di portabilità e sistema basato su cartucce portò a un moderato successo. Tuttavia, il numero esiguo di cartucce, lo schermo di piccole dimensioni e la mancanza di supporto da parte delle aziende produttrici di videogiochi domestici ne determinarono la scomparsa nel 1981.</text>
+			<text lang="pt">Microvision (também conhecida como Milton Bradley Microvision ou MB Microvision) foi o primeiro console portátil de jogos a utilizar cartuchos intercambiáveis, sendo assim reprogramável.
+
+Ao contrário da maioria dos consoles posteriores, a Microvision não continha um processador (CPU) embutido. Em vez disso, cada jogo continha seu próprio processador localizado no cartucho intercambiável. Isso significava que o próprio console consistia apenas em controles, painel LCD e controlador LCD.
+
+A Microvision foi projetada por Jay Smith, um engenheiro que mais tarde projetou o console de jogos Vectrex. A combinação de portabilidade e sistema baseado em cartuchos levou a um sucesso moderado. No entanto, um número muito pequeno de cartuchos, uma pequena tela e a falta de suporte por parte de empresas renomadas de jogos de videogame domésticos levaram ao seu fim em 1981.</text>
 		</text>
 	</view>
 </theme>

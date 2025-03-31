@@ -1,11 +1,12 @@
 # Ckau-Book
 
-
+Download [Latest version](https://github.com/CkauNui/ckau-book/archive/refs/heads/master.zip). It is better to download and update via EmulationStation (ES).<br/>
+Download [Old Ckau-Book (2023)](https://drive.google.com/file/d/1GOpP9HHNuaKdBdOTzB6GAZoH8uRjj6cm/view?usp=sharing) for old ver. Batocera or old ES.<br/><br/>
 <p>
 <img align="right" width="200px" src="https://i.imgur.com/eCZPBDE.png">
 Emulationstation Theme for Batocera, RetroBat, EmuELEC.<br/>
-250+ supported systems.<br/>
-Supported languages: English, French, German, Spanish, Italian, Polish, Russian.
+430+ supported systems.<br/>
+Supported languages: English, French, German, Spanish, Italian, Polish, Portuguese, Russian.
 <br/>
 <br/>
 </p>
@@ -57,7 +58,7 @@ To download addons, please refer to the file named `(OPTIONAL) download video, 4
 In addition to covering all systems in the latest version of Batocera/Retrobat, the theme also supports a list of other systems that are not (yet) officially part of Batocera/Retrobat, such as Aleck64, Amiga 600/4000, Casio Loopy, Dragon 32 etc.
 These systems can be easily added to your environment, without the need to setup new emulators or tamper with your existing configuration files.
 
-Check [Ckau Book Custom Systems](https://github.com/g-spawnPL/ckau-book-custom-systems) repository to download the additional XML files for your setup: Batocera on Rpi4, Batocera on a x86 PC, or Retrobat.
+Check **Ckau Book Custom Systems - [Batocera](https://github.com/g-spawnPL/ckau-book-custom-systems-Batocera) and [Retrobat](https://github.com/g-spawnPL/ckau-book-custom-systems-Retrobat)** repository to download the additional XML files for your setup.
 
 
 ## Credits

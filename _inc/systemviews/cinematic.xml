@@ -45,6 +45,7 @@
 			<path>./../../_inc/logos/${synonym}-w-${lang}.svg</path>
 			<linearSmooth>true</linearSmooth>
 		</image>
+	<!-- Regional logos -->
 		<image name="logo, logo1" region="eu"></image>
 		<image name="logo, logo1" region="us">
 			<path>./../../_inc/logos/us/${system.theme}.png</path>

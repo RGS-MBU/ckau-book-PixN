@@ -36,28 +36,28 @@
 			</storyboard>
 		</video>
 		<text name="TextDate" extra="true">
-			<text>1989</text>
-		</text>
-		<!-- Support different dates for regional consoles/computers -->
-		<text name="TextDate" extra="true" region="eu"/>
-		<text name="TextDate" extra="true" region="us"/>
-		<text name="TextDate" extra="true" region="jp">
 			<text>1987</text>
 		</text>
-		<!-- -->
+	<!-- Regional consoles/computers -->
+		<text name="TextDate" extra="true" region="eu"/>
+		<text name="TextDate" extra="true" region="us">
+			<text>1987</text>
+		</text>
+		<text name="TextDate" extra="true" region="jp"/>
+		
 		<text name="TextManufacturer" extra="true">
 			<text>Nec</text>
 		</text>
 		<text name="TextName" extra="true">
 			<text>PC Engine</text>
 		</text>
-		<!-- Support different names for regional consoles/computers -->
+	<!-- Regional consoles/computers -->
 		<text name="TextName" extra="true" region="eu"/>
 		<text name="TextName" extra="true" region="us">
 			<text>TurboGrafx-16</text>
 		</text>
 		<text name="TextName" extra="true" region="jp"/>
-		<!-- -->
+		
 		<text name="TextDesc" extra="true">
 			<text>The TurboGrafx-16, known as the PC Engine in Japan and France, is a 16-bit fourth-generation home video game console designed by Hudson Soft and sold by NEC Home Electronics. It was released in Japan in 1987 and in North America in 1989. The Japanese model was imported and distributed in France in 1989, and the United Kingdom and Spain received a version based on the American model known as simply TurboGrafx. It was the first console released in the 16-bit era, although it used a modified 8-bit CPU. In Japan, the system was launched as a competitor to the Famicom, but the delayed United States release meant that it ended up competing with the Sega Genesis and later the Super Nintendo Entertainment System.
 
@@ -88,6 +88,11 @@ Le TurboGrafx-16 possède un processeur 8 bits, un encodeur de couleurs vidéo 1
 			<text lang="it">Il TurboGrafx-16, noto come PC Engine in Giappone e Francia, è una console per videogiochi domestici di quarta generazione a 16 bit progettata da Hudson Soft e venduta da NEC Home Electronics. È stata rilasciata in Giappone nel 1987 e in Nord America nel 1989. Il modello giapponese è stato importato e distribuito in Francia nel 1989, mentre il Regno Unito e la Spagna hanno ricevuto una versione basata sul modello americano, nota semplicemente come TurboGrafx. Fu la prima console rilasciata nell'era dei 16 bit, sebbene utilizzasse una CPU modificata a 8 bit. In Giappone, la console fu lanciata come concorrente del Famicom, ma il ritardo nell'uscita negli Stati Uniti fece sì che finisse per competere con il Sega Genesis e successivamente con il Super Nintendo Entertainment System.
 
 Il TurboGrafx-16 è dotato di una CPU a 8 bit, un codificatore video a 16 bit e un controller video a 16 bit. Le GPU sono in grado di visualizzare 482 colori simultaneamente, su 512. Con dimensioni di soli 14 cm × 14 cm × 3,8 cm (5,5 in × 5,5 in × 1,5 in), il PC Engine giapponese è la più piccola console per videogiochi mai realizzata. I giochi sono stati rilasciati su cartucce HuCard e successivamente sul formato ottico CD-ROM con il componente aggiuntivo TurboGrafx-CD.</text>
+			<text lang="pt">TurboGrafx-16 Am.Płn./PC EngineJP – console de 8 bits com um chip gráfico de 16 bits, lançada pela primeira vez em 30 de outubro de 1987 no Japão, onde é conhecida como PC Engine. A console estreou na América do Norte em 29 de agosto de 1989. O TurboGrafx-16 não teve lançamento oficial PAL, mas uma quantidade muito limitada de consoles chegou principalmente ao mercado do Reino Unido.
+
+A console nasceu da colaboração entre a Hudson Soft (principalmente responsável pela produção de chips) e a NEC. Uma característica distintiva da console era seu pequeno tamanho, alcançado principalmente pelo uso de apenas três chips e pela utilização de pequenos cartuchos de dados, semelhantes a cartões de crédito, conhecidos como "HuCard" (de Hudson Card; na versão americana, conhecida mais como "TurboChip"). O TurboGrafx-16 foi o primeiro console a usar um disco CD-ROM como meio de armazenamento de dados.
+
+Inicialmente, o PC Engine obteve grande sucesso no Japão, onde teve melhores resultados de vendas do que até mesmo o Nintendo Famicom. No entanto, a popularidade japonesa do console não se traduziu em interesse na América do Norte, onde o console não se vendeu tão bem, principalmente devido ao fraco apoio dos desenvolvedores e editores de jogos.</text>
 		</text>
 	</view>
 </theme>

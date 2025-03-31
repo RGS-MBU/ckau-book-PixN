@@ -2,136 +2,36 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system">
-		<image name="sysbg-left" extra="true">
-			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.3 0.3</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.4</origin>
-			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
-			<pos>0.26 0.36</pos>
-			<minSize>0.1 0.2</minSize>
-			<rotation>8</rotation>
-			<path>./../../_inc/images/space.png</path>
-			<zIndex>27</zIndex>
-			<storyboard>
-				<animation property="pos" to="-0.02 0.36" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</image>
-		<image name="sysbg-right" extra="true">
-			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.7 0.3</origin>
-			<origin if="${screen.ratio} == '16/10'">0.54 0.4</origin>
-			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
-			<pos>0.74 0.36</pos>
-			<minSize>0.1 0.2</minSize>
-			<rotation>-8</rotation>
-			<path>./../../_inc/images/space.png</path>
-			<zIndex>27</zIndex>
-			<storyboard>
-				<animation property="pos" to="0.46 0.36" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</image>
-		<image name="sysbg-video" extra="true">
+		<image name="sysbg-video-arcade" extra="true">
 			<color>000000</color>
-			<path>./../../_inc/images/space43.png</path>
+			<path>./../../_inc/images/space.png</path>
 			<zIndex>2</zIndex>
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
 			<pos>0.5 0.363</pos>
-			<maxSize>0.15</maxSize>
+			<size>0.38 0.15</size>
+			<size if="${screen.ratio} == '21/9'">0.285 0.15</size>
 			<storyboard>
 				<animation property="pos" to="0.22 0.363" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</image>
-		<image name="sysbg-video-left" extra="true">
-			<color>000000</color>
-			<path>./../../_inc/images/space43.png</path>
-			<zIndex>2</zIndex>
-			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
-			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
-			<pos>0.36 0.37</pos>
-			<maxSize>0.14</maxSize>
-			<rotation>0</rotation>
-			<storyboard>
-				<animation property="pos" to="0.08 0.37" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</image>
-		<image name="sysbg-video-right" extra="true">
-			<color>000000</color>
-			<path>./../../_inc/images/space43.png</path>
-			<zIndex>2</zIndex>
-			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
-			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
-			<pos>0.638 0.37</pos>
-			<maxSize>0.14</maxSize>
-			<rotation>0</rotation>
-			<storyboard>
-				<animation property="pos" to="0.358 0.37" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</image>
-		<video name="videobox" extra="true">
-			<path>{random}</path>
-			<path>./../../_inc/anim/video/daphne.mp4</path>
+		<video name="videoboxarcade" extra="true">
+			<path>./../../_inc/anim/video/${system.theme}.mp4</path>
 			<path>./../../_inc/anim/video/${synonym}.mp4</path>
 			<!-- Loads platform video from addon directory, if available -->
-			<path>./../../../ckau-book-addons/_inc/anim/video/daphne.mp4</path>
+			<path>./../../../ckau-book-addons/_inc/anim/video/${system.theme}.mp4</path>
 			<path>./../../../ckau-book-addons/_inc/anim/video/${synonym}.mp4</path>
 			<delay>0</delay>
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
 			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
-			<pos>0.5 0.363</pos>
-			<maxSize>0.14</maxSize>
+			<pos>0.499 0.366</pos>
+			<maxSize>0.376</maxSize>
 			<zIndex>25</zIndex>
 			<storyboard>
-				<animation property="pos" to="0.22 0.363" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</video>
-		<video name="videobox2" extra="true">
-			<path>{random}</path>
-			<path>./../../_inc/anim/video/daphne-right.mp4</path>
-			<path>./../../_inc/anim/video/${synonym}-right.mp4</path>
-			<!-- Loads platform video from addon directory, if available -->
-			<path>./../../../ckau-book-addons/_inc/anim/video/daphne-right.mp4</path>
-			<audio>false</audio>
-			<delay>0</delay>
-			<effect>none</effect>
-			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
-			<origin if="${screen.ratio} == '21/9'">1 0.5</origin>
-			<pos>0.655 0.37</pos>
-			<maxSize>0.13</maxSize>
-			<zIndex>25</zIndex>
-			<rotation>0</rotation>
-			<storyboard>
-				<animation property="pos" to="0.375 0.37" begin="2000" duration="1000" mode="linear"/>
-			</storyboard>
-		</video>
-		<video name="videobox3" extra="true">
-			<path>{random}</path>
-			<path>./../../_inc/anim/video/daphne-left.mp4</path>
-			<path>./../../_inc/anim/video/${synonym}-left.mp4</path>
-			<!-- Loads platform video from addon directory, if available -->
-			<path>./../../../ckau-book-addons/_inc/anim/video/daphne-left.mp4</path>
-			<audio>false</audio>
-			<delay>0</delay>
-			<effect>none</effect>
-			<origin>0.5 0.5</origin>
-			<origin if="${screen.ratio} == '4/3'">0.5 0.15</origin>
-			<origin if="${screen.ratio} == '16/10'">0.5 0.38</origin>
-			<origin if="${screen.ratio} == '21/9'">0 0.5</origin>
-			<pos>0.345 0.37</pos>
-			<maxSize>0.13</maxSize>
-			<zIndex>25</zIndex>
-			<rotation>0</rotation>
-			<storyboard>
-				<animation property="pos" to="0.065 0.37" begin="2000" duration="1000" mode="linear"/>
+				<animation property="pos" to="0.219 0.366" begin="2000" duration="1000" mode="linear"/>
 			</storyboard>
 		</video>
 		<text name="TextDate" extra="true">
@@ -148,6 +48,7 @@
 			<text lang="de">Hypseus SINGE, Somewhat Interactive Nostalgic Game Engine, (benannt nach dem Drachen aus Dragon's Lair) ist die logische Weiterentwicklung des Daphne-Emulators, der ein Lua-basiertes Skripting-System verwendet, um LaserDisc-Spiele schnell zu simulieren oder völlig neue Spiele auf der Grundlage von Videodateien zu erstellen! Die Sprache ist leicht zu erlernen, sehr leistungsfähig und schnell. Alle Funktionen, die Sie zur Entwicklung Ihres eigenen Spiels benötigen, sind über eine einfache Programmierschnittstelle (API) verfügbar.</text>
 			<text lang="fr">Hypseus SINGE, Somewhat Interactive Nostalgic Game Engine, (nommé d'après le dragon de Dragon's Lair) est l'évolution logique de l'émulateur Daphne, qui utilise un système de script basé sur Lua pour simuler rapidement des jeux LaserDisc ou créer des jeux complètement nouveaux basés sur des fichiers vidéo ! Le langage est facile à apprendre, très puissant et rapide. Toutes les fonctions nécessaires au développement de votre propre jeu sont disponibles via une simple interface de programmation d'applications (API).</text>
 			<text lang="it">Hypseus SINGE, Somewhat Interactive Nostalgic Game Engine, (dal nome del drago di Dragon's Lair) è la logica evoluzione dell'emulatore Daphne, che utilizza un sistema di scripting basato su Lua per simulare rapidamente giochi LaserDisc o creare giochi completamente nuovi basati su file video! Il linguaggio è facile da imparare, molto potente e veloce. Tutte le funzioni necessarie per sviluppare il proprio gioco sono disponibili attraverso una semplice interfaccia di programmazione delle applicazioni (API).</text>
+			<text lang="pt">Hypseus SINGE, Um Motor de Jogo Nostálgico Interativo, (nomeado em homenagem ao dragão de Dragon's Lair) é uma evolução lógica do emulador Daphne, que utiliza um sistema de script baseado em Lua para simular rapidamente jogos LaserDisc ou criar jogos completamente novos baseados em arquivos de vídeo! A linguagem é fácil de aprender, muito eficiente e rápida. Todos os recursos necessários para criar seu próprio jogo estão disponíveis através de uma interface de programação de aplicativos (API) simples.</text>
 		</text>
 	</view>
 </theme>
